@@ -3,3 +3,4 @@ node_modules/
 coverage/
 *.log
 firebase-service-account.json
+.vercel

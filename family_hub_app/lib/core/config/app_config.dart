@@ -3,14 +3,16 @@
 class AppConfig {
   AppConfig._();
 
-  /// Base URL of the Node/MongoDB REST API, e.g. `https://api.familyhub.app/api/v1`.
-  /// When empty the app runs against the in-memory mock backend.
-  static const apiBaseUrl = String.fromEnvironment('API_BASE_URL');
+  /// Base URL of the Node/MongoDB REST API, e.g. `https://familyhubbackend.vercel.app/api/v1`.
+  static const apiBaseUrl = String.fromEnvironment(
+    'API_BASE_URL',
+    defaultValue: 'https://familyhubbackend.vercel.app/api/v1',
+  );
 
   /// Force the mock backend even when [apiBaseUrl] is set.
   static const _forceMock = bool.fromEnvironment('USE_MOCK_API');
 
-  static bool get useMockApi => _forceMock || apiBaseUrl.isEmpty;
+  static bool get useMockApi => _forceMock;
 
   /// Cloudinary cloud name. Only needed for unsigned uploads; for signed
   /// uploads the backend returns it together with the signature.
