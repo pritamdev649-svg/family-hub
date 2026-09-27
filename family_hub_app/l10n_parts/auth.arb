@@ -1,0 +1,271 @@
+{
+  "@@locale": "en",
+
+  "authLanguageLabel": "Language",
+  "@authLanguageLabel": { "description": "Welcome screen: label / tooltip of the button that changes the app language." },
+  "authLanguageSheetTitle": "Choose your language",
+  "@authLanguageSheetTitle": { "description": "Title of the bottom sheet that lists the app languages (shown in their own script)." },
+
+  "authWelcomeCreateFamily": "Create a family",
+  "@authWelcomeCreateFamily": { "description": "Welcome screen: main button to sign up and start a new family." },
+  "authWelcomeJoinFamily": "Join with invite code",
+  "@authWelcomeJoinFamily": { "description": "Welcome screen: button to sign up and join an existing family with its 8-character invite code." },
+  "authWelcomeHaveAccount": "I already have an account",
+  "@authWelcomeHaveAccount": { "description": "Welcome screen: button that opens the log-in screen." },
+  "authWelcomeFeatureTasks": "Roles and tasks for everyone",
+  "@authWelcomeFeatureTasks": { "description": "Welcome screen: short benefit line about family roles and task assignment." },
+  "authWelcomeFeatureMoney": "A shared ledger and savings goals",
+  "@authWelcomeFeatureMoney": { "description": "Welcome screen: short benefit line about the family money ledger." },
+  "authWelcomeFeatureSafety": "SOS alerts and emergency cards",
+  "@authWelcomeFeatureSafety": { "description": "Welcome screen: short benefit line about SOS and medical emergency cards." },
+  "authSessionExpiredNotice": "You were signed out. Please log in again.",
+  "@authSessionExpiredNotice": { "description": "Shown on the welcome / log-in screen after the session expired on this device." },
+
+  "authLoginTitle": "Log in",
+  "@authLoginTitle": { "description": "Title of the log-in screen." },
+  "authLoginSubtitle": "Welcome back! Sign in to see your family.",
+  "@authLoginSubtitle": { "description": "Subtitle under the log-in screen title." },
+  "authEmailLabel": "Email",
+  "@authEmailLabel": { "description": "Label of the email field (log in, sign up, reset password)." },
+  "authPasswordLabel": "Password",
+  "@authPasswordLabel": { "description": "Label of the password field." },
+  "authForgotPasswordLink": "Forgot password?",
+  "@authForgotPasswordLink": { "description": "Link on the log-in screen to reset a forgotten password." },
+  "authLoginButton": "Log in",
+  "@authLoginButton": { "description": "Submit button of the log-in screen." },
+  "authLoginNoAccount": "New to FamilyHub?",
+  "@authLoginNoAccount": { "description": "Log-in screen: text before the 'create an account' link." },
+  "authCreateAccountLink": "Create an account",
+  "@authCreateAccountLink": { "description": "Link to the sign-up screen." },
+  "authLoginLockedOut": "Too many failed attempts. Try again in {time}.",
+  "@authLoginLockedOut": {
+    "description": "Log-in screen: shown while the account is temporarily locked after 5 wrong passwords. time is a duration such as '14 minutes' or '30 seconds'.",
+    "placeholders": {
+      "time": { "type": "String", "example": "14 minutes" }
+    }
+  },
+
+  "authCooldownSeconds": "{count, plural, =1{1 second} other{{count} seconds}}",
+  "@authCooldownSeconds": {
+    "description": "A remaining waiting time in seconds, inserted into other messages (e.g. 'Resend code in 42 seconds').",
+    "placeholders": {
+      "count": { "type": "int", "example": "42" }
+    }
+  },
+  "authCooldownMinutes": "{count, plural, =1{1 minute} other{{count} minutes}}",
+  "@authCooldownMinutes": {
+    "description": "A remaining waiting time in minutes, inserted into other messages (e.g. 'Try again in 14 minutes').",
+    "placeholders": {
+      "count": { "type": "int", "example": "14" }
+    }
+  },
+
+  "authDemoTitle": "Demo mode",
+  "@authDemoTitle": { "description": "Title of a hint card shown only when the app runs without a server (built-in demo data)." },
+  "authDemoLoginHint": "Try the demo family: {email} / {password}",
+  "@authDemoLoginHint": {
+    "description": "Demo mode only: shows the demo account email and password.",
+    "placeholders": {
+      "email": { "type": "String", "example": "demo@familyhub.app" },
+      "password": { "type": "String", "example": "demo1234" }
+    }
+  },
+  "authDemoFill": "Fill in",
+  "@authDemoFill": { "description": "Demo mode only: button that fills the demo email and password into the log-in form." },
+  "authDemoOtpHint": "Demo mode: the code is always {code}.",
+  "@authDemoOtpHint": {
+    "description": "Demo mode only: tells testers which one-time code works.",
+    "placeholders": {
+      "code": { "type": "String", "example": "123456" }
+    }
+  },
+
+  "authRegisterCreateTitle": "Create your family",
+  "@authRegisterCreateTitle": { "description": "Title of the sign-up screen in 'create a new family' mode." },
+  "authRegisterJoinTitle": "Join your family",
+  "@authRegisterJoinTitle": { "description": "Title of the sign-up screen in 'join with invite code' mode." },
+  "authRegisterCreateSubtitle": "Set up your account and your family. You will be its admin.",
+  "@authRegisterCreateSubtitle": { "description": "Sign-up screen subtitle in create mode." },
+  "authRegisterJoinSubtitle": "Create your account and join with the invite code a family admin gave you.",
+  "@authRegisterJoinSubtitle": { "description": "Sign-up screen subtitle in join mode." },
+  "authModeCreate": "Create",
+  "@authModeCreate": { "description": "Segmented switch option: create a new family. Keep short." },
+  "authModeJoin": "Join",
+  "@authModeJoin": { "description": "Segmented switch option: join an existing family with an invite code. Keep short." },
+  "authSectionAboutYou": "About you",
+  "@authSectionAboutYou": { "description": "Sign-up form section with the user's own details." },
+  "authSectionFamily": "Your family",
+  "@authSectionFamily": { "description": "Form section with the family details (name, country, currency, time zone) or the invite code." },
+  "authNameLabel": "Your name",
+  "@authNameLabel": { "description": "Label of the user's name field." },
+  "authConfirmPasswordLabel": "Confirm password",
+  "@authConfirmPasswordLabel": { "description": "Label of the field where the password is typed a second time." },
+  "authPasswordHint": "At least 8 characters with a letter and a number",
+  "@authPasswordHint": { "description": "Hint under / inside a new-password field describing the password rules." },
+  "authDateOfBirthLabel": "Date of birth (optional)",
+  "@authDateOfBirthLabel": { "description": "Label of the optional date-of-birth field on sign-up." },
+  "authRegisterButton": "Create account",
+  "@authRegisterButton": { "description": "Submit button of the sign-up screen." },
+  "authHaveAccount": "Already have an account?",
+  "@authHaveAccount": { "description": "Text before the 'Log in' link on the sign-up screen." },
+  "authLoginLink": "Log in",
+  "@authLoginLink": { "description": "Link to the log-in screen." },
+  "authSignupTooYoung": "{age, plural, =1{You must be at least 1 year old to create your own account in this country.} other{You must be at least {age} years old to create your own account in this country. Ask a parent or guardian to add you to the family instead.}}",
+  "@authSignupTooYoung": {
+    "description": "Sign-up: the date of birth is below the country's age of digital consent. age is that minimum age (e.g. 13, 16, 18).",
+    "placeholders": {
+      "age": { "type": "int", "example": "18" }
+    }
+  },
+  "authPasswordTooLong": "This password is too long. Please use a shorter one.",
+  "@authPasswordTooLong": { "description": "Validation: a new password is longer than the server accepts (72 bytes; letters of many scripts count as 2-3 bytes each)." },
+  "authNameInvalidCharacters": "Remove line breaks and hidden formatting characters from the name.",
+  "@authNameInvalidCharacters": { "description": "Validation: a person or family name contains control or text-direction override characters (usually pasted from elsewhere)." },
+  "authNameNeedsLetter": "Enter a name with at least one letter or number.",
+  "@authNameNeedsLetter": { "description": "Validation: a person or family name consists only of invisible characters." },
+  "authFieldRejected": "This entry wasn't accepted. Please check it and try again.",
+  "@authFieldRejected": { "description": "Shown under a form field that the server rejected for a reason the app did not check itself." },
+  "authTooManyAttemptsWait": "Too many attempts. Try again in {time}.",
+  "@authTooManyAttemptsWait": {
+    "description": "Shown when the server asks to wait before trying again (codes, sign-up, password reset). time is a duration such as '14 minutes' or '30 seconds'.",
+    "placeholders": {
+      "time": { "type": "String", "example": "14 minutes" }
+    }
+  },
+  "authConsentAgree": "I have read and agree to the {privacyPolicy} and the {terms}.",
+  "@authConsentAgree": {
+    "description": "Consent checkbox text on sign-up. privacyPolicy and terms are replaced by tappable links (authPrivacyPolicy / authTermsOfService). Keep both placeholders.",
+    "placeholders": {
+      "privacyPolicy": { "type": "String", "example": "Privacy Policy" },
+      "terms": { "type": "String", "example": "Terms of Service" }
+    }
+  },
+  "authPrivacyPolicy": "Privacy Policy",
+  "@authPrivacyPolicy": { "description": "Link text: the privacy policy document." },
+  "authTermsOfService": "Terms of Service",
+  "@authTermsOfService": { "description": "Link text: the terms of service document." },
+  "authConsentRequired": "Please accept the Privacy Policy and the Terms of Service to continue.",
+  "@authConsentRequired": { "description": "Shown under the unticked consent checkbox." },
+  "authLinkOpenFailed": "Couldn't open the link. Please try again later.",
+  "@authLinkOpenFailed": { "description": "Error when a web link (privacy policy, terms) cannot be opened." },
+
+  "authFamilyNameLabel": "Family name",
+  "@authFamilyNameLabel": { "description": "Label of the family name field." },
+  "authFamilyNameHint": "e.g. The Sharma Family",
+  "@authFamilyNameHint": { "description": "Example family name shown in the empty field. Use a family name that is common in the language." },
+  "authCountryLabel": "Country",
+  "@authCountryLabel": { "description": "Label of the country picker of the family." },
+  "authCountryPickerTitle": "Select your country",
+  "@authCountryPickerTitle": { "description": "Title of the searchable country list." },
+  "authCountrySearchHint": "Search by name or code",
+  "@authCountrySearchHint": { "description": "Hint of the search field in the country list." },
+  "authCountryNoResults": "No country matches your search.",
+  "@authCountryNoResults": { "description": "Empty state of the country search." },
+  "authCurrencyLabel": "Currency",
+  "@authCurrencyLabel": { "description": "Label of the family currency picker." },
+  "authTimezoneLabel": "Time zone",
+  "@authTimezoneLabel": { "description": "Label of the family time zone picker." },
+  "authFamilyFormHelp": "The currency and time zone are used for the family ledger and due dates. Admins can change them later.",
+  "@authFamilyFormHelp": { "description": "Help text under the family form." },
+  "authSuggestLanguage": "Use {language} in FamilyHub?",
+  "@authSuggestLanguage": {
+    "description": "Snackbar after choosing a country whose main language differs from the app language. language is the language name in its own script.",
+    "placeholders": {
+      "language": { "type": "String", "example": "हिन्दी" }
+    }
+  },
+  "authSuggestLanguageAction": "Switch",
+  "@authSuggestLanguageAction": { "description": "Snackbar action: switch the app to the suggested language." },
+
+  "authInviteCodeLabel": "Invite code",
+  "@authInviteCodeLabel": { "description": "Label of the family invite code field." },
+  "authInviteCodeHint": "8 letters and numbers",
+  "@authInviteCodeHint": { "description": "Hint inside the invite code field." },
+  "authInviteCodeHelp": "Ask a family admin for the code. Admins find it in the family settings.",
+  "@authInviteCodeHelp": { "description": "Help text under the invite code field." },
+
+  "authVerifyTitle": "Verify your email",
+  "@authVerifyTitle": { "description": "Title of the email verification screen." },
+  "authVerifyMessage": "We sent a 6-digit code to {email}. Enter it below to confirm your email address.",
+  "@authVerifyMessage": {
+    "description": "Email verification screen explanation.",
+    "placeholders": {
+      "email": { "type": "String", "example": "amit@example.com" }
+    }
+  },
+  "authOtpLabel": "6-digit code",
+  "@authOtpLabel": { "description": "Label of the one-time code field." },
+  "authVerifyButton": "Verify email",
+  "@authVerifyButton": { "description": "Submit button of the email verification screen." },
+  "authResendCode": "Resend code",
+  "@authResendCode": { "description": "Button that sends a new one-time code by email." },
+  "authResendCodeIn": "Resend code in {time}",
+  "@authResendCodeIn": {
+    "description": "Disabled resend button while the cooldown runs. time is a duration such as '42 seconds'.",
+    "placeholders": {
+      "time": { "type": "String", "example": "42 seconds" }
+    }
+  },
+  "authCodeSent": "A new code is on its way. Check your inbox and spam folder.",
+  "@authCodeSent": { "description": "Snackbar after a new one-time code was sent." },
+  "authEmailVerified": "Email verified. Welcome to FamilyHub!",
+  "@authEmailVerified": { "description": "Snackbar after the email was verified." },
+  "authUseAnotherAccount": "Use another account",
+  "@authUseAnotherAccount": { "description": "Button that signs out so the user can sign in with a different account." },
+
+  "authForgotTitle": "Reset password",
+  "@authForgotTitle": { "description": "Title of the forgot / reset password screen." },
+  "authForgotEmailMessage": "Enter the email of your account. We'll send you a 6-digit code to set a new password.",
+  "@authForgotEmailMessage": { "description": "Reset password step 1 explanation." },
+  "authSendCode": "Send code",
+  "@authSendCode": { "description": "Reset password step 1 submit button." },
+  "authForgotCodeMessage": "If an account exists for {email}, we sent it a 6-digit code. Enter the code and your new password.",
+  "@authForgotCodeMessage": {
+    "description": "Reset password step 2 explanation. Deliberately does not confirm that the account exists.",
+    "placeholders": {
+      "email": { "type": "String", "example": "amit@example.com" }
+    }
+  },
+  "authChangeEmail": "Use a different email",
+  "@authChangeEmail": { "description": "Reset password step 2: go back and type another email." },
+  "authNewPasswordLabel": "New password",
+  "@authNewPasswordLabel": { "description": "Label of the new password field." },
+  "authConfirmNewPasswordLabel": "Confirm new password",
+  "@authConfirmNewPasswordLabel": { "description": "Label of the field repeating the new password." },
+  "authResetButton": "Set new password",
+  "@authResetButton": { "description": "Reset password step 2 submit button." },
+  "authPasswordResetSuccess": "Your password was changed. Log in with your new password.",
+  "@authPasswordResetSuccess": { "description": "Snackbar after a successful password reset." },
+
+  "authFamilySetupTitle": "Set up your family",
+  "@authFamilySetupTitle": { "description": "Title of the screen for signed-in users who are not in a family yet." },
+  "authFamilySetupGreeting": "Hi {name}! Create a new family or join one with an invite code.",
+  "@authFamilySetupGreeting": {
+    "description": "Family setup screen greeting.",
+    "placeholders": {
+      "name": { "type": "String", "example": "Amit" }
+    }
+  },
+  "authSignedInAs": "Signed in as {email}",
+  "@authSignedInAs": {
+    "description": "Shows which account is signed in.",
+    "placeholders": {
+      "email": { "type": "String", "example": "amit@example.com" }
+    }
+  },
+  "authCreateFamilyButton": "Create family",
+  "@authCreateFamilyButton": { "description": "Submit button: create the family." },
+  "authJoinFamilyButton": "Join family",
+  "@authJoinFamilyButton": { "description": "Submit button: join the family with the invite code." },
+  "authLogout": "Log out",
+  "@authLogout": { "description": "Button / tooltip that signs out of this device." },
+  "authFamilyCreated": "Your family is ready!",
+  "@authFamilyCreated": { "description": "Snackbar after the family was created." },
+  "authFamilyJoined": "Welcome to {family}!",
+  "@authFamilyJoined": {
+    "description": "Snackbar after joining a family.",
+    "placeholders": {
+      "family": { "type": "String", "example": "Sharma Family" }
+    }
+  }
+}

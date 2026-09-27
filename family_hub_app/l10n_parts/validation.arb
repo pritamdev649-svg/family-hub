@@ -1,0 +1,52 @@
+{
+  "@@locale": "en",
+
+  "validationRequired": "This field is required",
+  "@validationRequired": { "description": "Form validation: empty required field." },
+
+  "validationEmail": "Enter a valid email address",
+  "@validationEmail": { "description": "Form validation: malformed email." },
+
+  "validationPasswordLength": "Password must be at least 8 characters",
+  "@validationPasswordLength": { "description": "Form validation: password shorter than 8 characters." },
+
+  "validationPasswordComplexity": "Password must contain at least one letter and one number",
+  "@validationPasswordComplexity": { "description": "Form validation: password needs a letter and a digit." },
+
+  "validationPasswordMismatch": "Passwords don't match",
+  "@validationPasswordMismatch": { "description": "Form validation: confirm password differs." },
+
+  "validationMinLength": "{min, plural, =1{Enter at least 1 character} other{Enter at least {min} characters}}",
+  "@validationMinLength": {
+    "description": "Form validation: text shorter than min characters.",
+    "placeholders": {
+      "min": { "type": "int", "example": "3" }
+    }
+  },
+
+  "validationMaxLength": "{max, plural, =1{Use at most 1 character} other{Use at most {max} characters}}",
+  "@validationMaxLength": {
+    "description": "Form validation: text longer than max characters.",
+    "placeholders": {
+      "max": { "type": "int", "example": "120" }
+    }
+  },
+
+  "validationAmount": "Enter an amount greater than zero",
+  "@validationAmount": { "description": "Form validation: amount missing, not a number or not positive." },
+
+  "validationAmountTooLarge": "This amount is too large",
+  "@validationAmountTooLarge": { "description": "Form validation: amount above the 1,000,000,000,000 limit." },
+
+  "validationAmountDecimals": "Use at most 2 decimal places",
+  "@validationAmountDecimals": { "description": "Form validation: more than 2 decimals in an amount." },
+
+  "validationPhone": "Enter a valid phone number (6 to 15 digits, optional +country code)",
+  "@validationPhone": { "description": "Form validation: phone number format." },
+
+  "validationOtp": "Enter the 6-digit code",
+  "@validationOtp": { "description": "Form validation: OTP must be exactly 6 digits." },
+
+  "validationInviteCode": "Invite codes have 8 letters and numbers",
+  "@validationInviteCode": { "description": "Form validation: family invite code format (8 characters)." }
+}

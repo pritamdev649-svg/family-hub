@@ -1,0 +1,20 @@
+{
+  "push": {
+    "goalAchieved": {
+      "title": "Savings goal reached",
+      "body": "Your family reached the goal \"{title}\". Well done, everyone!"
+    }
+  },
+  "errors": {
+    "categoryForType": "This category does not match the entry type. Please choose another category.",
+    "dateInFuture": "The date cannot be later than tomorrow.",
+    "dateTooOld": "The date cannot be before 1 January 2000.",
+    "memberNotInFamily": "Please choose a member of your family.",
+    "memberSelfOnly": "You can only record money for yourself. Ask an admin to record it for someone else.",
+    "goalAmountLocked": "The amount of a goal contribution cannot be changed. Delete it and contribute again.",
+    "goalEntryLocked": "A goal contribution is always a savings expense. Delete it and add a new entry instead.",
+    "goalArchived": "This goal is archived. Restore it before adding money to it.",
+    "goalFull": "This goal cannot hold a larger amount.",
+    "targetDateRange": "The target date must be between 1 January 2000 and 31 December 2100."
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "noticesTitle": "Notice board",
+  "@noticesTitle": {
+    "description": "Title of the notice board screen (family announcements)."
+  },
+  "noticesNew": "New notice",
+  "@noticesNew": {
+    "description": "Floating action button on the notice board and title of the create-notice screen."
+  },
+  "noticesEditTitle": "Edit notice",
+  "@noticesEditTitle": {
+    "description": "Title of the screen for editing an existing notice."
+  },
+  "noticesEmptyTitle": "No notices yet",
+  "@noticesEmptyTitle": {
+    "description": "Empty state title when the family notice board has no notices."
+  },
+  "noticesEmptyMessage": "Share news, plans and reminders with the whole family.",
+  "@noticesEmptyMessage": {
+    "description": "Empty state message on the notice board."
+  },
+  "noticesPinned": "Pinned",
+  "@noticesPinned": {
+    "description": "Small badge on a notice that an admin pinned to the top of the board."
+  },
+  "noticesPin": "Pin to top",
+  "@noticesPin": {
+    "description": "Action (admins only) that pins a notice above all others."
+  },
+  "noticesUnpin": "Unpin",
+  "@noticesUnpin": {
+    "description": "Action (admins only) that removes the pin from a notice."
+  },
+  "noticesPinnedSuccess": "Notice pinned to the top",
+  "@noticesPinnedSuccess": {
+    "description": "Confirmation after pinning a notice."
+  },
+  "noticesUnpinnedSuccess": "Notice unpinned",
+  "@noticesUnpinnedSuccess": {
+    "description": "Confirmation after unpinning a notice."
+  },
+  "noticesDeleteTitle": "Delete this notice?",
+  "@noticesDeleteTitle": {
+    "description": "Title of the confirmation dialog before deleting a notice."
+  },
+  "noticesDeleteMessage": "\"{title}\" will be removed for everyone in the family. This can't be undone.",
+  "@noticesDeleteMessage": {
+    "description": "Message of the confirmation dialog before deleting a notice. {title} is the notice title.",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Family meeting Sunday 7pm"
+      }
+    }
+  },
+  "noticesDeleted": "Notice deleted",
+  "@noticesDeleted": {
+    "description": "Confirmation after deleting a notice."
+  },
+  "noticesPosted": "Notice posted",
+  "@noticesPosted": {
+    "description": "Confirmation after posting a new notice."
+  },
+  "noticesUpdated": "Notice updated",
+  "@noticesUpdated": {
+    "description": "Confirmation after saving changes to a notice."
+  },
+  "noticesReadMore": "Read more",
+  "@noticesReadMore": {
+    "description": "Button below a long notice text that shows the whole text."
+  },
+  "noticesShowLess": "Show less",
+  "@noticesShowLess": {
+    "description": "Button below an expanded notice text that collapses it again."
+  },
+  "noticesActions": "Notice options",
+  "@noticesActions": {
+    "description": "Tooltip / screen-reader label of the menu button on a notice (edit, pin, delete, copy)."
+  },
+  "noticesCopyText": "Copy text",
+  "@noticesCopyText": {
+    "description": "Action that copies the notice title and text to the clipboard."
+  },
+  "noticesOpenImage": "Open photo",
+  "@noticesOpenImage": {
+    "description": "Screen-reader hint on a notice photo; tapping opens it full screen."
+  },
+  "noticesImageLabel": "Photo: {title}",
+  "@noticesImageLabel": {
+    "description": "Screen-reader label of the photo attached to a notice. {title} is the notice title.",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Weekend trip photos"
+      }
+    }
+  },
+  "noticesPostedBy": "Posted by {name}",
+  "@noticesPostedBy": {
+    "description": "Screen-reader label of the author line of a notice. {name} is the author's name.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Priya"
+      }
+    }
+  },
+  "noticesFormerMember": "Former member",
+  "@noticesFormerMember": {
+    "description": "Shown as the author of a notice whose author is no longer in the family."
+  },
+  "noticesFieldTitle": "Title",
+  "@noticesFieldTitle": {
+    "description": "Label of the notice title field."
+  },
+  "noticesFieldTitleHint": "e.g. Family meeting Sunday 7pm",
+  "@noticesFieldTitleHint": {
+    "description": "Hint (example) inside the empty notice title field."
+  },
+  "noticesFieldBody": "Message",
+  "@noticesFieldBody": {
+    "description": "Label of the notice text field."
+  },
+  "noticesFieldBodyHint": "What would you like to tell the family?",
+  "@noticesFieldBodyHint": {
+    "description": "Hint inside the empty notice text field."
+  },
+  "noticesFieldImage": "Photo (optional)",
+  "@noticesFieldImage": {
+    "description": "Label under the photo picker of the notice form."
+  },
+  "noticesFieldPinned": "Pin to top",
+  "@noticesFieldPinned": {
+    "description": "Switch in the notice form (admins only) that pins the notice."
+  },
+  "noticesFieldPinnedHint": "Pinned notices stay above all others.",
+  "@noticesFieldPinnedHint": {
+    "description": "Explanation under the pin switch in the notice form."
+  },
+  "noticesPost": "Post notice",
+  "@noticesPost": {
+    "description": "Submit button of the create-notice screen."
+  },
+  "noticesVisibleToFamily": "Everyone in your family can see this notice.",
+  "@noticesVisibleToFamily": {
+    "description": "Privacy hint on the notice form: who can see the notice."
+  },
+  "noticesEditNotAllowed": "You can't edit this notice",
+  "@noticesEditNotAllowed": {
+    "description": "Shown instead of the edit form when the member is neither the author nor an admin."
+  },
+  "noticesEditNotAllowedMessage": "Only the person who posted it or a family admin can change it.",
+  "@noticesEditNotAllowedMessage": {
+    "description": "Explanation when the member may not edit a notice."
+  },
+  "noticesPhotoUploading": "Please wait until the photo has finished uploading.",
+  "@noticesPhotoUploading": {
+    "description": "Shown when the member taps Post/Save on the notice form while the attached photo is still uploading."
+  },
+  "noticesGone": "This notice was deleted in the meantime.",
+  "@noticesGone": {
+    "description": "Shown when an action (save, pin, unpin) fails because someone else deleted the notice meanwhile."
+  },
+  "noticesNotFoundTitle": "This notice is no longer available",
+  "@noticesNotFoundTitle": {
+    "description": "Title shown when a link opens a notice that does not exist any more."
+  },
+  "noticesNotFoundMessage": "It may have been deleted by the person who posted it or by a family admin.",
+  "@noticesNotFoundMessage": {
+    "description": "Explanation under noticesNotFoundTitle."
+  },
+  "noticesSubtitle": "News, plans and reminders for the whole family.",
+  "@noticesSubtitle": {
+    "description": "Short line under the notice board title in the coloured header."
+  },
+  "noticesStatTotal": "On the board",
+  "@noticesStatTotal": {
+    "description": "Label under the number of notices on the board, shown as a small stat in the notice board header."
+  },
+  "noticesSectionMessage": "What's new?",
+  "@noticesSectionMessage": {
+    "description": "Heading of the notice form section with the title and message fields."
+  },
+  "noticesPhotoHint": "Tap to add or change the photo",
+  "@noticesPhotoHint": {
+    "description": "Text under the photo picker of the notice form; also its screen-reader label."
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resources referenced only by name at runtime (flutter_local_notifications,
+     geolocator foreground service, FCM meta-data). Keep them when resource
+     shrinking is enabled for release builds. -->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/ic_stat_notification,@color/notification_color,@mipmap/ic_launcher" />

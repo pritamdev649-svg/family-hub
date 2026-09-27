@@ -1,0 +1,21 @@
+{
+  "push": {
+    "assigned": {
+      "title": "New task from {name}",
+      "body": "{title}",
+      "bodyPrivate": "Open the app to see your new task."
+    },
+    "completed": {
+      "title": "Task completed",
+      "body": "{name} completed: {title}",
+      "bodyPrivate": "{name} completed a health task."
+    }
+  },
+  "errors": {
+    "assigneeNotInFamily": "Please choose a member of your family for this task.",
+    "assigneeRemoved": "The person this task was assigned to is no longer in your family. Assign it to someone else first.",
+    "assignSelfOnly": "You can only create tasks for yourself. Ask an admin to assign tasks to others.",
+    "editNotAllowed": "Only an admin or the person who created this task can change or delete it.",
+    "completeNotAllowed": "Only the person the task is assigned to or an admin can complete or reopen it."
+  }
+}

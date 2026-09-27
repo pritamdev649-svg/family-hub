@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Languages offered in Android 13+ "App languages" system settings.
+     Keep in sync with lib/core/config/app_languages.dart and the iOS
+     CFBundleLocalizations list in ios/Runner/Info.plist. -->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en" />
+    <locale android:name="hi" />
+    <locale android:name="bn" />
+    <locale android:name="ta" />
+    <locale android:name="te" />
+    <locale android:name="mr" />
+    <locale android:name="gu" />
+    <locale android:name="kn" />
+    <locale android:name="ml" />
+    <locale android:name="pa" />
+    <locale android:name="ar" />
+    <locale android:name="es" />
+    <locale android:name="fr" />
+    <locale android:name="pt" />
+    <locale android:name="de" />
+</locale-config>

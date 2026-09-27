@@ -1,0 +1,30 @@
+{
+  "push": {
+    "alert": {
+      "title": "SOS from {name}",
+      "body": "{name} needs help and is sharing their location. Open FamilyHub to see where they are and call them.",
+      "bodyNoLocation": "{name} needs help. Open FamilyHub and try to call them now."
+    },
+    "resolved": {
+      "title": "SOS ended: {name}",
+      "body": {
+        "safe": "{name} says they are safe.",
+        "false_alarm": "{name} says the SOS was a false alarm.",
+        "helped": "{name} says they got help.",
+        "closed": "The SOS alert from {name} was closed."
+      },
+      "bodyByOther": {
+        "safe": "{resolver} marked {name} as safe.",
+        "false_alarm": "{resolver} marked the SOS from {name} as a false alarm.",
+        "helped": "{resolver} marked that {name} got help.",
+        "closed": "{resolver} closed the SOS alert from {name}."
+      }
+    }
+  },
+  "errors": {
+    "notOwner": "Only the person who sent this SOS can share their location for it.",
+    "resolveNotAllowed": "Only the person who sent this SOS or a family admin can end it.",
+    "notActive": "This SOS alert has already ended. Send a new SOS if you still need help.",
+    "locationSharingDisabled": "Your location sharing is set to Never, so your location is not shared. You can change this in Settings."
+  }
+}

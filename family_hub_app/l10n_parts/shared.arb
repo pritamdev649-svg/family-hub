@@ -1,0 +1,88 @@
+{
+  "roleAdmin": "Admin",
+  "@roleAdmin": {
+    "description": "Family role label: a member who can manage the family (like a manager in a company)."
+  },
+  "roleMember": "Member",
+  "@roleMember": {
+    "description": "Family role label: a regular family member without admin rights."
+  },
+  "roleAdminDescription": "Can manage members, tasks, money and family settings",
+  "@roleAdminDescription": {
+    "description": "One-line explanation shown under the Admin role option."
+  },
+  "roleMemberDescription": "Can view the family, do their tasks and post notices",
+  "@roleMemberDescription": {
+    "description": "One-line explanation shown under the Member role option."
+  },
+
+  "genderMale": "Male",
+  "@genderMale": {
+    "description": "Gender option."
+  },
+  "genderFemale": "Female",
+  "@genderFemale": {
+    "description": "Gender option."
+  },
+  "genderOther": "Other",
+  "@genderOther": {
+    "description": "Gender option for people who do not identify as male or female."
+  },
+  "genderUnspecified": "Prefer not to say",
+  "@genderUnspecified": {
+    "description": "Gender option / label when no gender is set."
+  },
+
+  "ageGroupChild": "Child",
+  "@ageGroupChild": {
+    "description": "Age group label for members younger than 13."
+  },
+  "ageGroupTeen": "Teen",
+  "@ageGroupTeen": {
+    "description": "Age group label for members aged 13 to 17."
+  },
+  "ageGroupAdult": "Adult",
+  "@ageGroupAdult": {
+    "description": "Age group label for members aged 18 to 59."
+  },
+  "ageGroupSenior": "Senior",
+  "@ageGroupSenior": {
+    "description": "Age group label for members aged 60 or older."
+  },
+
+  "ageYears": "{count, plural, =0{Under 1 year} =1{1 year} other{{count} years}}",
+  "@ageYears": {
+    "description": "A person's age in completed years, e.g. shown next to a family member's name.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+
+  "locationSharingNever": "Never share",
+  "@locationSharingNever": {
+    "description": "Location sharing mode: location is never shared."
+  },
+  "locationSharingSosOnly": "Only during SOS",
+  "@locationSharingSosOnly": {
+    "description": "Location sharing mode: live location is shared only while the member's SOS alert is active."
+  },
+  "locationSharingAlways": "Always share",
+  "@locationSharingAlways": {
+    "description": "Location sharing mode: the family can always see the member's last known location."
+  },
+  "locationSharingNeverDescription": "Your location is never shared, not even during an SOS.",
+  "@locationSharingNeverDescription": {
+    "description": "One-line explanation of the 'Never share' location mode."
+  },
+  "locationSharingSosOnlyDescription": "Your family sees your live location only while your SOS is active.",
+  "@locationSharingSosOnlyDescription": {
+    "description": "One-line explanation of the 'Only during SOS' location mode."
+  },
+  "locationSharingAlwaysDescription": "Your family can always see your last known location.",
+  "@locationSharingAlwaysDescription": {
+    "description": "One-line explanation of the 'Always share' location mode."
+  }
+}

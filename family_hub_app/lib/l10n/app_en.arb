@@ -1,0 +1,4891 @@
+{
+  "@@locale": "en",
+  "authLanguageLabel": "Language",
+  "@authLanguageLabel": {
+    "description": "Welcome screen: label / tooltip of the button that changes the app language."
+  },
+  "authLanguageSheetTitle": "Choose your language",
+  "@authLanguageSheetTitle": {
+    "description": "Title of the bottom sheet that lists the app languages (shown in their own script)."
+  },
+  "authWelcomeCreateFamily": "Create a family",
+  "@authWelcomeCreateFamily": {
+    "description": "Welcome screen: main button to sign up and start a new family."
+  },
+  "authWelcomeJoinFamily": "Join with invite code",
+  "@authWelcomeJoinFamily": {
+    "description": "Welcome screen: button to sign up and join an existing family with its 8-character invite code."
+  },
+  "authWelcomeHaveAccount": "I already have an account",
+  "@authWelcomeHaveAccount": {
+    "description": "Welcome screen: button that opens the log-in screen."
+  },
+  "authWelcomeFeatureTasks": "Roles and tasks for everyone",
+  "@authWelcomeFeatureTasks": {
+    "description": "Welcome screen: short benefit line about family roles and task assignment."
+  },
+  "authWelcomeFeatureMoney": "A shared ledger and savings goals",
+  "@authWelcomeFeatureMoney": {
+    "description": "Welcome screen: short benefit line about the family money ledger."
+  },
+  "authWelcomeFeatureSafety": "SOS alerts and emergency cards",
+  "@authWelcomeFeatureSafety": {
+    "description": "Welcome screen: short benefit line about SOS and medical emergency cards."
+  },
+  "authSessionExpiredNotice": "You were signed out. Please log in again.",
+  "@authSessionExpiredNotice": {
+    "description": "Shown on the welcome / log-in screen after the session expired on this device."
+  },
+  "authLoginTitle": "Log in",
+  "@authLoginTitle": {
+    "description": "Title of the log-in screen."
+  },
+  "authLoginSubtitle": "Welcome back! Sign in to see your family.",
+  "@authLoginSubtitle": {
+    "description": "Subtitle under the log-in screen title."
+  },
+  "authEmailLabel": "Email",
+  "@authEmailLabel": {
+    "description": "Label of the email field (log in, sign up, reset password)."
+  },
+  "authPasswordLabel": "Password",
+  "@authPasswordLabel": {
+    "description": "Label of the password field."
+  },
+  "authForgotPasswordLink": "Forgot password?",
+  "@authForgotPasswordLink": {
+    "description": "Link on the log-in screen to reset a forgotten password."
+  },
+  "authLoginButton": "Log in",
+  "@authLoginButton": {
+    "description": "Submit button of the log-in screen."
+  },
+  "authLoginNoAccount": "New to FamilyHub?",
+  "@authLoginNoAccount": {
+    "description": "Log-in screen: text before the 'create an account' link."
+  },
+  "authCreateAccountLink": "Create an account",
+  "@authCreateAccountLink": {
+    "description": "Link to the sign-up screen."
+  },
+  "authLoginLockedOut": "Too many failed attempts. Try again in {time}.",
+  "@authLoginLockedOut": {
+    "description": "Log-in screen: shown while the account is temporarily locked after 5 wrong passwords. time is a duration such as '14 minutes' or '30 seconds'.",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "14 minutes"
+      }
+    }
+  },
+  "authCooldownSeconds": "{count, plural, =1{1 second} other{{count} seconds}}",
+  "@authCooldownSeconds": {
+    "description": "A remaining waiting time in seconds, inserted into other messages (e.g. 'Resend code in 42 seconds').",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "42"
+      }
+    }
+  },
+  "authCooldownMinutes": "{count, plural, =1{1 minute} other{{count} minutes}}",
+  "@authCooldownMinutes": {
+    "description": "A remaining waiting time in minutes, inserted into other messages (e.g. 'Try again in 14 minutes').",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "14"
+      }
+    }
+  },
+  "authDemoTitle": "Demo mode",
+  "@authDemoTitle": {
+    "description": "Title of a hint card shown only when the app runs without a server (built-in demo data)."
+  },
+  "authDemoLoginHint": "Try the demo family: {email} / {password}",
+  "@authDemoLoginHint": {
+    "description": "Demo mode only: shows the demo account email and password.",
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "example": "demo@familyhub.app"
+      },
+      "password": {
+        "type": "String",
+        "example": "demo1234"
+      }
+    }
+  },
+  "authDemoFill": "Fill in",
+  "@authDemoFill": {
+    "description": "Demo mode only: button that fills the demo email and password into the log-in form."
+  },
+  "authDemoOtpHint": "Demo mode: the code is always {code}.",
+  "@authDemoOtpHint": {
+    "description": "Demo mode only: tells testers which one-time code works.",
+    "placeholders": {
+      "code": {
+        "type": "String",
+        "example": "123456"
+      }
+    }
+  },
+  "authRegisterCreateTitle": "Create your family",
+  "@authRegisterCreateTitle": {
+    "description": "Title of the sign-up screen in 'create a new family' mode."
+  },
+  "authRegisterJoinTitle": "Join your family",
+  "@authRegisterJoinTitle": {
+    "description": "Title of the sign-up screen in 'join with invite code' mode."
+  },
+  "authRegisterCreateSubtitle": "Set up your account and your family. You will be its admin.",
+  "@authRegisterCreateSubtitle": {
+    "description": "Sign-up screen subtitle in create mode."
+  },
+  "authRegisterJoinSubtitle": "Create your account and join with the invite code a family admin gave you.",
+  "@authRegisterJoinSubtitle": {
+    "description": "Sign-up screen subtitle in join mode."
+  },
+  "authModeCreate": "Create",
+  "@authModeCreate": {
+    "description": "Segmented switch option: create a new family. Keep short."
+  },
+  "authModeJoin": "Join",
+  "@authModeJoin": {
+    "description": "Segmented switch option: join an existing family with an invite code. Keep short."
+  },
+  "authSectionAboutYou": "About you",
+  "@authSectionAboutYou": {
+    "description": "Sign-up form section with the user's own details."
+  },
+  "authSectionFamily": "Your family",
+  "@authSectionFamily": {
+    "description": "Form section with the family details (name, country, currency, time zone) or the invite code."
+  },
+  "authNameLabel": "Your name",
+  "@authNameLabel": {
+    "description": "Label of the user's name field."
+  },
+  "authConfirmPasswordLabel": "Confirm password",
+  "@authConfirmPasswordLabel": {
+    "description": "Label of the field where the password is typed a second time."
+  },
+  "authPasswordHint": "At least 8 characters with a letter and a number",
+  "@authPasswordHint": {
+    "description": "Hint under / inside a new-password field describing the password rules."
+  },
+  "authDateOfBirthLabel": "Date of birth (optional)",
+  "@authDateOfBirthLabel": {
+    "description": "Label of the optional date-of-birth field on sign-up."
+  },
+  "authRegisterButton": "Create account",
+  "@authRegisterButton": {
+    "description": "Submit button of the sign-up screen."
+  },
+  "authHaveAccount": "Already have an account?",
+  "@authHaveAccount": {
+    "description": "Text before the 'Log in' link on the sign-up screen."
+  },
+  "authLoginLink": "Log in",
+  "@authLoginLink": {
+    "description": "Link to the log-in screen."
+  },
+  "authSignupTooYoung": "{age, plural, =1{You must be at least 1 year old to create your own account in this country.} other{You must be at least {age} years old to create your own account in this country. Ask a parent or guardian to add you to the family instead.}}",
+  "@authSignupTooYoung": {
+    "description": "Sign-up: the date of birth is below the country's age of digital consent. age is that minimum age (e.g. 13, 16, 18).",
+    "placeholders": {
+      "age": {
+        "type": "int",
+        "example": "18"
+      }
+    }
+  },
+  "authPasswordTooLong": "This password is too long. Please use a shorter one.",
+  "@authPasswordTooLong": {
+    "description": "Validation: a new password is longer than the server accepts (72 bytes; letters of many scripts count as 2-3 bytes each)."
+  },
+  "authNameInvalidCharacters": "Remove line breaks and hidden formatting characters from the name.",
+  "@authNameInvalidCharacters": {
+    "description": "Validation: a person or family name contains control or text-direction override characters (usually pasted from elsewhere)."
+  },
+  "authNameNeedsLetter": "Enter a name with at least one letter or number.",
+  "@authNameNeedsLetter": {
+    "description": "Validation: a person or family name consists only of invisible characters."
+  },
+  "authFieldRejected": "This entry wasn't accepted. Please check it and try again.",
+  "@authFieldRejected": {
+    "description": "Shown under a form field that the server rejected for a reason the app did not check itself."
+  },
+  "authTooManyAttemptsWait": "Too many attempts. Try again in {time}.",
+  "@authTooManyAttemptsWait": {
+    "description": "Shown when the server asks to wait before trying again (codes, sign-up, password reset). time is a duration such as '14 minutes' or '30 seconds'.",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "14 minutes"
+      }
+    }
+  },
+  "authConsentAgree": "I have read and agree to the {privacyPolicy} and the {terms}.",
+  "@authConsentAgree": {
+    "description": "Consent checkbox text on sign-up. privacyPolicy and terms are replaced by tappable links (authPrivacyPolicy / authTermsOfService). Keep both placeholders.",
+    "placeholders": {
+      "privacyPolicy": {
+        "type": "String",
+        "example": "Privacy Policy"
+      },
+      "terms": {
+        "type": "String",
+        "example": "Terms of Service"
+      }
+    }
+  },
+  "authPrivacyPolicy": "Privacy Policy",
+  "@authPrivacyPolicy": {
+    "description": "Link text: the privacy policy document."
+  },
+  "authTermsOfService": "Terms of Service",
+  "@authTermsOfService": {
+    "description": "Link text: the terms of service document."
+  },
+  "authConsentRequired": "Please accept the Privacy Policy and the Terms of Service to continue.",
+  "@authConsentRequired": {
+    "description": "Shown under the unticked consent checkbox."
+  },
+  "authLinkOpenFailed": "Couldn't open the link. Please try again later.",
+  "@authLinkOpenFailed": {
+    "description": "Error when a web link (privacy policy, terms) cannot be opened."
+  },
+  "authFamilyNameLabel": "Family name",
+  "@authFamilyNameLabel": {
+    "description": "Label of the family name field."
+  },
+  "authFamilyNameHint": "e.g. The Sharma Family",
+  "@authFamilyNameHint": {
+    "description": "Example family name shown in the empty field. Use a family name that is common in the language."
+  },
+  "authCountryLabel": "Country",
+  "@authCountryLabel": {
+    "description": "Label of the country picker of the family."
+  },
+  "authCountryPickerTitle": "Select your country",
+  "@authCountryPickerTitle": {
+    "description": "Title of the searchable country list."
+  },
+  "authCountrySearchHint": "Search by name or code",
+  "@authCountrySearchHint": {
+    "description": "Hint of the search field in the country list."
+  },
+  "authCountryNoResults": "No country matches your search.",
+  "@authCountryNoResults": {
+    "description": "Empty state of the country search."
+  },
+  "authCurrencyLabel": "Currency",
+  "@authCurrencyLabel": {
+    "description": "Label of the family currency picker."
+  },
+  "authTimezoneLabel": "Time zone",
+  "@authTimezoneLabel": {
+    "description": "Label of the family time zone picker."
+  },
+  "authFamilyFormHelp": "The currency and time zone are used for the family ledger and due dates. Admins can change them later.",
+  "@authFamilyFormHelp": {
+    "description": "Help text under the family form."
+  },
+  "authSuggestLanguage": "Use {language} in FamilyHub?",
+  "@authSuggestLanguage": {
+    "description": "Snackbar after choosing a country whose main language differs from the app language. language is the language name in its own script.",
+    "placeholders": {
+      "language": {
+        "type": "String",
+        "example": "हिन्दी"
+      }
+    }
+  },
+  "authSuggestLanguageAction": "Switch",
+  "@authSuggestLanguageAction": {
+    "description": "Snackbar action: switch the app to the suggested language."
+  },
+  "authInviteCodeLabel": "Invite code",
+  "@authInviteCodeLabel": {
+    "description": "Label of the family invite code field."
+  },
+  "authInviteCodeHint": "8 letters and numbers",
+  "@authInviteCodeHint": {
+    "description": "Hint inside the invite code field."
+  },
+  "authInviteCodeHelp": "Ask a family admin for the code. Admins find it in the family settings.",
+  "@authInviteCodeHelp": {
+    "description": "Help text under the invite code field."
+  },
+  "authVerifyTitle": "Verify your email",
+  "@authVerifyTitle": {
+    "description": "Title of the email verification screen."
+  },
+  "authVerifyMessage": "We sent a 6-digit code to {email}. Enter it below to confirm your email address.",
+  "@authVerifyMessage": {
+    "description": "Email verification screen explanation.",
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "example": "amit@example.com"
+      }
+    }
+  },
+  "authOtpLabel": "6-digit code",
+  "@authOtpLabel": {
+    "description": "Label of the one-time code field."
+  },
+  "authVerifyButton": "Verify email",
+  "@authVerifyButton": {
+    "description": "Submit button of the email verification screen."
+  },
+  "authResendCode": "Resend code",
+  "@authResendCode": {
+    "description": "Button that sends a new one-time code by email."
+  },
+  "authResendCodeIn": "Resend code in {time}",
+  "@authResendCodeIn": {
+    "description": "Disabled resend button while the cooldown runs. time is a duration such as '42 seconds'.",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "42 seconds"
+      }
+    }
+  },
+  "authCodeSent": "A new code is on its way. Check your inbox and spam folder.",
+  "@authCodeSent": {
+    "description": "Snackbar after a new one-time code was sent."
+  },
+  "authEmailVerified": "Email verified. Welcome to FamilyHub!",
+  "@authEmailVerified": {
+    "description": "Snackbar after the email was verified."
+  },
+  "authUseAnotherAccount": "Use another account",
+  "@authUseAnotherAccount": {
+    "description": "Button that signs out so the user can sign in with a different account."
+  },
+  "authForgotTitle": "Reset password",
+  "@authForgotTitle": {
+    "description": "Title of the forgot / reset password screen."
+  },
+  "authForgotEmailMessage": "Enter the email of your account. We'll send you a 6-digit code to set a new password.",
+  "@authForgotEmailMessage": {
+    "description": "Reset password step 1 explanation."
+  },
+  "authSendCode": "Send code",
+  "@authSendCode": {
+    "description": "Reset password step 1 submit button."
+  },
+  "authForgotCodeMessage": "If an account exists for {email}, we sent it a 6-digit code. Enter the code and your new password.",
+  "@authForgotCodeMessage": {
+    "description": "Reset password step 2 explanation. Deliberately does not confirm that the account exists.",
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "example": "amit@example.com"
+      }
+    }
+  },
+  "authChangeEmail": "Use a different email",
+  "@authChangeEmail": {
+    "description": "Reset password step 2: go back and type another email."
+  },
+  "authNewPasswordLabel": "New password",
+  "@authNewPasswordLabel": {
+    "description": "Label of the new password field."
+  },
+  "authConfirmNewPasswordLabel": "Confirm new password",
+  "@authConfirmNewPasswordLabel": {
+    "description": "Label of the field repeating the new password."
+  },
+  "authResetButton": "Set new password",
+  "@authResetButton": {
+    "description": "Reset password step 2 submit button."
+  },
+  "authPasswordResetSuccess": "Your password was changed. Log in with your new password.",
+  "@authPasswordResetSuccess": {
+    "description": "Snackbar after a successful password reset."
+  },
+  "authFamilySetupTitle": "Set up your family",
+  "@authFamilySetupTitle": {
+    "description": "Title of the screen for signed-in users who are not in a family yet."
+  },
+  "authFamilySetupGreeting": "Hi {name}! Create a new family or join one with an invite code.",
+  "@authFamilySetupGreeting": {
+    "description": "Family setup screen greeting.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Amit"
+      }
+    }
+  },
+  "authSignedInAs": "Signed in as {email}",
+  "@authSignedInAs": {
+    "description": "Shows which account is signed in.",
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "example": "amit@example.com"
+      }
+    }
+  },
+  "authCreateFamilyButton": "Create family",
+  "@authCreateFamilyButton": {
+    "description": "Submit button: create the family."
+  },
+  "authJoinFamilyButton": "Join family",
+  "@authJoinFamilyButton": {
+    "description": "Submit button: join the family with the invite code."
+  },
+  "authLogout": "Log out",
+  "@authLogout": {
+    "description": "Button / tooltip that signs out of this device."
+  },
+  "authFamilyCreated": "Your family is ready!",
+  "@authFamilyCreated": {
+    "description": "Snackbar after the family was created."
+  },
+  "authFamilyJoined": "Welcome to {family}!",
+  "@authFamilyJoined": {
+    "description": "Snackbar after joining a family.",
+    "placeholders": {
+      "family": {
+        "type": "String",
+        "example": "Sharma Family"
+      }
+    }
+  },
+  "appName": "FamilyHub",
+  "@appName": {
+    "description": "Product name. Usually NOT translated (keep the brand), transliterate only if your market requires it."
+  },
+  "appTagline": "Your family, organised like a great team",
+  "@appTagline": {
+    "description": "Short marketing line shown under the app name on splash / welcome screens."
+  },
+  "commonOk": "OK",
+  "@commonOk": {
+    "description": "Generic acknowledgement button."
+  },
+  "commonCancel": "Cancel",
+  "@commonCancel": {
+    "description": "Cancel button / action."
+  },
+  "commonSave": "Save",
+  "@commonSave": {
+    "description": "Save button."
+  },
+  "commonDelete": "Delete",
+  "@commonDelete": {
+    "description": "Delete button / action."
+  },
+  "commonEdit": "Edit",
+  "@commonEdit": {
+    "description": "Edit button / action."
+  },
+  "commonRetry": "Retry",
+  "@commonRetry": {
+    "description": "Button to retry a failed request."
+  },
+  "commonClose": "Close",
+  "@commonClose": {
+    "description": "Close a dialog, sheet or screen."
+  },
+  "commonDone": "Done",
+  "@commonDone": {
+    "description": "Finish a flow or dismiss after completion."
+  },
+  "commonNext": "Next",
+  "@commonNext": {
+    "description": "Go to the next step."
+  },
+  "commonBack": "Back",
+  "@commonBack": {
+    "description": "Go to the previous step / screen."
+  },
+  "commonYes": "Yes",
+  "commonNo": "No",
+  "commonAdd": "Add",
+  "@commonAdd": {
+    "description": "Add button (verb)."
+  },
+  "commonRemove": "Remove",
+  "@commonRemove": {
+    "description": "Remove button (verb)."
+  },
+  "commonConfirm": "Confirm",
+  "@commonConfirm": {
+    "description": "Confirm button in dialogs."
+  },
+  "commonLoading": "Loading…",
+  "@commonLoading": {
+    "description": "Shown while content is loading."
+  },
+  "commonSeeAll": "See all",
+  "@commonSeeAll": {
+    "description": "Link on a section header that opens the full list."
+  },
+  "commonLoadMore": "Load more",
+  "@commonLoadMore": {
+    "description": "Button at the end of a paginated list."
+  },
+  "commonNone": "None",
+  "@commonNone": {
+    "description": "Placeholder when a value is not set / empty selection."
+  },
+  "commonOptional": "Optional",
+  "@commonOptional": {
+    "description": "Hint on optional form fields."
+  },
+  "commonCall": "Call",
+  "@commonCall": {
+    "description": "Place a phone call (verb)."
+  },
+  "commonCopy": "Copy",
+  "@commonCopy": {
+    "description": "Copy to clipboard (verb)."
+  },
+  "commonCopied": "Copied",
+  "@commonCopied": {
+    "description": "Confirmation after copying to the clipboard."
+  },
+  "commonShare": "Share",
+  "@commonShare": {
+    "description": "Share (verb)."
+  },
+  "commonCamera": "Camera",
+  "@commonCamera": {
+    "description": "Pick a photo with the camera."
+  },
+  "commonGallery": "Gallery",
+  "@commonGallery": {
+    "description": "Pick a photo from the device's photo library."
+  },
+  "commonUploading": "Uploading…",
+  "@commonUploading": {
+    "description": "Shown while a photo is uploading."
+  },
+  "commonRemovePhoto": "Remove photo",
+  "commonChoosePhoto": "Choose photo",
+  "commonOffline": "You're offline. Showing the last saved data.",
+  "@commonOffline": {
+    "description": "Banner shown when the last request failed because there is no connection."
+  },
+  "commonToday": "Today",
+  "commonYesterday": "Yesterday",
+  "commonTomorrow": "Tomorrow",
+  "commonSomethingWentWrong": "Something went wrong",
+  "@commonSomethingWentWrong": {
+    "description": "Generic error title."
+  },
+  "commonNothingHere": "Nothing here yet",
+  "@commonNothingHere": {
+    "description": "Generic empty-state title."
+  },
+  "commonClear": "Clear",
+  "@commonClear": {
+    "description": "Clear a field / selection (verb)."
+  },
+  "commonSelectDate": "Select date",
+  "commonAll": "All",
+  "@commonAll": {
+    "description": "Filter option meaning 'everything'."
+  },
+  "commonJustNow": "Just now",
+  "@commonJustNow": {
+    "description": "Relative time for less than a minute ago."
+  },
+  "commonMinutesAgo": "{count, plural, =1{1 minute ago} other{{count} minutes ago}}",
+  "@commonMinutesAgo": {
+    "description": "Relative time in minutes.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "commonHoursAgo": "{count, plural, =1{1 hour ago} other{{count} hours ago}}",
+  "@commonHoursAgo": {
+    "description": "Relative time in hours.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "commonDaysAgo": "{count, plural, =1{1 day ago} other{{count} days ago}}",
+  "@commonDaysAgo": {
+    "description": "Relative time in days.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "commonAdminOnly": "Only family admins can do this",
+  "@commonAdminOnly": {
+    "description": "Shown when a non-admin member tries an admin-only action."
+  },
+  "commonSaved": "Saved",
+  "@commonSaved": {
+    "description": "Snackbar after a successful save."
+  },
+  "commonDeleted": "Deleted",
+  "@commonDeleted": {
+    "description": "Snackbar after a successful delete."
+  },
+  "commonAreYouSure": "Are you sure?",
+  "@commonAreYouSure": {
+    "description": "Generic confirmation dialog title."
+  },
+  "commonMe": "Me",
+  "@commonMe": {
+    "description": "Refers to the signed-in member, e.g. in an assignee picker ('Me')."
+  },
+  "commonSearch": "Search",
+  "commonSend": "Send",
+  "commonSubmit": "Submit",
+  "commonContinue": "Continue",
+  "commonSkip": "Skip",
+  "commonUndo": "Undo",
+  "commonCreate": "Create",
+  "commonUpdate": "Update",
+  "commonView": "View",
+  "commonUnknown": "Unknown",
+  "@commonUnknown": {
+    "description": "Value that is not known (e.g. unknown member)."
+  },
+  "commonNotSet": "Not set",
+  "@commonNotSet": {
+    "description": "Profile / card field that has no value yet."
+  },
+  "commonShowPassword": "Show password",
+  "commonHidePassword": "Hide password",
+  "commonDiscard": "Discard",
+  "commonDiscardChangesTitle": "Discard changes?",
+  "commonDiscardChangesMessage": "Your unsaved changes will be lost.",
+  "commonTryAgainLater": "Please try again in a moment.",
+  "@commonTryAgainLater": {
+    "description": "Secondary line under a generic error."
+  },
+  "dashboardGreeting": "{period, select, morning{Good morning, {name}} afternoon{Good afternoon, {name}} evening{Good evening, {name}} other{Hello, {name}}}",
+  "@dashboardGreeting": {
+    "description": "Dashboard greeting with the member's first name. 'period' is the time of day: morning (5-12 h), afternoon (12-17 h), evening (17-22 h) or night (other). At night we greet with a neutral 'Hello' (in many languages 'Good night' means goodbye).",
+    "placeholders": {
+      "period": {
+        "type": "String",
+        "example": "morning"
+      },
+      "name": {
+        "type": "String",
+        "example": "Amit"
+      }
+    }
+  },
+  "dashboardGreetingNoName": "{period, select, morning{Good morning} afternoon{Good afternoon} evening{Good evening} other{Hello}}",
+  "@dashboardGreetingNoName": {
+    "description": "Dashboard greeting when the member's name is unknown. 'period' as in dashboardGreeting.",
+    "placeholders": {
+      "period": {
+        "type": "String",
+        "example": "evening"
+      }
+    }
+  },
+  "dashboardFamilyAndTitle": "{family} · {title}",
+  "@dashboardFamilyAndTitle": {
+    "description": "Line under the greeting: the family name and the member's designation (company-style title, e.g. 'Head of Family') or role.",
+    "placeholders": {
+      "family": {
+        "type": "String",
+        "example": "Sharma Family"
+      },
+      "title": {
+        "type": "String",
+        "example": "Head of Family"
+      }
+    }
+  },
+  "dashboardLoading": "Loading your family dashboard…",
+  "@dashboardLoading": {
+    "description": "Screen-reader label of the dashboard's loading placeholder."
+  },
+  "dashboardOfflineTitle": "Showing saved data",
+  "@dashboardOfflineTitle": {
+    "description": "Title of the notice shown when the dashboard is the copy saved on the phone (the server could not be reached)."
+  },
+  "dashboardOfflineUpdated": "Last updated {time}. Pull down to refresh.",
+  "@dashboardOfflineUpdated": {
+    "description": "Second line of the saved-data notice. 'time' is a relative time such as '5 minutes ago' or a date.",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "5 minutes ago"
+      }
+    }
+  },
+  "dashboardSosTitle": "Needs help now",
+  "@dashboardSosTitle": {
+    "description": "Section title above the active SOS alerts of the family (shown only while there are any)."
+  },
+  "dashboardQuickActionsTitle": "Quick actions",
+  "@dashboardQuickActionsTitle": {
+    "description": "Section title (screen readers) of the row of shortcut buttons."
+  },
+  "dashboardActionAddTask": "Add task",
+  "@dashboardActionAddTask": {
+    "description": "Quick action button: create a task."
+  },
+  "dashboardActionAddExpense": "Add expense",
+  "@dashboardActionAddExpense": {
+    "description": "Quick action button: record an expense in the family ledger."
+  },
+  "dashboardActionPostNotice": "Post notice",
+  "@dashboardActionPostNotice": {
+    "description": "Quick action button: post a notice on the family notice board."
+  },
+  "dashboardActionEmergencyCards": "Emergency cards",
+  "@dashboardActionEmergencyCards": {
+    "description": "Quick action button: open the family's emergency (medical) cards."
+  },
+  "dashboardGettingStartedTitle": "Get your family started",
+  "@dashboardGettingStartedTitle": {
+    "description": "Title of the checklist card shown to new families."
+  },
+  "dashboardGettingStartedMessage": "A few steps and everyone knows who does what.",
+  "@dashboardGettingStartedMessage": {
+    "description": "Subtitle of the getting-started checklist."
+  },
+  "dashboardStepAddMembers": "Add your family members",
+  "@dashboardStepAddMembers": {
+    "description": "Getting-started step: add family members (admins only)."
+  },
+  "dashboardStepFirstTask": "Create the first task",
+  "@dashboardStepFirstTask": {
+    "description": "Getting-started step: create a task."
+  },
+  "dashboardStepFirstGoal": "Set a savings goal",
+  "@dashboardStepFirstGoal": {
+    "description": "Getting-started step: create a savings goal (admins only)."
+  },
+  "dashboardStepFirstNotice": "Post the first notice",
+  "@dashboardStepFirstNotice": {
+    "description": "Getting-started step: post a notice on the notice board."
+  },
+  "dashboardStepDone": "{step} (done)",
+  "@dashboardStepDone": {
+    "description": "Screen-reader label of a completed getting-started step.",
+    "placeholders": {
+      "step": {
+        "type": "String",
+        "example": "Add your family members"
+      }
+    }
+  },
+  "dashboardMyTasksTitle": "My tasks",
+  "@dashboardMyTasksTitle": {
+    "description": "Section title: the signed-in member's pending tasks."
+  },
+  "dashboardMyTasksEmptyTitle": "You're all caught up",
+  "@dashboardMyTasksEmptyTitle": {
+    "description": "Shown when the member has no pending tasks."
+  },
+  "dashboardMyTasksEmptyMessage": "Nothing pending for you right now.",
+  "@dashboardMyTasksEmptyMessage": {
+    "description": "Second line when the member has no pending tasks."
+  },
+  "dashboardMyTasksMore": "{count, plural, =1{1 more pending task} other{{count} more pending tasks}}",
+  "@dashboardMyTasksMore": {
+    "description": "Link under the task preview when the member has more pending tasks than shown; opens the Tasks tab.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardFamilyBoardTitle": "Family board",
+  "@dashboardFamilyBoardTitle": {
+    "description": "Section title: every member with their task progress (like a team board)."
+  },
+  "dashboardMemberYou": "You",
+  "@dashboardMemberYou": {
+    "description": "Badge on the signed-in member's own card on the family board."
+  },
+  "dashboardMemberAllClear": "All clear",
+  "@dashboardMemberAllClear": {
+    "description": "Chip on a member's card when they have no pending tasks."
+  },
+  "dashboardMemberPending": "{count, plural, =1{1 pending} other{{count} pending}}",
+  "@dashboardMemberPending": {
+    "description": "Chip on a member's card: number of their pending tasks.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardMemberOverdue": "{count, plural, =1{1 overdue} other{{count} overdue}}",
+  "@dashboardMemberOverdue": {
+    "description": "Chip on a member's card: number of their overdue tasks.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardMemberDoneThisWeek": "{count, plural, =1{1 done this week} other{{count} done this week}}",
+  "@dashboardMemberDoneThisWeek": {
+    "description": "Chip on a member's card: tasks they completed since Monday.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardGoalsTitle": "Savings goals",
+  "@dashboardGoalsTitle": {
+    "description": "Section title: active family savings goals."
+  },
+  "dashboardGoalsEmptyTitle": "No active goals",
+  "@dashboardGoalsEmptyTitle": {
+    "description": "Shown when the family has no active savings goal."
+  },
+  "dashboardGoalsEmptyAdmin": "Save together for a holiday, a new phone or a rainy day.",
+  "@dashboardGoalsEmptyAdmin": {
+    "description": "Empty goals hint for admins (who can create goals)."
+  },
+  "dashboardGoalsEmptyMember": "When a family admin sets a savings goal, it shows up here.",
+  "@dashboardGoalsEmptyMember": {
+    "description": "Empty goals hint for members (who cannot create goals)."
+  },
+  "dashboardNewGoal": "New goal",
+  "@dashboardNewGoal": {
+    "description": "Button: create a savings goal."
+  },
+  "dashboardMonthTitle": "This month",
+  "@dashboardMonthTitle": {
+    "description": "Section title: income, expenses and balance of the current month."
+  },
+  "dashboardNoticesTitle": "Latest notices",
+  "@dashboardNoticesTitle": {
+    "description": "Section title: newest notices of the family notice board."
+  },
+  "dashboardNoticesEmptyTitle": "No notices yet",
+  "@dashboardNoticesEmptyTitle": {
+    "description": "Shown when the notice board is empty."
+  },
+  "dashboardNoticesEmptyMessage": "Share plans, news and reminders with everyone.",
+  "@dashboardNoticesEmptyMessage": {
+    "description": "Second line when the notice board is empty."
+  },
+  "dashboardHeroMyTasks": "Pending",
+  "@dashboardHeroMyTasks": {
+    "description": "Label under the number of the signed-in member's pending tasks in the colourful header card (short)."
+  },
+  "dashboardHeroMembers": "Members",
+  "@dashboardHeroMembers": {
+    "description": "Label under the number of family members in the colourful header card."
+  },
+  "dashboardHeroGoals": "Goals",
+  "@dashboardHeroGoals": {
+    "description": "Label under the number of active savings goals in the colourful header card."
+  },
+  "dashboardHeroAtLeast": "{count}+",
+  "@dashboardHeroAtLeast": {
+    "description": "Header stat value meaning 'this many or more' (the dashboard only receives the first few active goals). 'count' is an already formatted number.",
+    "placeholders": {
+      "count": {
+        "type": "String",
+        "example": "3"
+      }
+    }
+  },
+  "emergencyCardListTitle": "Emergency cards",
+  "@emergencyCardListTitle": {
+    "description": "Title of the screen that lists every family member's emergency card."
+  },
+  "emergencyCardListIntro": "Health details and contacts for each family member. Open a card to show it to a doctor or first responder.",
+  "@emergencyCardListIntro": {
+    "description": "Short explanation at the top of the emergency cards list."
+  },
+  "emergencyCardCallEmergencyNumber": "In danger? Call {number}",
+  "@emergencyCardCallEmergencyNumber": {
+    "description": "Button on the emergency cards list that dials the country's emergency number (e.g. 112). FamilyHub itself never contacts emergency services.",
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "112"
+      }
+    }
+  },
+  "emergencyCardTitle": "Emergency card",
+  "@emergencyCardTitle": {
+    "description": "Title of one member's emergency card screen."
+  },
+  "emergencyCardEditTitle": "Edit emergency card",
+  "@emergencyCardEditTitle": {
+    "description": "Title of the emergency card edit form."
+  },
+  "emergencyCardEditAction": "Edit card",
+  "@emergencyCardEditAction": {
+    "description": "Button / tooltip that opens the emergency card edit form."
+  },
+  "emergencyCardFillIn": "Fill in card",
+  "@emergencyCardFillIn": {
+    "description": "Button on an empty emergency card that opens the edit form."
+  },
+  "emergencyCardBloodGroup": "Blood group",
+  "@emergencyCardBloodGroup": {
+    "description": "Label of the blood group (e.g. A+, O-)."
+  },
+  "emergencyCardBloodGroupUnknown": "Unknown",
+  "@emergencyCardBloodGroupUnknown": {
+    "description": "Blood group option / label when the blood group is not known."
+  },
+  "emergencyCardBloodGroupSemantics": "Blood group {group}",
+  "@emergencyCardBloodGroupSemantics": {
+    "description": "Screen-reader label of the blood group badge.",
+    "placeholders": {
+      "group": {
+        "type": "String",
+        "example": "B+"
+      }
+    }
+  },
+  "emergencyCardAllergies": "Allergies",
+  "@emergencyCardAllergies": {
+    "description": "Section title: things the member is allergic to."
+  },
+  "emergencyCardMedications": "Medications",
+  "@emergencyCardMedications": {
+    "description": "Section title: medicines the member takes regularly."
+  },
+  "emergencyCardConditions": "Medical conditions",
+  "@emergencyCardConditions": {
+    "description": "Section title: long-term illnesses or conditions (e.g. asthma, diabetes)."
+  },
+  "emergencyCardAllergySemantics": "Allergy: {item}",
+  "@emergencyCardAllergySemantics": {
+    "description": "Screen-reader label of an allergy warning chip.",
+    "placeholders": {
+      "item": {
+        "type": "String",
+        "example": "Peanuts"
+      }
+    }
+  },
+  "emergencyCardDoctor": "Doctor",
+  "@emergencyCardDoctor": {
+    "description": "Section title: the member's regular doctor."
+  },
+  "emergencyCardDoctorName": "Doctor's name",
+  "@emergencyCardDoctorName": {
+    "description": "Form field label."
+  },
+  "emergencyCardDoctorPhone": "Doctor's phone",
+  "@emergencyCardDoctorPhone": {
+    "description": "Form field label."
+  },
+  "emergencyCardInsurance": "Health insurance",
+  "@emergencyCardInsurance": {
+    "description": "Section title: health insurance details."
+  },
+  "emergencyCardInsuranceProvider": "Insurance provider",
+  "@emergencyCardInsuranceProvider": {
+    "description": "Form field label: name of the health insurance company."
+  },
+  "emergencyCardPolicyNumber": "Policy number",
+  "@emergencyCardPolicyNumber": {
+    "description": "Form field label: health insurance policy number."
+  },
+  "emergencyCardCopyPolicyNumber": "Copy policy number",
+  "@emergencyCardCopyPolicyNumber": {
+    "description": "Tooltip of the button that copies the insurance policy number."
+  },
+  "emergencyCardPolicyNumberCopied": "Policy number copied",
+  "@emergencyCardPolicyNumberCopied": {
+    "description": "Snackbar after copying the policy number."
+  },
+  "emergencyCardContacts": "Emergency contacts",
+  "@emergencyCardContacts": {
+    "description": "Section title: people to call in an emergency."
+  },
+  "emergencyCardContactName": "Name",
+  "@emergencyCardContactName": {
+    "description": "Form field label: emergency contact's name."
+  },
+  "emergencyCardContactPhone": "Phone",
+  "@emergencyCardContactPhone": {
+    "description": "Form field label: emergency contact's phone number."
+  },
+  "emergencyCardContactRelation": "Relation",
+  "@emergencyCardContactRelation": {
+    "description": "Form field label: how the contact is related (e.g. uncle, neighbour)."
+  },
+  "emergencyCardContactRelationHint": "e.g. Uncle, Neighbour",
+  "@emergencyCardContactRelationHint": {
+    "description": "Hint of the relation field."
+  },
+  "emergencyCardContactNumber": "Contact {number}",
+  "@emergencyCardContactNumber": {
+    "description": "Heading of one emergency contact in the edit form.",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "emergencyCardAddContact": "Add contact",
+  "@emergencyCardAddContact": {
+    "description": "Button that adds another emergency contact to the form."
+  },
+  "emergencyCardRemoveContact": "Remove contact {number}",
+  "@emergencyCardRemoveContact": {
+    "description": "Tooltip / screen-reader label of the button that removes one emergency contact from the form.",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "emergencyCardContactsLimit": "You can add up to {max} contacts.",
+  "@emergencyCardContactsLimit": {
+    "description": "Shown when the maximum number of emergency contacts is reached.",
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "emergencyCardContactsNotice": "Let the people you add know that they are your emergency contacts.",
+  "@emergencyCardContactsNotice": {
+    "description": "Hint in the contacts section of the edit form (privacy: contacts are third parties)."
+  },
+  "emergencyCardNoPhone": "No phone number",
+  "@emergencyCardNoPhone": {
+    "description": "Shown for an emergency contact that has no phone number."
+  },
+  "emergencyCardCallPerson": "Call {name}",
+  "@emergencyCardCallPerson": {
+    "description": "Screen-reader label / tooltip of a call button.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Dr. Rao"
+      }
+    }
+  },
+  "emergencyCardCallFailed": "Couldn't start a call on this device. The number is {phone}.",
+  "@emergencyCardCallFailed": {
+    "description": "Snackbar when the phone app cannot be opened; shows the number so it can be dialled manually.",
+    "placeholders": {
+      "phone": {
+        "type": "String",
+        "example": "+919876543210"
+      }
+    }
+  },
+  "emergencyCardNotes": "Notes",
+  "@emergencyCardNotes": {
+    "description": "Section title / form field: free-text notes for responders."
+  },
+  "emergencyCardNotesHint": "Anything else a responder should know",
+  "@emergencyCardNotesHint": {
+    "description": "Hint of the notes field."
+  },
+  "emergencyCardNotRecorded": "Not recorded",
+  "@emergencyCardNotRecorded": {
+    "description": "Shown for a card section that has no entries (it may be unknown, not necessarily 'none')."
+  },
+  "emergencyCardLastUpdated": "Last updated {date}",
+  "@emergencyCardLastUpdated": {
+    "description": "When the card was last saved.",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "12 Sep 2026, 10:15"
+      }
+    }
+  },
+  "emergencyCardEmptyTitle": "No emergency details yet",
+  "@emergencyCardEmptyTitle": {
+    "description": "Shown on a card that was never filled in."
+  },
+  "emergencyCardEmptyMessage": "Add the blood group, allergies and emergency contacts so your family can help quickly.",
+  "@emergencyCardEmptyMessage": {
+    "description": "Shown on an empty card for someone who can edit it."
+  },
+  "emergencyCardEmptyReadOnly": "Only this member or a family admin can fill in this card.",
+  "@emergencyCardEmptyReadOnly": {
+    "description": "Shown on an empty card for someone who cannot edit it."
+  },
+  "emergencyCardNoEditPermission": "Only this member or a family admin can edit this card.",
+  "@emergencyCardNoEditPermission": {
+    "description": "Shown when opening the edit form without permission."
+  },
+  "emergencyCardShowToResponder": "Show to responder",
+  "@emergencyCardShowToResponder": {
+    "description": "Button that opens a full-screen, large-text version of the card to hand the phone to a doctor or paramedic."
+  },
+  "emergencyCardResponderHint": "Emergency medical information",
+  "@emergencyCardResponderHint": {
+    "description": "Heading of the full-screen responder view."
+  },
+  "emergencyCardResponderClose": "Close responder view",
+  "@emergencyCardResponderClose": {
+    "description": "Tooltip of the close button of the full-screen responder view."
+  },
+  "emergencyCardOfflineCopy": "Offline copy from {time}. It may be out of date.",
+  "@emergencyCardOfflineCopy": {
+    "description": "Hint when the card is shown from the copy saved on this phone because there is no connection.",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "2 hours ago"
+      }
+    }
+  },
+  "emergencyCardOfflineCopyShort": "Offline copy",
+  "@emergencyCardOfflineCopyShort": {
+    "description": "Short badge for a card shown from the copy saved on this phone."
+  },
+  "emergencyCardOfflineEditWarning": "You're editing an offline copy. Saving needs an internet connection.",
+  "@emergencyCardOfflineEditWarning": {
+    "description": "Warning at the top of the edit form when the card was loaded from the offline copy."
+  },
+  "emergencyCardCompleteness": "{filled} of {total} key details",
+  "@emergencyCardCompleteness": {
+    "description": "Completeness of a card in the list (key details: blood group, contact, doctor, insurance).",
+    "placeholders": {
+      "filled": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "emergencyCardComplete": "All key details added",
+  "@emergencyCardComplete": {
+    "description": "Completeness label of a fully filled-in card."
+  },
+  "emergencyCardNotStarted": "Not filled in yet",
+  "@emergencyCardNotStarted": {
+    "description": "Completeness label of a card that was never saved."
+  },
+  "emergencyCardMissing": "Missing: {sections}",
+  "@emergencyCardMissing": {
+    "description": "Lists the key details that are still missing, e.g. 'Missing: Doctor, Health insurance'.",
+    "placeholders": {
+      "sections": {
+        "type": "String",
+        "example": "Doctor, Health insurance"
+      }
+    }
+  },
+  "emergencyCardLoadFailed": "Couldn't load this card",
+  "@emergencyCardLoadFailed": {
+    "description": "Shown in the list when one member's card could not be loaded."
+  },
+  "emergencyCardSectionContacts": "Emergency contact",
+  "@emergencyCardSectionContacts": {
+    "description": "Name of the 'emergency contact' key detail in the 'Missing: …' list."
+  },
+  "emergencyCardDisclaimer": "This card is for emergencies and is not medical advice. Keep it up to date and confirm details with a doctor.",
+  "@emergencyCardDisclaimer": {
+    "description": "Health-data disclaimer shown on the edit form and the card."
+  },
+  "emergencyCardPrivacyNote": "Everyone in your family can see this card. Health details are stored encrypted.",
+  "@emergencyCardPrivacyNote": {
+    "description": "Privacy note on the edit form."
+  },
+  "emergencyCardFixErrors": "Please check the highlighted fields.",
+  "@emergencyCardFixErrors": {
+    "description": "Snackbar when the edit form has invalid fields."
+  },
+  "emergencyCardSaved": "Emergency card saved",
+  "@emergencyCardSaved": {
+    "description": "Snackbar after saving the card."
+  },
+  "emergencyCardAllergyLabel": "Add an allergy",
+  "@emergencyCardAllergyLabel": {
+    "description": "Label of the input that adds an allergy."
+  },
+  "emergencyCardAllergyHint": "e.g. Peanuts, Penicillin",
+  "@emergencyCardAllergyHint": {
+    "description": "Hint of the allergy input."
+  },
+  "emergencyCardMedicationLabel": "Add a medication",
+  "@emergencyCardMedicationLabel": {
+    "description": "Label of the input that adds a medication."
+  },
+  "emergencyCardMedicationHint": "e.g. Metformin 500 mg twice a day",
+  "@emergencyCardMedicationHint": {
+    "description": "Hint of the medication input."
+  },
+  "emergencyCardConditionLabel": "Add a condition",
+  "@emergencyCardConditionLabel": {
+    "description": "Label of the input that adds a medical condition."
+  },
+  "emergencyCardConditionHint": "e.g. Asthma, Type 2 diabetes",
+  "@emergencyCardConditionHint": {
+    "description": "Hint of the medical condition input."
+  },
+  "emergencyCardAddItem": "Add {item}",
+  "@emergencyCardAddItem": {
+    "description": "Tooltip / screen-reader label of the button next to a list input that adds the typed entry.",
+    "placeholders": {
+      "item": {
+        "type": "String",
+        "example": "Peanuts"
+      }
+    }
+  },
+  "emergencyCardRemoveItem": "Remove {item}",
+  "@emergencyCardRemoveItem": {
+    "description": "Tooltip / screen-reader label of the delete button on a list entry chip.",
+    "placeholders": {
+      "item": {
+        "type": "String",
+        "example": "Peanuts"
+      }
+    }
+  },
+  "emergencyCardItemCount": "{count} of {max}",
+  "@emergencyCardItemCount": {
+    "description": "Counter under a list input, e.g. '3 of 20'.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "emergencyCardListFull": "You can add up to {max} entries.",
+  "@emergencyCardListFull": {
+    "description": "Shown when a list (allergies, medications, conditions) is full.",
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "emergencyCardDuplicateItem": "Already in the list",
+  "@emergencyCardDuplicateItem": {
+    "description": "Shown when the typed entry is already in the list."
+  },
+  "emergencyCardNotFoundTitle": "This card is not available",
+  "@emergencyCardNotFoundTitle": {
+    "description": "Title shown instead of an emergency card when the member no longer exists (removed from the family) or the link is wrong."
+  },
+  "emergencyCardNotFoundMessage": "The member may have been removed from your family, or the link is out of date.",
+  "@emergencyCardNotFoundMessage": {
+    "description": "Explanation below emergencyCardNotFoundTitle."
+  },
+  "emergencyCardBackToList": "All emergency cards",
+  "@emergencyCardBackToList": {
+    "description": "Button that opens the list of every family member's emergency card."
+  },
+  "emergencyCardChangedWhileEditing": "This card was updated while you were editing. Saving replaces that version with yours.",
+  "@emergencyCardChangedWhileEditing": {
+    "description": "Warning in the edit form when someone else saved the same card after the form was opened."
+  },
+  "emergencyCardListSeparator": ", ",
+  "@emergencyCardListSeparator": {
+    "description": "Separator placed between the items of a short inline list, e.g. 'Missing: Doctor, Health insurance'. Use the language's list separator (Arabic: '، '). Keep any trailing space."
+  },
+  "emergencyCardPersonWithRelation": "{name} · {relation}",
+  "@emergencyCardPersonWithRelation": {
+    "description": "An emergency contact with their relation in the responder view, e.g. 'Ravi · Uncle'.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Ravi"
+      },
+      "relation": {
+        "type": "String",
+        "example": "Uncle"
+      }
+    }
+  },
+  "emergencyCardStatMembers": "Family members",
+  "@emergencyCardStatMembers": {
+    "description": "Label under a count in the emergency cards header, e.g. '4 Family members'."
+  },
+  "emergencyCardStatComplete": "Cards complete",
+  "@emergencyCardStatComplete": {
+    "description": "Label under a count in the emergency cards header: how many cards have every key detail, e.g. '2 Cards complete'."
+  },
+  "errorNetwork": "No internet connection. Check your connection and try again.",
+  "@errorNetwork": {
+    "description": "Request failed because the device is offline or the server is unreachable."
+  },
+  "errorTimeout": "The server is taking too long to respond. Please try again.",
+  "@errorTimeout": {
+    "description": "Request timed out."
+  },
+  "errorUnknown": "Something went wrong. Please try again.",
+  "@errorUnknown": {
+    "description": "Fallback for any unexpected error."
+  },
+  "errorServer": "Our server ran into a problem. Please try again in a moment.",
+  "@errorServer": {
+    "description": "HTTP 5xx / INTERNAL_ERROR."
+  },
+  "errorUnauthorized": "Please sign in to continue.",
+  "@errorUnauthorized": {
+    "description": "UNAUTHORIZED: missing or invalid access token."
+  },
+  "errorSessionExpired": "Your session has expired. Please sign in again.",
+  "@errorSessionExpired": {
+    "description": "Token refresh failed; the user was signed out."
+  },
+  "errorForbidden": "You don't have permission to do that.",
+  "@errorForbidden": {
+    "description": "FORBIDDEN: e.g. a non-admin tried an admin-only action."
+  },
+  "errorNotFound": "We couldn't find that. It may have been deleted.",
+  "@errorNotFound": {
+    "description": "NOT_FOUND: resource missing or belongs to another family."
+  },
+  "errorValidation": "Some details are missing or invalid. Please check and try again.",
+  "@errorValidation": {
+    "description": "VALIDATION_ERROR returned by the server."
+  },
+  "errorInvalidCredentials": "Incorrect email or password.",
+  "@errorInvalidCredentials": {
+    "description": "INVALID_CREDENTIALS on login / password confirmation. Never say which one is wrong."
+  },
+  "errorEmailTaken": "An account with this email already exists. Try signing in instead.",
+  "@errorEmailTaken": {
+    "description": "EMAIL_TAKEN on registration."
+  },
+  "errorInvalidOtp": "That code is incorrect. Please check and try again.",
+  "@errorInvalidOtp": {
+    "description": "INVALID_OTP: wrong 6-digit verification code."
+  },
+  "errorOtpExpired": "This code has expired or was tried too many times. Request a new one.",
+  "@errorOtpExpired": {
+    "description": "OTP_EXPIRED: code expired or too many attempts."
+  },
+  "errorInvalidInviteCode": "This invite code isn't valid. Ask your family admin for the current code.",
+  "@errorInvalidInviteCode": {
+    "description": "INVALID_INVITE_CODE when joining a family."
+  },
+  "errorAlreadyInFamily": "You're already a member of a family.",
+  "@errorAlreadyInFamily": {
+    "description": "ALREADY_IN_FAMILY when creating or joining a family."
+  },
+  "errorNoFamily": "You're not part of a family yet. Create one or join with an invite code.",
+  "@errorNoFamily": {
+    "description": "NO_FAMILY: the user has no family (removed or never joined)."
+  },
+  "errorMemberEmailExists": "A family member with this email already exists.",
+  "@errorMemberEmailExists": {
+    "description": "MEMBER_EMAIL_EXISTS when adding a member."
+  },
+  "errorLastAdmin": "Your family needs at least one admin. Make someone else an admin first.",
+  "@errorLastAdmin": {
+    "description": "LAST_ADMIN: action would leave the family without an admin."
+  },
+  "errorSosNotActive": "This SOS alert has already ended.",
+  "@errorSosNotActive": {
+    "description": "SOS_NOT_ACTIVE: the alert is resolved or expired."
+  },
+  "errorGuardianConsentRequired": "A parent or guardian must give consent to add a member of this age.",
+  "@errorGuardianConsentRequired": {
+    "description": "GUARDIAN_CONSENT_REQUIRED when adding a minor without consent."
+  },
+  "errorTooManyRequests": "{seconds, plural, =0{Too many attempts. Please wait a moment and try again.} =1{Too many attempts. Please try again in 1 second.} other{Too many attempts. Please try again in {seconds} seconds.}}",
+  "@errorTooManyRequests": {
+    "description": "TOO_MANY_REQUESTS (rate limit, login lockout, OTP resend cooldown). seconds = details.retryAfterSeconds, 0 when unknown.",
+    "placeholders": {
+      "seconds": {
+        "type": "int",
+        "example": "60"
+      }
+    }
+  },
+  "errorLocationSharingDisabled": "Location sharing is turned off. Change it in Settings > Location to share your location.",
+  "@errorLocationSharingDisabled": {
+    "description": "LOCATION_SHARING_DISABLED: the member's sharing mode forbids this update."
+  },
+  "errorBadRequest": "The request couldn't be processed. Please try again.",
+  "@errorBadRequest": {
+    "description": "BAD_REQUEST: malformed request or invalid id."
+  },
+  "familyMembersTitle": "Family members",
+  "@familyMembersTitle": {
+    "description": "Title of the screen that lists everyone in the family."
+  },
+  "familyMembersCount": "{count, plural, =0{No members} =1{1 member} other{{count} members}}",
+  "@familyMembersCount": {
+    "description": "Number of people in the family, e.g. above the member list or in family settings.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "familyAddMember": "Add member",
+  "@familyAddMember": {
+    "description": "Button / screen title to add a person to the family (verb)."
+  },
+  "familyMembersEmptyTitle": "No members yet",
+  "@familyMembersEmptyTitle": {
+    "description": "Empty state title of the member list."
+  },
+  "familyMembersEmptyMessage": "Add the people in your family, including children and elders who don't use a phone.",
+  "@familyMembersEmptyMessage": {
+    "description": "Empty state message of the member list."
+  },
+  "familyYouBadge": "You",
+  "@familyYouBadge": {
+    "description": "Small badge next to the signed-in person in member lists."
+  },
+  "familyNoAccountBadge": "No account",
+  "@familyNoAccountBadge": {
+    "description": "Badge for a member who has no app account (managed by an admin)."
+  },
+  "familyInvitedBadge": "Invited",
+  "@familyInvitedBadge": {
+    "description": "Badge for a member who was invited by email but has not joined yet."
+  },
+  "familyAgeGroupWithAge": "{group} · {age}",
+  "@familyAgeGroupWithAge": {
+    "description": "Age badge: age group label and age, e.g. 'Child · 10 years'.",
+    "placeholders": {
+      "group": {
+        "type": "String",
+        "example": "Child"
+      },
+      "age": {
+        "type": "String",
+        "example": "10 years"
+      }
+    }
+  },
+  "familySettingsTooltip": "Family settings",
+  "@familySettingsTooltip": {
+    "description": "Tooltip of the icon button that opens the family settings."
+  },
+  "familyOpenMemberHint": "Open details",
+  "@familyOpenMemberHint": {
+    "description": "Screen-reader hint on a member row that opens the member's details."
+  },
+  "familyEmailAction": "Email",
+  "@familyEmailAction": {
+    "description": "Button that opens the email app to write to the member (verb)."
+  },
+  "familyCannotOpenPhone": "Couldn't open the phone app.",
+  "@familyCannotOpenPhone": {
+    "description": "Error when the dialer can't be opened."
+  },
+  "familyCannotOpenEmail": "Couldn't open an email app.",
+  "@familyCannotOpenEmail": {
+    "description": "Error when no email app can be opened."
+  },
+  "familyCannotOpenMap": "Couldn't open the map.",
+  "@familyCannotOpenMap": {
+    "description": "Error when no maps app / browser can be opened."
+  },
+  "familyDetailsSection": "Details",
+  "@familyDetailsSection": {
+    "description": "Section title for the member's information rows."
+  },
+  "familyActionsSection": "Actions",
+  "@familyActionsSection": {
+    "description": "Section title for the buttons at the end of the member screen."
+  },
+  "familyInfoAge": "Age",
+  "@familyInfoAge": {
+    "description": "Label of the age row."
+  },
+  "familyInfoDateOfBirth": "Date of birth",
+  "@familyInfoDateOfBirth": {
+    "description": "Label of the date-of-birth row / field."
+  },
+  "familyInfoGender": "Gender",
+  "@familyInfoGender": {
+    "description": "Label of the gender row / field."
+  },
+  "familyInfoRole": "Role",
+  "@familyInfoRole": {
+    "description": "Label of the role (admin / member) row / field."
+  },
+  "familyInfoDesignation": "Designation",
+  "@familyInfoDesignation": {
+    "description": "Label of the member's family title, like a job title in a company (e.g. 'Finance Head')."
+  },
+  "familyInfoPhone": "Phone",
+  "@familyInfoPhone": {
+    "description": "Label of the phone number row."
+  },
+  "familyInfoEmail": "Email",
+  "@familyInfoEmail": {
+    "description": "Label of the email address row."
+  },
+  "familyInfoLocationSharing": "Location sharing",
+  "@familyInfoLocationSharing": {
+    "description": "Label of the row showing the member's location sharing mode."
+  },
+  "familyInfoAccount": "Account",
+  "@familyInfoAccount": {
+    "description": "Label of the row showing whether the member has an app account."
+  },
+  "familyInfoGuardianConsent": "Guardian consent",
+  "@familyInfoGuardianConsent": {
+    "description": "Label of the row showing whether a parent / guardian consented for a minor."
+  },
+  "familyInfoLastLocation": "Last known location",
+  "@familyInfoLastLocation": {
+    "description": "Label of the row with the member's last shared location."
+  },
+  "familyLastLocationUpdated": "Updated {time}",
+  "@familyLastLocationUpdated": {
+    "description": "When the last location was recorded, e.g. 'Updated 12 minutes ago'.",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "12 minutes ago"
+      }
+    }
+  },
+  "familyAccountActive": "Has their own account",
+  "@familyAccountActive": {
+    "description": "Account status: the member can sign in to the app."
+  },
+  "familyAccountInvited": "Invited by email, hasn't joined yet",
+  "@familyAccountInvited": {
+    "description": "Account status: invited but no account yet."
+  },
+  "familyAccountManaged": "Managed profile, no account",
+  "@familyAccountManaged": {
+    "description": "Account status: profile managed by admins (e.g. a young child) without an app account."
+  },
+  "familyGuardianConsentGiven": "Given",
+  "@familyGuardianConsentGiven": {
+    "description": "Guardian consent status: consent was recorded."
+  },
+  "familyGuardianConsentMissing": "Not recorded",
+  "@familyGuardianConsentMissing": {
+    "description": "Guardian consent status: no consent recorded yet."
+  },
+  "familyOpenMap": "Open map",
+  "@familyOpenMap": {
+    "description": "Button that opens the member's last location in a maps app (verb)."
+  },
+  "familyChangeAction": "Change",
+  "@familyChangeAction": {
+    "description": "Button that opens the screen to change a setting (verb)."
+  },
+  "familyEmergencyCard": "Emergency card",
+  "@familyEmergencyCard": {
+    "description": "Button that opens the member's medical emergency card."
+  },
+  "familyAssignTask": "Assign a task",
+  "@familyAssignTask": {
+    "description": "Button that creates a task for this member (verb)."
+  },
+  "familyEditDetails": "Edit details",
+  "@familyEditDetails": {
+    "description": "Button that opens the edit form of a member (verb)."
+  },
+  "familyRemoveMember": "Remove from family",
+  "@familyRemoveMember": {
+    "description": "Destructive button that removes a member from the family (verb)."
+  },
+  "familyRemoveConfirmTitle": "Remove {name}?",
+  "@familyRemoveConfirmTitle": {
+    "description": "Title of the confirmation dialog before removing a member.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "familyRemoveConfirmMessage": "{name} will lose access to the family. Their open tasks and emergency card will be deleted and any active SOS alert will be closed. Money entries stay in the ledger.",
+  "@familyRemoveConfirmMessage": {
+    "description": "Body of the confirmation dialog before removing a member.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "familyMemberRemoved": "{name} was removed from the family",
+  "@familyMemberRemoved": {
+    "description": "Snackbar after removing a member.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "familyEditMemberTitle": "Edit member",
+  "@familyEditMemberTitle": {
+    "description": "Title of the form that edits another member."
+  },
+  "familyEditMyDetailsTitle": "Edit my details",
+  "@familyEditMyDetailsTitle": {
+    "description": "Title of the form when a member edits their own details."
+  },
+  "familyPhotoLabel": "Photo",
+  "@familyPhotoLabel": {
+    "description": "Label of the profile photo picker."
+  },
+  "familyNameLabel": "Name",
+  "@familyNameLabel": {
+    "description": "Label of the member name field."
+  },
+  "familyEmailLabel": "Email (optional)",
+  "@familyEmailLabel": {
+    "description": "Label of the optional member email field."
+  },
+  "familyEmailInviteHint": "We'll email them an invitation with your family code so they can join with their own account.",
+  "@familyEmailInviteHint": {
+    "description": "Helper text under the email field when adding a member."
+  },
+  "familyEmailManagedHint": "Add an email so they can join with their own account.",
+  "@familyEmailManagedHint": {
+    "description": "Helper text under the email field when editing a member without an account."
+  },
+  "familyEmailLinkedHint": "This is the email of their account.",
+  "@familyEmailLinkedHint": {
+    "description": "Helper text under the read-only email field of a member who has an account."
+  },
+  "familyEmailLinkedSelfHint": "This is the email of your account.",
+  "@familyEmailLinkedSelfHint": {
+    "description": "Helper text under the read-only email field when an admin edits their own details."
+  },
+  "familyNoEmailHint": "Leave empty for children or elders who won't use the app.",
+  "@familyNoEmailHint": {
+    "description": "Second helper line under the optional email field."
+  },
+  "familyPhoneLabel": "Phone (optional)",
+  "@familyPhoneLabel": {
+    "description": "Label of the optional phone number field."
+  },
+  "familyPhoneHint": "Include the country code, e.g. {dialCode}",
+  "@familyPhoneHint": {
+    "description": "Helper text under the phone field.",
+    "placeholders": {
+      "dialCode": {
+        "type": "String",
+        "example": "+91"
+      }
+    }
+  },
+  "familyDesignationHint": "Their title in the family, e.g. Finance Head",
+  "@familyDesignationHint": {
+    "description": "Helper text of the designation field."
+  },
+  "familyDesignationSuggestions": "Suggestions",
+  "@familyDesignationSuggestions": {
+    "description": "Label above the suggested designation chips."
+  },
+  "familyRoleChangeSelfNote": "You can't change your own role. Ask another admin.",
+  "@familyRoleChangeSelfNote": {
+    "description": "Shown instead of the role picker when an admin edits themselves."
+  },
+  "familyGuardianConsentTitle": "Guardian consent",
+  "@familyGuardianConsentTitle": {
+    "description": "Title of the consent section shown for minors."
+  },
+  "familyGuardianConsentLaw": "Under {law}, a parent or guardian must agree before we store details of anyone under {age}.",
+  "@familyGuardianConsentLaw": {
+    "description": "Explains why consent is needed. law = name of the country's privacy law (not translated), age = consent age.",
+    "placeholders": {
+      "law": {
+        "type": "String",
+        "example": "Digital Personal Data Protection Act, 2023"
+      },
+      "age": {
+        "type": "int",
+        "example": "18"
+      }
+    }
+  },
+  "familyGuardianConsentCheckbox": "I am this member's parent or legal guardian and I agree that FamilyHub may store and use their details for our family.",
+  "@familyGuardianConsentCheckbox": {
+    "description": "Label of the mandatory guardian-consent checkbox."
+  },
+  "familyGuardianConsentRequired": "Please confirm guardian consent to continue.",
+  "@familyGuardianConsentRequired": {
+    "description": "Validation error when the consent checkbox is not ticked."
+  },
+  "familyMemberAdded": "{name} was added to the family",
+  "@familyMemberAdded": {
+    "description": "Snackbar after adding a member without email.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Anaya"
+      }
+    }
+  },
+  "familyMemberAddedInvited": "{name} was added. We sent an invitation to {email}.",
+  "@familyMemberAddedInvited": {
+    "description": "Snackbar after adding a member with an email address.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      },
+      "email": {
+        "type": "String",
+        "example": "aarav@example.com"
+      }
+    }
+  },
+  "familyPhotoNotSaved": "{name} was added, but the photo couldn't be saved. You can add it by editing their details.",
+  "@familyPhotoNotSaved": {
+    "description": "Info after adding a member when uploading the photo failed.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Anaya"
+      }
+    }
+  },
+  "familyCannotEditTitle": "You can't edit this member",
+  "@familyCannotEditTitle": {
+    "description": "Shown when a member opens the edit form of someone else."
+  },
+  "familyCannotEditMessage": "Only family admins can change other members' details.",
+  "@familyCannotEditMessage": {
+    "description": "Explanation under familyCannotEditTitle."
+  },
+  "familyDesignationHeadOfFamily": "Head of Family",
+  "@familyDesignationHeadOfFamily": {
+    "description": "Suggested family title, like a company CEO."
+  },
+  "familyDesignationFinanceHead": "Finance Head (CFO)",
+  "@familyDesignationFinanceHead": {
+    "description": "Suggested family title for the person managing money."
+  },
+  "familyDesignationOperationsHead": "Operations Head (COO)",
+  "@familyDesignationOperationsHead": {
+    "description": "Suggested family title for the person running the household."
+  },
+  "familyDesignationHealthOfficer": "Chief Health Officer",
+  "@familyDesignationHealthOfficer": {
+    "description": "Suggested family title for the person looking after health and medicines."
+  },
+  "familyDesignationTechHead": "Tech Head (CTO)",
+  "@familyDesignationTechHead": {
+    "description": "Suggested family title for the person handling phones, internet and gadgets."
+  },
+  "familyDesignationChiefStudyOfficer": "Chief Study Officer",
+  "@familyDesignationChiefStudyOfficer": {
+    "description": "Playful family title for a school or college student."
+  },
+  "familyDesignationSkillBuilder": "Skill Builder",
+  "@familyDesignationSkillBuilder": {
+    "description": "Playful family title for a child or teen learning new skills."
+  },
+  "familyDesignationChiefFunOfficer": "Chief Fun Officer",
+  "@familyDesignationChiefFunOfficer": {
+    "description": "Playful family title for a young child."
+  },
+  "familyDesignationJuniorExplorer": "Junior Explorer",
+  "@familyDesignationJuniorExplorer": {
+    "description": "Playful family title for a young child."
+  },
+  "familyDesignationFamilyAdvisor": "Family Advisor",
+  "@familyDesignationFamilyAdvisor": {
+    "description": "Respectful family title for an elder (grandparent)."
+  },
+  "familyDesignationChiefMentor": "Chief Mentor",
+  "@familyDesignationChiefMentor": {
+    "description": "Respectful family title for an elder who guides the family."
+  },
+  "familySettingsTitle": "Family settings",
+  "@familySettingsTitle": {
+    "description": "Title of the family settings screen."
+  },
+  "familyNameFieldLabel": "Family name",
+  "@familyNameFieldLabel": {
+    "description": "Label of the family name field, e.g. 'Sharma Family'."
+  },
+  "familyCountryLabel": "Country",
+  "@familyCountryLabel": {
+    "description": "Label of the country picker."
+  },
+  "familyCountryDetails": "Emergency number {number} · Guardian consent under {age}",
+  "@familyCountryDetails": {
+    "description": "Helper under the country field: what the country changes.",
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "112"
+      },
+      "age": {
+        "type": "int",
+        "example": "18"
+      }
+    }
+  },
+  "familyCurrencyLabel": "Currency",
+  "@familyCurrencyLabel": {
+    "description": "Label of the family currency picker."
+  },
+  "familyTimezoneLabel": "Time zone",
+  "@familyTimezoneLabel": {
+    "description": "Label of the family time zone picker."
+  },
+  "familyTimezoneHint": "Used for due dates, \"today\" and monthly money summaries.",
+  "@familyTimezoneHint": {
+    "description": "Helper text under the time zone picker."
+  },
+  "familySettingsSaved": "Family settings saved",
+  "@familySettingsSaved": {
+    "description": "Snackbar after saving the family settings."
+  },
+  "familySettingsReadOnly": "Only family admins can change these settings.",
+  "@familySettingsReadOnly": {
+    "description": "Note shown to members who can only view the family settings."
+  },
+  "familyNotFoundTitle": "No family yet",
+  "@familyNotFoundTitle": {
+    "description": "Shown on family screens when the user is not in a family."
+  },
+  "familyInviteCodeTitle": "Invite code",
+  "@familyInviteCodeTitle": {
+    "description": "Title of the card with the code people use to join the family."
+  },
+  "familyInviteCodeMessage": "Share this code with your family. They enter it in the app to join.",
+  "@familyInviteCodeMessage": {
+    "description": "Explanation on the invite code card."
+  },
+  "familyInviteCodeSemantics": "Invite code: {code}",
+  "@familyInviteCodeSemantics": {
+    "description": "Screen-reader label of the invite code; code is spelled out character by character.",
+    "placeholders": {
+      "code": {
+        "type": "String",
+        "example": "K 7 Q 2 M 9 X D"
+      }
+    }
+  },
+  "familyCopyInviteCode": "Copy code",
+  "@familyCopyInviteCode": {
+    "description": "Button that copies the invite code (verb)."
+  },
+  "familyInviteCodeCopied": "Invite code copied",
+  "@familyInviteCodeCopied": {
+    "description": "Snackbar after copying the invite code."
+  },
+  "familyNewInviteCode": "New code",
+  "@familyNewInviteCode": {
+    "description": "Button that replaces the invite code with a new one (verb)."
+  },
+  "familyNewInviteCodeConfirmTitle": "Create a new invite code?",
+  "@familyNewInviteCodeConfirmTitle": {
+    "description": "Title of the dialog before regenerating the invite code."
+  },
+  "familyNewInviteCodeConfirmMessage": "The current code stops working right away. Anyone who hasn't joined yet will need the new code.",
+  "@familyNewInviteCodeConfirmMessage": {
+    "description": "Body of the dialog before regenerating the invite code."
+  },
+  "familyNewInviteCodeConfirm": "Create new code",
+  "@familyNewInviteCodeConfirm": {
+    "description": "Confirm button of the regenerate dialog."
+  },
+  "familyNewInviteCodeCreated": "New invite code created",
+  "@familyNewInviteCodeCreated": {
+    "description": "Snackbar after regenerating the invite code."
+  },
+  "familyInviteCodeAdminOnly": "Ask a family admin for the invite code.",
+  "@familyInviteCodeAdminOnly": {
+    "description": "Shown to members instead of the invite code (only admins can see it)."
+  },
+  "familyViewMembers": "View members",
+  "@familyViewMembers": {
+    "description": "Button that opens the member list (verb)."
+  },
+  "familyMemberGoneTitle": "This person is no longer in the family",
+  "@familyMemberGoneTitle": {
+    "description": "Title shown instead of a member's details when the member was removed from the family (or the link is wrong), e.g. after opening an old notification."
+  },
+  "familyMemberGoneMessage": "A family admin may have removed them.",
+  "@familyMemberGoneMessage": {
+    "description": "Explanation under familyMemberGoneTitle."
+  },
+  "familyMemberAlreadyRemoved": "{name} had already been removed from the family",
+  "@familyMemberAlreadyRemoved": {
+    "description": "Snackbar when an admin removes a member that another admin removed a moment earlier.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "familyDuplicateNameTitle": "{name} is already in the family",
+  "@familyDuplicateNameTitle": {
+    "description": "Title of the dialog asking before adding a second member with exactly the same name.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "familyDuplicateNameMessage": "Add another member with the same name? If an earlier try looked like it failed, check the member list first.",
+  "@familyDuplicateNameMessage": {
+    "description": "Message of the duplicate-name dialog. The earlier try may have succeeded even though the connection dropped."
+  },
+  "familyDuplicateNameConfirm": "Add anyway",
+  "@familyDuplicateNameConfirm": {
+    "description": "Confirm button of the duplicate-name dialog."
+  },
+  "familyStatAdmins": "Admins",
+  "@familyStatAdmins": {
+    "description": "Label of the header statistic with the number of family admins (short, shown under a number)."
+  },
+  "familyStatAppUsers": "On the app",
+  "@familyStatAppUsers": {
+    "description": "Label of the header statistic with the number of members who have their own account (short, shown under a number)."
+  },
+  "familyStatKids": "Kids & teens",
+  "@familyStatKids": {
+    "description": "Label of the header statistic with the number of members under 18 (short, shown under a number)."
+  },
+  "familyContactSection": "Contact",
+  "@familyContactSection": {
+    "description": "Section title above a member's phone number and email."
+  },
+  "familyLocationSection": "Location",
+  "@familyLocationSection": {
+    "description": "Section title above a member's location sharing setting and last known location."
+  },
+  "familyRoleSection": "Role in the family",
+  "@familyRoleSection": {
+    "description": "Section title of the member form above the designation and the admin/member role."
+  },
+  "familyProfileSection": "Family profile",
+  "@familyProfileSection": {
+    "description": "Section title of the family settings above the family name, country, currency and time zone."
+  },
+  "navHome": "Home",
+  "@navHome": {
+    "description": "Bottom navigation tab: family dashboard."
+  },
+  "navTasks": "Tasks",
+  "@navTasks": {
+    "description": "Bottom navigation tab: task board."
+  },
+  "navSos": "SOS",
+  "@navSos": {
+    "description": "Bottom navigation tab: emergency alert. Keep it very short; 'SOS' is understood in most languages."
+  },
+  "navSosTooltip": "SOS - alert your family",
+  "@navSosTooltip": {
+    "description": "Tooltip / screen-reader label of the SOS tab."
+  },
+  "navMoney": "Money",
+  "@navMoney": {
+    "description": "Bottom navigation tab: family ledger and savings goals."
+  },
+  "navMore": "More",
+  "@navMore": {
+    "description": "Bottom navigation tab: family, notices, emergency cards and settings."
+  },
+  "homeSplashLoading": "Getting your family ready…",
+  "@homeSplashLoading": {
+    "description": "Shown on the splash screen while the saved session is restored."
+  },
+  "homeRouteNotFoundTitle": "Page not found",
+  "@homeRouteNotFoundTitle": {
+    "description": "Title of the screen shown for an unknown or outdated link."
+  },
+  "homeRouteNotFoundMessage": "This link doesn't exist or is no longer available.",
+  "homeGoHome": "Go to home",
+  "@homeGoHome": {
+    "description": "Button on the 'page not found' screen."
+  },
+  "homePlaceholderTitle": "Coming soon",
+  "@homePlaceholderTitle": {
+    "description": "Temporary: title on a screen whose feature is not built yet."
+  },
+  "homePlaceholderMessage": "This part of FamilyHub is still being built.",
+  "@homePlaceholderMessage": {
+    "description": "Temporary: message on a screen whose feature is not built yet."
+  },
+  "homePlaceholderDemoSignIn": "Try the demo family",
+  "@homePlaceholderDemoSignIn": {
+    "description": "Temporary (demo mode only): button that signs in with the built-in demo account."
+  },
+  "homePlaceholderSignOut": "Sign out",
+  "@homePlaceholderSignOut": {
+    "description": "Temporary: sign-out button on a screen whose feature is not built yet."
+  },
+  "ledgerTitle": "Money",
+  "@ledgerTitle": {
+    "description": "App bar title of the Money tab (family ledger and savings goals)."
+  },
+  "ledgerRecordsOnlyNote": "Records only – no real money is moved.",
+  "@ledgerRecordsOnlyNote": {
+    "description": "Compliance caption on money screens: the app only records amounts, it never pays or transfers money."
+  },
+  "ledgerTypeIncome": "Income",
+  "@ledgerTypeIncome": {
+    "description": "Ledger entry type: money coming in."
+  },
+  "ledgerTypeExpense": "Expense",
+  "@ledgerTypeExpense": {
+    "description": "Ledger entry type: money going out."
+  },
+  "ledgerAddIncome": "Add income",
+  "@ledgerAddIncome": {
+    "description": "Action that opens the form to record income."
+  },
+  "ledgerAddExpense": "Add expense",
+  "@ledgerAddExpense": {
+    "description": "Action that opens the form to record an expense."
+  },
+  "ledgerAddEntry": "Add entry",
+  "@ledgerAddEntry": {
+    "description": "Floating button on money screens; opens a choice between income and expense."
+  },
+  "ledgerAddEntryChooseType": "What would you like to record?",
+  "@ledgerAddEntryChooseType": {
+    "description": "Title of the sheet that asks whether to add income or an expense."
+  },
+  "ledgerAddIncomeHint": "Salary, pocket money, gifts, interest…",
+  "@ledgerAddIncomeHint": {
+    "description": "Examples under 'Add income' in the choice sheet."
+  },
+  "ledgerAddExpenseHint": "Groceries, bills, school fees, household help…",
+  "@ledgerAddExpenseHint": {
+    "description": "Examples under 'Add expense' in the choice sheet."
+  },
+  "ledgerCategorySalary": "Salary",
+  "@ledgerCategorySalary": {
+    "description": "Income category."
+  },
+  "ledgerCategoryBusiness": "Business",
+  "@ledgerCategoryBusiness": {
+    "description": "Income category: earnings from own business / self-employment."
+  },
+  "ledgerCategoryAllowance": "Allowance",
+  "@ledgerCategoryAllowance": {
+    "description": "Income category: pocket money / allowance (e.g. a child's)."
+  },
+  "ledgerCategoryGift": "Gift",
+  "@ledgerCategoryGift": {
+    "description": "Income category: money received as a gift."
+  },
+  "ledgerCategoryInterest": "Interest",
+  "@ledgerCategoryInterest": {
+    "description": "Income category: bank / deposit interest."
+  },
+  "ledgerCategoryOtherIncome": "Other income",
+  "@ledgerCategoryOtherIncome": {
+    "description": "Income category: anything else."
+  },
+  "ledgerCategoryGroceries": "Groceries",
+  "@ledgerCategoryGroceries": {
+    "description": "Expense category."
+  },
+  "ledgerCategoryUtilities": "Bills & utilities",
+  "@ledgerCategoryUtilities": {
+    "description": "Expense category: electricity, water, gas, phone, internet."
+  },
+  "ledgerCategoryRent": "Rent",
+  "@ledgerCategoryRent": {
+    "description": "Expense category: house rent."
+  },
+  "ledgerCategoryEducation": "Education",
+  "@ledgerCategoryEducation": {
+    "description": "Expense category: school / tuition fees, books."
+  },
+  "ledgerCategoryHealth": "Health",
+  "@ledgerCategoryHealth": {
+    "description": "Expense category: doctor, medicines, insurance."
+  },
+  "ledgerCategoryTransport": "Transport",
+  "@ledgerCategoryTransport": {
+    "description": "Expense category: fuel, bus, taxi, train."
+  },
+  "ledgerCategoryDining": "Eating out",
+  "@ledgerCategoryDining": {
+    "description": "Expense category: restaurants, takeaway."
+  },
+  "ledgerCategoryShopping": "Shopping",
+  "@ledgerCategoryShopping": {
+    "description": "Expense category: clothes, electronics, household items."
+  },
+  "ledgerCategoryEntertainment": "Entertainment",
+  "@ledgerCategoryEntertainment": {
+    "description": "Expense category: movies, streaming, outings."
+  },
+  "ledgerCategoryHouseholdHelp": "Household help",
+  "@ledgerCategoryHouseholdHelp": {
+    "description": "Expense category: wages of a maid, cook, driver or nanny."
+  },
+  "ledgerCategorySavings": "Savings",
+  "@ledgerCategorySavings": {
+    "description": "Expense category of goal contributions (money put aside for a savings goal)."
+  },
+  "ledgerCategoryOtherExpense": "Other expense",
+  "@ledgerCategoryOtherExpense": {
+    "description": "Expense category: anything else."
+  },
+  "ledgerScopeFamily": "Family",
+  "@ledgerScopeFamily": {
+    "description": "Chip on the month summary: totals include every family member."
+  },
+  "ledgerScopePersonal": "Personal",
+  "@ledgerScopePersonal": {
+    "description": "Chip on the month summary: totals include only the signed-in member."
+  },
+  "ledgerScopeFamilyHint": "Totals for the whole family",
+  "@ledgerScopeFamilyHint": {
+    "description": "Explanation of the 'Family' summary scope."
+  },
+  "ledgerScopePersonalHint": "Totals for your own entries",
+  "@ledgerScopePersonalHint": {
+    "description": "Explanation of the 'Personal' summary scope."
+  },
+  "ledgerSummaryIncome": "Income",
+  "@ledgerSummaryIncome": {
+    "description": "Month summary: total income."
+  },
+  "ledgerSummaryExpense": "Expenses",
+  "@ledgerSummaryExpense": {
+    "description": "Month summary: total expenses."
+  },
+  "ledgerSummaryNet": "Balance",
+  "@ledgerSummaryNet": {
+    "description": "Month summary: income minus expenses."
+  },
+  "ledgerSummaryEmpty": "Nothing recorded for {month} yet.",
+  "@ledgerSummaryEmpty": {
+    "description": "Month summary without any entries. {month} is a formatted month, e.g. 'September 2026'.",
+    "placeholders": {
+      "month": {
+        "type": "String",
+        "example": "September 2026"
+      }
+    }
+  },
+  "ledgerMonthPrevious": "Previous month",
+  "@ledgerMonthPrevious": {
+    "description": "Tooltip of the month switcher's back arrow."
+  },
+  "ledgerMonthNext": "Next month",
+  "@ledgerMonthNext": {
+    "description": "Tooltip of the month switcher's forward arrow."
+  },
+  "ledgerMonthPick": "Choose a month",
+  "@ledgerMonthPick": {
+    "description": "Title of the month picker; also the screen-reader hint of the month label."
+  },
+  "ledgerAllMonths": "All months",
+  "@ledgerAllMonths": {
+    "description": "Month filter option that shows entries of every month."
+  },
+  "ledgerThisMonth": "This month",
+  "@ledgerThisMonth": {
+    "description": "Shortcut in the month picker to jump to the current month."
+  },
+  "ledgerBreakdownTitle": "By category",
+  "@ledgerBreakdownTitle": {
+    "description": "Section title of the category bars on the Money tab."
+  },
+  "ledgerBreakdownOther": "Other",
+  "@ledgerBreakdownOther": {
+    "description": "Bar that sums up all smaller categories."
+  },
+  "ledgerBreakdownEmptyExpense": "No expenses recorded this month.",
+  "@ledgerBreakdownEmptyExpense": {
+    "description": "Shown instead of the expense category bars."
+  },
+  "ledgerBreakdownEmptyIncome": "No income recorded this month.",
+  "@ledgerBreakdownEmptyIncome": {
+    "description": "Shown instead of the income category bars."
+  },
+  "ledgerBreakdownItemSemantics": "{category}: {amount}, {percent}",
+  "@ledgerBreakdownItemSemantics": {
+    "description": "Screen-reader label of one category bar.",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "example": "Groceries"
+      },
+      "amount": {
+        "type": "String",
+        "example": "₹7,525"
+      },
+      "percent": {
+        "type": "String",
+        "example": "18%"
+      }
+    }
+  },
+  "ledgerGoalsTitle": "Savings goals",
+  "@ledgerGoalsTitle": {
+    "description": "Section title of the savings goals on the Money tab."
+  },
+  "ledgerNewGoal": "New goal",
+  "@ledgerNewGoal": {
+    "description": "Action (admins only) that opens the form to create a savings goal."
+  },
+  "ledgerGoalsEmpty": "No savings goals yet",
+  "@ledgerGoalsEmpty": {
+    "description": "Empty state title of the goals section."
+  },
+  "ledgerGoalsEmptyAdmin": "Save together for a trip, school fees or a rainy-day fund.",
+  "@ledgerGoalsEmptyAdmin": {
+    "description": "Empty goals message for admins, who can create goals."
+  },
+  "ledgerGoalsEmptyMember": "Your family admins can create goals that everyone contributes to.",
+  "@ledgerGoalsEmptyMember": {
+    "description": "Empty goals message for members, who cannot create goals."
+  },
+  "ledgerShowArchivedGoals": "{count, plural, =1{Show 1 archived goal} other{Show {count} archived goals}}",
+  "@ledgerShowArchivedGoals": {
+    "description": "Button under the goals list that reveals archived goals.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ledgerHideArchivedGoals": "Hide archived goals",
+  "@ledgerHideArchivedGoals": {
+    "description": "Button that hides the archived goals again."
+  },
+  "ledgerRecentTitle": "Recent entries",
+  "@ledgerRecentTitle": {
+    "description": "Section title of the latest entries of the selected month."
+  },
+  "ledgerRecentEmpty": "No entries this month",
+  "@ledgerRecentEmpty": {
+    "description": "Empty state title of the recent entries section."
+  },
+  "ledgerRecentEmptyMessage": "Record income or an expense with “Add entry”.",
+  "@ledgerRecentEmptyMessage": {
+    "description": "Empty state message of the recent entries section. Keep the button name in sync with ledgerAddEntry."
+  },
+  "ledgerEntryTileSubtitle": "{date} · {member}",
+  "@ledgerEntryTileSubtitle": {
+    "description": "Second line of an entry row: date and the member the money belongs to.",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "Sat, Sep 26"
+      },
+      "member": {
+        "type": "String",
+        "example": "Priya"
+      }
+    }
+  },
+  "ledgerEntryGoalBadge": "Goal",
+  "@ledgerEntryGoalBadge": {
+    "description": "Small badge on an entry that was created by a savings-goal contribution."
+  },
+  "ledgerEntriesTitle": "All entries",
+  "@ledgerEntriesTitle": {
+    "description": "Title of the full, filterable list of ledger entries."
+  },
+  "ledgerEntriesEmpty": "No entries found",
+  "@ledgerEntriesEmpty": {
+    "description": "Empty state title of the entries list."
+  },
+  "ledgerEntriesEmptyFiltered": "Try another month or clear the filters.",
+  "@ledgerEntriesEmptyFiltered": {
+    "description": "Empty state message when filters are active."
+  },
+  "ledgerEntriesEmptyMessage": "Entries you record will show up here.",
+  "@ledgerEntriesEmptyMessage": {
+    "description": "Empty state message without filters."
+  },
+  "ledgerClearFilters": "Clear filters",
+  "@ledgerClearFilters": {
+    "description": "Button that resets the entry filters."
+  },
+  "ledgerFilterAllTypes": "All",
+  "@ledgerFilterAllTypes": {
+    "description": "Type filter option: income and expenses."
+  },
+  "ledgerFilterMember": "Member",
+  "@ledgerFilterMember": {
+    "description": "Label of the member filter (admins only)."
+  },
+  "ledgerFilterAllMembers": "Everyone",
+  "@ledgerFilterAllMembers": {
+    "description": "Member filter option: entries of every member."
+  },
+  "ledgerEntriesVisibleToMember": "You see the entries that are yours or that you added.",
+  "@ledgerEntriesVisibleToMember": {
+    "description": "Caption for non-admin members explaining which entries they can see."
+  },
+  "ledgerNewEntryTitle": "New entry",
+  "@ledgerNewEntryTitle": {
+    "description": "Title of the form that records a new income or expense."
+  },
+  "ledgerEditEntryTitle": "Edit entry",
+  "@ledgerEditEntryTitle": {
+    "description": "Title of the form that edits an existing entry."
+  },
+  "ledgerFieldAmount": "Amount ({currency})",
+  "@ledgerFieldAmount": {
+    "description": "Label of the amount field. {currency} is the currency symbol, e.g. '₹'.",
+    "placeholders": {
+      "currency": {
+        "type": "String",
+        "example": "₹"
+      }
+    }
+  },
+  "ledgerFieldCategory": "Category",
+  "@ledgerFieldCategory": {
+    "description": "Label above the category chips."
+  },
+  "ledgerFieldDate": "Date",
+  "@ledgerFieldDate": {
+    "description": "Label of the entry date field."
+  },
+  "ledgerFieldNote": "Note (optional)",
+  "@ledgerFieldNote": {
+    "description": "Label of the optional note field."
+  },
+  "ledgerFieldNoteHint": "e.g. Weekly vegetables",
+  "@ledgerFieldNoteHint": {
+    "description": "Hint in the note field."
+  },
+  "ledgerFieldMember": "Whose money",
+  "@ledgerFieldMember": {
+    "description": "Label of the field choosing the member an entry belongs to."
+  },
+  "ledgerFieldMemberLocked": "Members record entries for themselves.",
+  "@ledgerFieldMemberLocked": {
+    "description": "Helper under the (locked) member field for non-admin members."
+  },
+  "ledgerMemberYou": "{name} (you)",
+  "@ledgerMemberYou": {
+    "description": "A member name marked as the signed-in person.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "ledgerCategoryRequired": "Choose a category",
+  "@ledgerCategoryRequired": {
+    "description": "Validation error when no category is selected."
+  },
+  "ledgerDateInFuture": "The date can't be in the future",
+  "@ledgerDateInFuture": {
+    "description": "Validation error for an entry date after tomorrow."
+  },
+  "ledgerGoalLinkedLocked": "This entry is a goal contribution, so its amount and category can't be changed. Delete it and contribute again instead.",
+  "@ledgerGoalLinkedLocked": {
+    "description": "Notice on the edit form of an entry created by a goal contribution."
+  },
+  "ledgerEntryAdded": "Entry added",
+  "@ledgerEntryAdded": {
+    "description": "Snackbar after recording a new entry."
+  },
+  "ledgerEntrySaved": "Entry updated",
+  "@ledgerEntrySaved": {
+    "description": "Snackbar after editing an entry."
+  },
+  "ledgerEntryDeleted": "Entry deleted",
+  "@ledgerEntryDeleted": {
+    "description": "Snackbar after deleting an entry."
+  },
+  "ledgerEntryDetailTitle": "Entry details",
+  "@ledgerEntryDetailTitle": {
+    "description": "Title of the bottom sheet that shows one entry."
+  },
+  "ledgerDetailMember": "Belongs to",
+  "@ledgerDetailMember": {
+    "description": "Entry details: the member the money belongs to."
+  },
+  "ledgerDetailCreatedBy": "Added by",
+  "@ledgerDetailCreatedBy": {
+    "description": "Entry details: the member who recorded the entry."
+  },
+  "ledgerDetailCategory": "Category",
+  "@ledgerDetailCategory": {
+    "description": "Entry details: category."
+  },
+  "ledgerDetailDate": "Date",
+  "@ledgerDetailDate": {
+    "description": "Entry details: date."
+  },
+  "ledgerDetailNote": "Note",
+  "@ledgerDetailNote": {
+    "description": "Entry details: note."
+  },
+  "ledgerDetailGoal": "Savings goal contribution",
+  "@ledgerDetailGoal": {
+    "description": "Entry details: the entry was created by contributing to a savings goal."
+  },
+  "ledgerDetailOpenGoal": "View goal",
+  "@ledgerDetailOpenGoal": {
+    "description": "Button in entry details that opens the linked savings goal."
+  },
+  "ledgerDeleteEntryTitle": "Delete this entry?",
+  "@ledgerDeleteEntryTitle": {
+    "description": "Confirmation dialog title."
+  },
+  "ledgerDeleteEntryMessage": "This can't be undone.",
+  "@ledgerDeleteEntryMessage": {
+    "description": "Confirmation dialog message for deleting a normal entry."
+  },
+  "ledgerDeleteContributionMessage": "The amount will also be taken off the goal's saved total. This can't be undone.",
+  "@ledgerDeleteContributionMessage": {
+    "description": "Confirmation dialog message for deleting an entry created by a goal contribution."
+  },
+  "ledgerGoalNewTitle": "New savings goal",
+  "@ledgerGoalNewTitle": {
+    "description": "Title of the form that creates a savings goal."
+  },
+  "ledgerGoalEditTitle": "Edit goal",
+  "@ledgerGoalEditTitle": {
+    "description": "Title of the form that edits a savings goal."
+  },
+  "ledgerGoalFieldTitle": "Goal name",
+  "@ledgerGoalFieldTitle": {
+    "description": "Label of the goal title field."
+  },
+  "ledgerGoalFieldTitleHint": "e.g. Goa vacation",
+  "@ledgerGoalFieldTitleHint": {
+    "description": "Hint in the goal title field."
+  },
+  "ledgerGoalFieldDescription": "Description (optional)",
+  "@ledgerGoalFieldDescription": {
+    "description": "Label of the optional goal description field."
+  },
+  "ledgerGoalFieldTarget": "Target amount ({currency})",
+  "@ledgerGoalFieldTarget": {
+    "description": "Label of the goal target amount field. {currency} is the currency symbol, e.g. '₹'.",
+    "placeholders": {
+      "currency": {
+        "type": "String",
+        "example": "₹"
+      }
+    }
+  },
+  "ledgerGoalFieldTargetDate": "Target date (optional)",
+  "@ledgerGoalFieldTargetDate": {
+    "description": "Label of the optional goal deadline field."
+  },
+  "ledgerGoalCreated": "Goal created",
+  "@ledgerGoalCreated": {
+    "description": "Snackbar after creating a goal."
+  },
+  "ledgerGoalUpdated": "Goal updated",
+  "@ledgerGoalUpdated": {
+    "description": "Snackbar after editing a goal."
+  },
+  "ledgerGoalAdminOnly": "Only family admins can create or change savings goals.",
+  "@ledgerGoalAdminOnly": {
+    "description": "Shown when a non-admin opens a goal form."
+  },
+  "ledgerGoalStatusActive": "Active",
+  "@ledgerGoalStatusActive": {
+    "description": "Savings goal status."
+  },
+  "ledgerGoalStatusAchieved": "Achieved",
+  "@ledgerGoalStatusAchieved": {
+    "description": "Savings goal status: the target was reached."
+  },
+  "ledgerGoalStatusArchived": "Archived",
+  "@ledgerGoalStatusArchived": {
+    "description": "Savings goal status: put away, no more contributions."
+  },
+  "ledgerGoalSavedLabel": "Saved",
+  "@ledgerGoalSavedLabel": {
+    "description": "Goal details: amount saved so far."
+  },
+  "ledgerGoalTargetLabel": "Target",
+  "@ledgerGoalTargetLabel": {
+    "description": "Goal details: target amount."
+  },
+  "ledgerGoalRemainingLabel": "Still to go",
+  "@ledgerGoalRemainingLabel": {
+    "description": "Goal details: amount still needed."
+  },
+  "ledgerGoalSavedOfTarget": "{saved} of {target}",
+  "@ledgerGoalSavedOfTarget": {
+    "description": "Goal progress line with formatted amounts.",
+    "placeholders": {
+      "saved": {
+        "type": "String",
+        "example": "₹12,500"
+      },
+      "target": {
+        "type": "String",
+        "example": "₹60,000"
+      }
+    }
+  },
+  "ledgerGoalPercentSaved": "{percent} saved",
+  "@ledgerGoalPercentSaved": {
+    "description": "Goal progress as a formatted percentage.",
+    "placeholders": {
+      "percent": {
+        "type": "String",
+        "example": "21%"
+      }
+    }
+  },
+  "ledgerGoalRemainingHint": "{amount} still to go",
+  "@ledgerGoalRemainingHint": {
+    "description": "Amount still needed to reach a goal (formatted money).",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "₹47,500"
+      }
+    }
+  },
+  "ledgerGoalDaysLeft": "{count, plural, =1{1 day left} other{{count} days left}}",
+  "@ledgerGoalDaysLeft": {
+    "description": "Days until a goal's target date.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ledgerGoalDueToday": "Due today",
+  "@ledgerGoalDueToday": {
+    "description": "The goal's target date is today."
+  },
+  "ledgerGoalOverdue": "{count, plural, =1{1 day past target date} other{{count} days past target date}}",
+  "@ledgerGoalOverdue": {
+    "description": "The goal's target date has passed while it is still active.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ledgerGoalTargetDate": "Target date: {date}",
+  "@ledgerGoalTargetDate": {
+    "description": "Goal target date (formatted).",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "Mar 15, 2027"
+      }
+    }
+  },
+  "ledgerGoalNoTargetDate": "No target date",
+  "@ledgerGoalNoTargetDate": {
+    "description": "Goal without a deadline."
+  },
+  "ledgerGoalReachedMessage": "Target reached – well done, team!",
+  "@ledgerGoalReachedMessage": {
+    "description": "Shown on an achieved goal."
+  },
+  "ledgerGoalContribute": "Contribute",
+  "@ledgerGoalContribute": {
+    "description": "Button that records a contribution (money set aside) to a goal. Any member may use it."
+  },
+  "ledgerGoalContributeTitle": "Contribute to {title}",
+  "@ledgerGoalContributeTitle": {
+    "description": "Title of the contribution sheet.",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Goa vacation"
+      }
+    }
+  },
+  "ledgerGoalContributeExplainer": "The amount is recorded as a savings expense in your name.",
+  "@ledgerGoalContributeExplainer": {
+    "description": "Explains what a contribution does in the ledger."
+  },
+  "ledgerGoalContributionNoteHint": "e.g. Diwali bonus",
+  "@ledgerGoalContributionNoteHint": {
+    "description": "Hint in the contribution note field."
+  },
+  "ledgerGoalContributed": "Contribution recorded",
+  "@ledgerGoalContributed": {
+    "description": "Snackbar after a contribution."
+  },
+  "ledgerGoalAchievedTitle": "Goal achieved!",
+  "@ledgerGoalAchievedTitle": {
+    "description": "Celebration dialog title when a contribution completes a goal."
+  },
+  "ledgerGoalAchievedMessage": "“{title}” has reached its target of {target}. Well done, team!",
+  "@ledgerGoalAchievedMessage": {
+    "description": "Celebration dialog message.",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Goa vacation"
+      },
+      "target": {
+        "type": "String",
+        "example": "₹60,000"
+      }
+    }
+  },
+  "ledgerGoalCelebrate": "Hooray!",
+  "@ledgerGoalCelebrate": {
+    "description": "Button that closes the celebration dialog."
+  },
+  "ledgerGoalContributionsTitle": "Contributions",
+  "@ledgerGoalContributionsTitle": {
+    "description": "Section title of a goal's contributions list."
+  },
+  "ledgerGoalContributionsEmpty": "No contributions yet",
+  "@ledgerGoalContributionsEmpty": {
+    "description": "Empty contributions list title."
+  },
+  "ledgerGoalContributionsEmptyMessage": "Be the first to put something aside.",
+  "@ledgerGoalContributionsEmptyMessage": {
+    "description": "Empty contributions list message."
+  },
+  "ledgerGoalContributionsMineOnly": "You see your own contributions here.",
+  "@ledgerGoalContributionsMineOnly": {
+    "description": "Caption for members: the contributions list only shows their own."
+  },
+  "ledgerGoalArchivedNotice": "This goal is archived and doesn't take contributions.",
+  "@ledgerGoalArchivedNotice": {
+    "description": "Notice on an archived goal."
+  },
+  "ledgerGoalArchivedError": "This goal is archived, so it can't take contributions.",
+  "@ledgerGoalArchivedError": {
+    "description": "Error when contributing to an archived goal."
+  },
+  "ledgerGoalActions": "Goal actions",
+  "@ledgerGoalActions": {
+    "description": "Tooltip of the goal's overflow menu (edit, archive, delete)."
+  },
+  "ledgerGoalArchive": "Archive",
+  "@ledgerGoalArchive": {
+    "description": "Menu action: archive a goal."
+  },
+  "ledgerGoalRestore": "Restore",
+  "@ledgerGoalRestore": {
+    "description": "Menu action: bring an archived goal back."
+  },
+  "ledgerGoalArchiveTitle": "Archive this goal?",
+  "@ledgerGoalArchiveTitle": {
+    "description": "Confirmation dialog title."
+  },
+  "ledgerGoalArchiveMessage": "Archived goals stop taking contributions. You can restore it later.",
+  "@ledgerGoalArchiveMessage": {
+    "description": "Confirmation dialog message."
+  },
+  "ledgerGoalArchivedDone": "Goal archived",
+  "@ledgerGoalArchivedDone": {
+    "description": "Snackbar after archiving a goal."
+  },
+  "ledgerGoalRestoredDone": "Goal restored",
+  "@ledgerGoalRestoredDone": {
+    "description": "Snackbar after restoring a goal."
+  },
+  "ledgerGoalDelete": "Delete goal",
+  "@ledgerGoalDelete": {
+    "description": "Menu action: delete a goal."
+  },
+  "ledgerGoalDeleteTitle": "Delete this goal?",
+  "@ledgerGoalDeleteTitle": {
+    "description": "Confirmation dialog title."
+  },
+  "ledgerGoalDeleteMessage": "Its contributions stay in the ledger as savings entries.",
+  "@ledgerGoalDeleteMessage": {
+    "description": "Confirmation dialog message."
+  },
+  "ledgerGoalDeleted": "Goal deleted",
+  "@ledgerGoalDeleted": {
+    "description": "Snackbar after deleting a goal."
+  },
+  "ledgerErrorEntryGone": "This entry no longer exists – someone may have deleted it.",
+  "@ledgerErrorEntryGone": {
+    "description": "Error when saving or deleting an entry that another family member deleted meanwhile."
+  },
+  "ledgerErrorGoalGone": "This goal no longer exists – an admin may have deleted it.",
+  "@ledgerErrorGoalGone": {
+    "description": "Error when changing or contributing to a goal that was deleted meanwhile."
+  },
+  "ledgerErrorForbidden": "You can't do this any more. Your role in the family may have changed.",
+  "@ledgerErrorForbidden": {
+    "description": "Error when the server refuses a money action, e.g. because the person is no longer an admin."
+  },
+  "ledgerErrorTimeout": "The server took too long to answer. Check the list before trying again – it may already be saved.",
+  "@ledgerErrorTimeout": {
+    "description": "Error when saving timed out; the save may still have succeeded, so the person should check before retrying."
+  },
+  "ledgerErrorMemberGone": "That person is no longer in the family. Choose someone else.",
+  "@ledgerErrorMemberGone": {
+    "description": "Error when the chosen member (whose money it is) was removed from the family."
+  },
+  "ledgerErrorDate": "That date is too far ahead for your family's time zone. Choose today or an earlier day.",
+  "@ledgerErrorDate": {
+    "description": "Error when the server rejects an entry date (later than tomorrow in the family time zone)."
+  },
+  "ledgerErrorAmount": "Check the amount and try again.",
+  "@ledgerErrorAmount": {
+    "description": "Error when the server rejects an amount."
+  },
+  "ledgerErrorCategory": "This category doesn't fit the entry type. Choose another one.",
+  "@ledgerErrorCategory": {
+    "description": "Error when the server rejects the category for the income/expense type."
+  },
+  "ledgerEntryAlreadyDeleted": "This entry was already deleted.",
+  "@ledgerEntryAlreadyDeleted": {
+    "description": "Info snackbar when deleting an entry that someone else had already deleted."
+  },
+  "ledgerGoalAlreadyDeleted": "This goal was already deleted.",
+  "@ledgerGoalAlreadyDeleted": {
+    "description": "Info snackbar when deleting a goal that another admin had already deleted."
+  },
+  "ledgerGoalNotFoundTitle": "Goal not found",
+  "@ledgerGoalNotFoundTitle": {
+    "description": "Title shown when a savings goal (e.g. opened from a notification) no longer exists."
+  },
+  "ledgerGoalNotFoundMessage": "It may have been deleted by a family admin.",
+  "@ledgerGoalNotFoundMessage": {
+    "description": "Explanation below the 'Goal not found' title."
+  },
+  "ledgerBackToMoney": "Back to Money",
+  "@ledgerBackToMoney": {
+    "description": "Button that opens the Money tab."
+  },
+  "ledgerFormerMember": "Former member",
+  "@ledgerFormerMember": {
+    "description": "Stands in for a person who is no longer in the family (e.g. in filters and entry details)."
+  },
+  "ledgerMemberNoLongerInFamily": "Recorded for {name}, who is no longer in the family.",
+  "@ledgerMemberNoLongerInFamily": {
+    "description": "Note under the member field when the entry belongs to someone who left the family.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Kamla"
+      }
+    }
+  },
+  "ledgerHeaderSpentShare": "{percent} of income spent",
+  "@ledgerHeaderSpentShare": {
+    "description": "Line under the spent-vs-income bar in the Money header and month summary: expenses as a share of income.",
+    "placeholders": {
+      "percent": {
+        "type": "String",
+        "example": "29%"
+      }
+    }
+  },
+  "ledgerHeaderOnTrack": "On track",
+  "@ledgerHeaderOnTrack": {
+    "description": "Money header pill: this month's expenses are lower than its income."
+  },
+  "ledgerHeaderOverBudget": "Over budget",
+  "@ledgerHeaderOverBudget": {
+    "description": "Money header pill: this month's expenses are higher than its income."
+  },
+  "ledgerHeaderNoIncome": "No income recorded yet",
+  "@ledgerHeaderNoIncome": {
+    "description": "Line under the spent-vs-income bar when there are expenses but no income this month."
+  },
+  "ledgerFormDetailsTitle": "Details",
+  "@ledgerFormDetailsTitle": {
+    "description": "Section title above date, member and note in the entry form."
+  },
+  "noticesTitle": "Notice board",
+  "@noticesTitle": {
+    "description": "Title of the notice board screen (family announcements)."
+  },
+  "noticesNew": "New notice",
+  "@noticesNew": {
+    "description": "Floating action button on the notice board and title of the create-notice screen."
+  },
+  "noticesEditTitle": "Edit notice",
+  "@noticesEditTitle": {
+    "description": "Title of the screen for editing an existing notice."
+  },
+  "noticesEmptyTitle": "No notices yet",
+  "@noticesEmptyTitle": {
+    "description": "Empty state title when the family notice board has no notices."
+  },
+  "noticesEmptyMessage": "Share news, plans and reminders with the whole family.",
+  "@noticesEmptyMessage": {
+    "description": "Empty state message on the notice board."
+  },
+  "noticesPinned": "Pinned",
+  "@noticesPinned": {
+    "description": "Small badge on a notice that an admin pinned to the top of the board."
+  },
+  "noticesPin": "Pin to top",
+  "@noticesPin": {
+    "description": "Action (admins only) that pins a notice above all others."
+  },
+  "noticesUnpin": "Unpin",
+  "@noticesUnpin": {
+    "description": "Action (admins only) that removes the pin from a notice."
+  },
+  "noticesPinnedSuccess": "Notice pinned to the top",
+  "@noticesPinnedSuccess": {
+    "description": "Confirmation after pinning a notice."
+  },
+  "noticesUnpinnedSuccess": "Notice unpinned",
+  "@noticesUnpinnedSuccess": {
+    "description": "Confirmation after unpinning a notice."
+  },
+  "noticesDeleteTitle": "Delete this notice?",
+  "@noticesDeleteTitle": {
+    "description": "Title of the confirmation dialog before deleting a notice."
+  },
+  "noticesDeleteMessage": "\"{title}\" will be removed for everyone in the family. This can't be undone.",
+  "@noticesDeleteMessage": {
+    "description": "Message of the confirmation dialog before deleting a notice. {title} is the notice title.",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Family meeting Sunday 7pm"
+      }
+    }
+  },
+  "noticesDeleted": "Notice deleted",
+  "@noticesDeleted": {
+    "description": "Confirmation after deleting a notice."
+  },
+  "noticesPosted": "Notice posted",
+  "@noticesPosted": {
+    "description": "Confirmation after posting a new notice."
+  },
+  "noticesUpdated": "Notice updated",
+  "@noticesUpdated": {
+    "description": "Confirmation after saving changes to a notice."
+  },
+  "noticesReadMore": "Read more",
+  "@noticesReadMore": {
+    "description": "Button below a long notice text that shows the whole text."
+  },
+  "noticesShowLess": "Show less",
+  "@noticesShowLess": {
+    "description": "Button below an expanded notice text that collapses it again."
+  },
+  "noticesActions": "Notice options",
+  "@noticesActions": {
+    "description": "Tooltip / screen-reader label of the menu button on a notice (edit, pin, delete, copy)."
+  },
+  "noticesCopyText": "Copy text",
+  "@noticesCopyText": {
+    "description": "Action that copies the notice title and text to the clipboard."
+  },
+  "noticesOpenImage": "Open photo",
+  "@noticesOpenImage": {
+    "description": "Screen-reader hint on a notice photo; tapping opens it full screen."
+  },
+  "noticesImageLabel": "Photo: {title}",
+  "@noticesImageLabel": {
+    "description": "Screen-reader label of the photo attached to a notice. {title} is the notice title.",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Weekend trip photos"
+      }
+    }
+  },
+  "noticesPostedBy": "Posted by {name}",
+  "@noticesPostedBy": {
+    "description": "Screen-reader label of the author line of a notice. {name} is the author's name.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Priya"
+      }
+    }
+  },
+  "noticesFormerMember": "Former member",
+  "@noticesFormerMember": {
+    "description": "Shown as the author of a notice whose author is no longer in the family."
+  },
+  "noticesFieldTitle": "Title",
+  "@noticesFieldTitle": {
+    "description": "Label of the notice title field."
+  },
+  "noticesFieldTitleHint": "e.g. Family meeting Sunday 7pm",
+  "@noticesFieldTitleHint": {
+    "description": "Hint (example) inside the empty notice title field."
+  },
+  "noticesFieldBody": "Message",
+  "@noticesFieldBody": {
+    "description": "Label of the notice text field."
+  },
+  "noticesFieldBodyHint": "What would you like to tell the family?",
+  "@noticesFieldBodyHint": {
+    "description": "Hint inside the empty notice text field."
+  },
+  "noticesFieldImage": "Photo (optional)",
+  "@noticesFieldImage": {
+    "description": "Label under the photo picker of the notice form."
+  },
+  "noticesFieldPinned": "Pin to top",
+  "@noticesFieldPinned": {
+    "description": "Switch in the notice form (admins only) that pins the notice."
+  },
+  "noticesFieldPinnedHint": "Pinned notices stay above all others.",
+  "@noticesFieldPinnedHint": {
+    "description": "Explanation under the pin switch in the notice form."
+  },
+  "noticesPost": "Post notice",
+  "@noticesPost": {
+    "description": "Submit button of the create-notice screen."
+  },
+  "noticesVisibleToFamily": "Everyone in your family can see this notice.",
+  "@noticesVisibleToFamily": {
+    "description": "Privacy hint on the notice form: who can see the notice."
+  },
+  "noticesEditNotAllowed": "You can't edit this notice",
+  "@noticesEditNotAllowed": {
+    "description": "Shown instead of the edit form when the member is neither the author nor an admin."
+  },
+  "noticesEditNotAllowedMessage": "Only the person who posted it or a family admin can change it.",
+  "@noticesEditNotAllowedMessage": {
+    "description": "Explanation when the member may not edit a notice."
+  },
+  "noticesPhotoUploading": "Please wait until the photo has finished uploading.",
+  "@noticesPhotoUploading": {
+    "description": "Shown when the member taps Post/Save on the notice form while the attached photo is still uploading."
+  },
+  "noticesGone": "This notice was deleted in the meantime.",
+  "@noticesGone": {
+    "description": "Shown when an action (save, pin, unpin) fails because someone else deleted the notice meanwhile."
+  },
+  "noticesNotFoundTitle": "This notice is no longer available",
+  "@noticesNotFoundTitle": {
+    "description": "Title shown when a link opens a notice that does not exist any more."
+  },
+  "noticesNotFoundMessage": "It may have been deleted by the person who posted it or by a family admin.",
+  "@noticesNotFoundMessage": {
+    "description": "Explanation under noticesNotFoundTitle."
+  },
+  "noticesSubtitle": "News, plans and reminders for the whole family.",
+  "@noticesSubtitle": {
+    "description": "Short line under the notice board title in the coloured header."
+  },
+  "noticesStatTotal": "On the board",
+  "@noticesStatTotal": {
+    "description": "Label under the number of notices on the board, shown as a small stat in the notice board header."
+  },
+  "noticesSectionMessage": "What's new?",
+  "@noticesSectionMessage": {
+    "description": "Heading of the notice form section with the title and message fields."
+  },
+  "noticesPhotoHint": "Tap to add or change the photo",
+  "@noticesPhotoHint": {
+    "description": "Text under the photo picker of the notice form; also its screen-reader label."
+  },
+  "servicesPushChannelSosName": "SOS alerts",
+  "@servicesPushChannelSosName": {
+    "description": "Android notification channel name (Settings > Apps > FamilyHub > Notifications) for emergency alerts from family members."
+  },
+  "servicesPushChannelSosDescription": "Emergency alerts from your family. These are loud and appear on the lock screen.",
+  "@servicesPushChannelSosDescription": {
+    "description": "Android notification channel description for SOS alerts."
+  },
+  "servicesPushChannelGeneralName": "Family updates",
+  "@servicesPushChannelGeneralName": {
+    "description": "Android notification channel name for everything that is not an SOS."
+  },
+  "servicesPushChannelGeneralDescription": "Tasks, notices, savings goals and new family members.",
+  "@servicesPushChannelGeneralDescription": {
+    "description": "Android notification channel description for general family updates."
+  },
+  "servicesLocationChannelName": "Live location sharing",
+  "@servicesLocationChannelName": {
+    "description": "Android notification channel name for the ongoing notification shown while live location is shared (SOS)."
+  },
+  "servicesLocationSharingTitle": "Sharing your live location",
+  "@servicesLocationSharingTitle": {
+    "description": "Title of the ongoing notification while the app shares live location with the family."
+  },
+  "servicesLocationSharingText": "Your family can see where you are until you stop sharing.",
+  "@servicesLocationSharingText": {
+    "description": "Text of the ongoing notification while the app shares live location with the family."
+  },
+  "servicesLocationDenied": "FamilyHub needs location permission to share where you are.",
+  "@servicesLocationDenied": {
+    "description": "Shown when location permission was not granted (the app can ask again)."
+  },
+  "servicesLocationDeniedForever": "Location permission is turned off for FamilyHub. Allow it in Settings to share where you are.",
+  "@servicesLocationDeniedForever": {
+    "description": "Shown when location permission was permanently denied; only the system settings can change it."
+  },
+  "servicesLocationServiceDisabled": "Location services are turned off on this device. Turn them on to share where you are.",
+  "@servicesLocationServiceDisabled": {
+    "description": "Shown when the device-wide location switch (GPS) is off."
+  },
+  "servicesLocationAllow": "Allow location",
+  "@servicesLocationAllow": {
+    "description": "Button that shows the system location permission prompt again."
+  },
+  "servicesOpenSettings": "Open settings",
+  "@servicesOpenSettings": {
+    "description": "Button that opens the system settings (app permissions or location services)."
+  },
+  "servicesErrorUploadFailed": "The image couldn't be uploaded. Please try again.",
+  "@servicesErrorUploadFailed": {
+    "description": "Error code UPLOAD_FAILED: Cloudinary rejected the upload or returned an unusable response."
+  },
+  "servicesErrorFileTooLarge": "This image is too large. Please choose a smaller one.",
+  "@servicesErrorFileTooLarge": {
+    "description": "Error code FILE_TOO_LARGE: the picked image exceeds the upload size limit."
+  },
+  "servicesErrorUploadCancelled": "The upload was cancelled.",
+  "@servicesErrorUploadCancelled": {
+    "description": "Error code UPLOAD_CANCELLED: the image upload was cancelled."
+  },
+  "settingsProfileHeaderHint": "Opens your profile",
+  "@settingsProfileHeaderHint": {
+    "description": "Screen-reader hint on the profile card at the top of the More tab."
+  },
+  "settingsSectionFamily": "Family",
+  "@settingsSectionFamily": {
+    "description": "Section title on the More tab grouping family screens (members, notices, emergency cards...)."
+  },
+  "settingsMembers": "Members",
+  "@settingsMembers": {
+    "description": "More tab entry that opens the list of family members."
+  },
+  "settingsFamilySettings": "Family settings",
+  "@settingsFamilySettings": {
+    "description": "More tab entry (admins only) that opens family name, country, currency and invite code settings."
+  },
+  "settingsNoticeBoard": "Notice board",
+  "@settingsNoticeBoard": {
+    "description": "More tab entry that opens the family notice board (announcements)."
+  },
+  "settingsEmergencyCards": "Emergency cards",
+  "@settingsEmergencyCards": {
+    "description": "More tab entry that opens the members' emergency (medical information) cards."
+  },
+  "settingsSosHistory": "SOS history",
+  "@settingsSosHistory": {
+    "description": "More tab entry that opens past (resolved / expired) SOS alerts."
+  },
+  "settingsSectionPreferences": "Preferences",
+  "@settingsSectionPreferences": {
+    "description": "Section title on the More tab grouping language, appearance, location and notification settings."
+  },
+  "settingsSectionAccount": "Account",
+  "@settingsSectionAccount": {
+    "description": "Section title grouping password, privacy and about entries."
+  },
+  "settingsLanguage": "Language",
+  "@settingsLanguage": {
+    "description": "Settings entry / screen title for the app language."
+  },
+  "settingsAppearance": "Appearance",
+  "@settingsAppearance": {
+    "description": "Settings entry / screen title for theme (light/dark) and text size."
+  },
+  "settingsLocationSharing": "Location sharing",
+  "@settingsLocationSharing": {
+    "description": "Settings entry / screen title for who can see the member's location."
+  },
+  "settingsNotifications": "Notifications",
+  "@settingsNotifications": {
+    "description": "Settings entry showing whether push notifications are turned on for this app."
+  },
+  "settingsNotificationsEnabled": "On",
+  "@settingsNotificationsEnabled": {
+    "description": "Notification status: the phone allows notifications from the app."
+  },
+  "settingsNotificationsDisabled": "Off. Turn them on in your phone settings to get SOS alerts.",
+  "@settingsNotificationsDisabled": {
+    "description": "Notification status: notifications are blocked in the phone settings."
+  },
+  "settingsNotificationsNotAsked": "Not turned on yet",
+  "@settingsNotificationsNotAsked": {
+    "description": "Notification status: the user has not been asked for notification permission yet."
+  },
+  "settingsNotificationsUnavailable": "Not available in this version of the app",
+  "@settingsNotificationsUnavailable": {
+    "description": "Notification status: push notifications are not set up in this build / on this device."
+  },
+  "settingsNotificationsOpenSettings": "Open phone settings",
+  "@settingsNotificationsOpenSettings": {
+    "description": "Button / tooltip that opens the phone's settings page for this app."
+  },
+  "settingsOpenSettingsFailed": "Couldn't open the phone settings. Open them from your phone's Settings app.",
+  "@settingsOpenSettingsFailed": {
+    "description": "Shown when the system settings screen could not be opened."
+  },
+  "settingsLinkOpenFailed": "Couldn't open the link. Please try again.",
+  "@settingsLinkOpenFailed": {
+    "description": "Shown when a web link (privacy policy, terms) could not be opened."
+  },
+  "settingsChangePassword": "Change password",
+  "@settingsChangePassword": {
+    "description": "Settings entry, screen title and submit button for changing the account password."
+  },
+  "settingsPrivacy": "Privacy & data",
+  "@settingsPrivacy": {
+    "description": "Settings entry / screen title: privacy policy, data export, leave family, delete account."
+  },
+  "settingsAbout": "About",
+  "@settingsAbout": {
+    "description": "Settings entry that opens information about the app."
+  },
+  "settingsLogout": "Log out",
+  "@settingsLogout": {
+    "description": "Button that signs the user out of the app."
+  },
+  "settingsLogoutConfirmTitle": "Log out of FamilyHub?",
+  "@settingsLogoutConfirmTitle": {
+    "description": "Title of the log-out confirmation dialog."
+  },
+  "settingsLogoutConfirmMessage": "SOS alerts and family updates will no longer reach this phone until you sign in again.",
+  "@settingsLogoutConfirmMessage": {
+    "description": "Message of the log-out confirmation dialog."
+  },
+  "settingsVersion": "Version {version}",
+  "@settingsVersion": {
+    "description": "App version shown at the bottom of the More tab and on the About screen.",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0 (1)"
+      }
+    }
+  },
+  "settingsThemeSystem": "Same as phone",
+  "@settingsThemeSystem": {
+    "description": "Theme option: follow the phone's light/dark setting."
+  },
+  "settingsThemeLight": "Light",
+  "@settingsThemeLight": {
+    "description": "Theme option: always light colours."
+  },
+  "settingsThemeDark": "Dark",
+  "@settingsThemeDark": {
+    "description": "Theme option: always dark colours."
+  },
+  "settingsProfileTitle": "My profile",
+  "@settingsProfileTitle": {
+    "description": "Title of the screen where members edit their own profile."
+  },
+  "settingsProfilePhoto": "Profile photo",
+  "@settingsProfilePhoto": {
+    "description": "Label of the profile photo picker."
+  },
+  "settingsProfileName": "Name",
+  "@settingsProfileName": {
+    "description": "Profile form field: the member's name."
+  },
+  "settingsProfilePhone": "Phone number",
+  "@settingsProfilePhone": {
+    "description": "Profile form field: the member's phone number (optional)."
+  },
+  "settingsProfilePhoneHint": "Include the country code, e.g. +91",
+  "@settingsProfilePhoneHint": {
+    "description": "Hint under the phone field explaining the expected format."
+  },
+  "settingsProfileDateOfBirth": "Date of birth",
+  "@settingsProfileDateOfBirth": {
+    "description": "Profile form field: date of birth (optional for adults)."
+  },
+  "settingsProfileGender": "Gender",
+  "@settingsProfileGender": {
+    "description": "Profile form field label for the gender choice."
+  },
+  "settingsProfileEmail": "Email",
+  "@settingsProfileEmail": {
+    "description": "Read-only profile row showing the account email."
+  },
+  "settingsProfileDesignation": "Title in the family",
+  "@settingsProfileDesignation": {
+    "description": "Read-only profile row: the member's 'company title' in the family, e.g. Finance Head."
+  },
+  "settingsProfileRole": "Role",
+  "@settingsProfileRole": {
+    "description": "Read-only profile row: Admin or Member."
+  },
+  "settingsProfileManagedByAdmin": "Your title and role are set by a family admin.",
+  "@settingsProfileManagedByAdmin": {
+    "description": "Note under the read-only title / role rows on the profile screen."
+  },
+  "settingsProfileSaved": "Profile updated",
+  "@settingsProfileSaved": {
+    "description": "Snackbar after the profile was saved."
+  },
+  "settingsProfileNameInvalid": "Enter a name with 1 to {max} characters.",
+  "@settingsProfileNameInvalid": {
+    "description": "Shown under the name field when the server rejected the name.",
+    "placeholders": {
+      "max": {
+        "type": "int",
+        "example": "60"
+      }
+    }
+  },
+  "settingsProfileDateOfBirthInvalid": "Enter a real date of birth. It cannot be in the future.",
+  "@settingsProfileDateOfBirthInvalid": {
+    "description": "Shown under the date-of-birth field when the server rejected the date."
+  },
+  "settingsProfileGuardianConsentNeeded": "Members younger than {age} need a parent or guardian to set this. Ask a family admin to change your date of birth.",
+  "@settingsProfileGuardianConsentNeeded": {
+    "description": "Shown under the date-of-birth field when the chosen date makes the member younger than the country consent age and no guardian consent is recorded.",
+    "placeholders": {
+      "age": {
+        "type": "int",
+        "example": "18"
+      }
+    }
+  },
+  "settingsProfilePhotoRejected": "This photo couldn't be saved. Please choose it again.",
+  "@settingsProfilePhotoRejected": {
+    "description": "Snackbar when the server rejected the uploaded profile photo URL."
+  },
+  "settingsNoFamilyTitle": "You're not in a family yet",
+  "@settingsNoFamilyTitle": {
+    "description": "Empty state on member-only settings screens when the user has no family."
+  },
+  "settingsNoFamilyMessage": "Create or join a family to use this.",
+  "@settingsNoFamilyMessage": {
+    "description": "Empty state message on member-only settings screens when the user has no family."
+  },
+  "settingsLanguageDevice": "Phone language",
+  "@settingsLanguageDevice": {
+    "description": "Language option: follow the phone's language setting."
+  },
+  "settingsLanguageDeviceCurrent": "Currently {language}",
+  "@settingsLanguageDeviceCurrent": {
+    "description": "Subtitle of the 'Phone language' option naming the language it resolves to.",
+    "placeholders": {
+      "language": {
+        "type": "String",
+        "example": "हिन्दी"
+      }
+    }
+  },
+  "settingsLanguageHint": "Changes the language on this phone. Your notifications and emails will use it too.",
+  "@settingsLanguageHint": {
+    "description": "Explanation at the top of the language screen."
+  },
+  "settingsAppearanceTheme": "Theme",
+  "@settingsAppearanceTheme": {
+    "description": "Section title for the light / dark theme choice."
+  },
+  "settingsAppearanceTextSize": "Text size",
+  "@settingsAppearanceTextSize": {
+    "description": "Section title for the large text setting."
+  },
+  "settingsAppearanceLargeText": "Large text",
+  "@settingsAppearanceLargeText": {
+    "description": "Switch that makes all text in the app bigger."
+  },
+  "settingsAppearanceLargeTextDescription": "Makes all text bigger and easier to read. Your phone's text size setting is also respected.",
+  "@settingsAppearanceLargeTextDescription": {
+    "description": "Explanation under the large text switch."
+  },
+  "settingsAppearancePreview": "Preview",
+  "@settingsAppearancePreview": {
+    "description": "Label above the sample text that shows the current text size."
+  },
+  "settingsAppearancePreviewTitle": "Family meeting on Sunday",
+  "@settingsAppearancePreviewTitle": {
+    "description": "Sample notice title used only to preview the text size."
+  },
+  "settingsAppearancePreviewBody": "This is how text looks in FamilyHub with your current settings.",
+  "@settingsAppearancePreviewBody": {
+    "description": "Sample body text used only to preview the text size."
+  },
+  "settingsLocationIntro": "Choose when your family can see where you are. Only members of your family can see it, and only you can change this.",
+  "@settingsLocationIntro": {
+    "description": "Explanation at the top of the location sharing screen."
+  },
+  "settingsLocationSharedNow": "Your family can see your location",
+  "@settingsLocationSharedNow": {
+    "description": "Indicator shown while the member's location sharing mode is 'Always share'."
+  },
+  "settingsLocationLastShared": "Last shared {time}",
+  "@settingsLocationLastShared": {
+    "description": "When the location was last shared, e.g. 'Last shared 5 minutes ago'.",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "5 minutes ago"
+      }
+    }
+  },
+  "settingsLocationNotSharedYet": "Your location will be shared the next time you open the app.",
+  "@settingsLocationNotSharedYet": {
+    "description": "Shown in the sharing indicator when no location was shared yet."
+  },
+  "settingsLocationShareNow": "Share now",
+  "@settingsLocationShareNow": {
+    "description": "Button that sends the current location to the family right away."
+  },
+  "settingsLocationUpdated": "Location shared with your family",
+  "@settingsLocationUpdated": {
+    "description": "Snackbar after the current location was sent."
+  },
+  "settingsLocationSaved": "Location sharing updated",
+  "@settingsLocationSaved": {
+    "description": "Snackbar after the location sharing mode was changed."
+  },
+  "settingsLocationFixUnavailable": "We couldn't get your location right now. It will be shared the next time you open the app.",
+  "@settingsLocationFixUnavailable": {
+    "description": "Shown when sharing is on but the phone could not provide a location fix."
+  },
+  "settingsLocationHowItWorks": "How it works",
+  "@settingsLocationHowItWorks": {
+    "description": "Section title for the location sharing explanations."
+  },
+  "settingsLocationAlwaysNote": "With “Always share”, your location is updated when you open the app, at most every 10 minutes. The app does not follow you in the background.",
+  "@settingsLocationAlwaysNote": {
+    "description": "Explains how often the location is updated in 'Always share' mode."
+  },
+  "settingsLocationSosNote": "During an SOS your phone shows a notification for as long as your live location is being shared.",
+  "@settingsLocationSosNote": {
+    "description": "Explains the visible indicator while the live location is shared during an SOS."
+  },
+  "settingsLocationNeverNote": "With “Never share”, an SOS still alerts your family, but without your location.",
+  "@settingsLocationNeverNote": {
+    "description": "Explains what 'Never share' means for SOS alerts."
+  },
+  "settingsPrivacyConsent": "When you signed up, you agreed to the Privacy Policy and the Terms of Service. You can read them at any time.",
+  "@settingsPrivacyConsent": {
+    "description": "Consent information at the top of the privacy screen."
+  },
+  "settingsPrivacyPolicy": "Privacy Policy",
+  "@settingsPrivacyPolicy": {
+    "description": "Link to the privacy policy web page."
+  },
+  "settingsTerms": "Terms of Service",
+  "@settingsTerms": {
+    "description": "Link to the terms of service web page."
+  },
+  "settingsPrivacyYourData": "Your data",
+  "@settingsPrivacyYourData": {
+    "description": "Section title on the privacy screen (export data)."
+  },
+  "settingsPrivacyMembership": "Family membership",
+  "@settingsPrivacyMembership": {
+    "description": "Section title on the privacy screen (leave family)."
+  },
+  "settingsExportData": "Export my data",
+  "@settingsExportData": {
+    "description": "Privacy screen entry that shows a copy of all personal data the app stores."
+  },
+  "settingsExportDataDescription": "See a copy of everything FamilyHub stores about you.",
+  "@settingsExportDataDescription": {
+    "description": "Subtitle of the 'Export my data' entry."
+  },
+  "settingsExportTitle": "My data",
+  "@settingsExportTitle": {
+    "description": "Title of the screen showing the exported personal data."
+  },
+  "settingsExportCopy": "Copy all",
+  "@settingsExportCopy": {
+    "description": "Button that copies the exported data (JSON text) to the clipboard."
+  },
+  "settingsExportGeneratedAt": "Exported {date}",
+  "@settingsExportGeneratedAt": {
+    "description": "When the data export was created.",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "26 Sept 2026, 10:15"
+      }
+    }
+  },
+  "settingsExportRawData": "Full data (JSON)",
+  "@settingsExportRawData": {
+    "description": "Heading above the full machine-readable export."
+  },
+  "settingsExportEmpty": "There is no personal data to show.",
+  "@settingsExportEmpty": {
+    "description": "Empty state of the data export screen."
+  },
+  "settingsExportSectionUser": "Account",
+  "@settingsExportSectionUser": {
+    "description": "Data export summary row: account data (email, name, language)."
+  },
+  "settingsExportSectionMember": "Family profile",
+  "@settingsExportSectionMember": {
+    "description": "Data export summary row: the member profile in the family."
+  },
+  "settingsExportSectionFamily": "Family",
+  "@settingsExportSectionFamily": {
+    "description": "Data export summary row: the family the user belongs to."
+  },
+  "settingsExportSectionTasks": "Tasks",
+  "@settingsExportSectionTasks": {
+    "description": "Data export summary row: tasks."
+  },
+  "settingsExportSectionLedger": "Money entries",
+  "@settingsExportSectionLedger": {
+    "description": "Data export summary row: ledger (income / expense) entries."
+  },
+  "settingsExportSectionNotices": "Notices",
+  "@settingsExportSectionNotices": {
+    "description": "Data export summary row: notices the user wrote."
+  },
+  "settingsExportSectionEmergencyCard": "Emergency card",
+  "@settingsExportSectionEmergencyCard": {
+    "description": "Data export summary row: the emergency (medical) card."
+  },
+  "settingsExportSectionSos": "SOS alerts",
+  "@settingsExportSectionSos": {
+    "description": "Data export summary row: SOS alerts the user raised."
+  },
+  "settingsExportSectionDevices": "Phones for notifications",
+  "@settingsExportSectionDevices": {
+    "description": "Data export summary row: phones registered for push notifications."
+  },
+  "settingsExportSectionSessions": "Sign-ins",
+  "@settingsExportSectionSessions": {
+    "description": "Data export summary row: sign-in sessions of the account."
+  },
+  "settingsExportItemCount": "{count, plural, =0{None} =1{1 item} other{{count} items}}",
+  "@settingsExportItemCount": {
+    "description": "Number of records in a data export section.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "settingsExportIncluded": "Included",
+  "@settingsExportIncluded": {
+    "description": "Data export summary: a single record (e.g. the profile) is included."
+  },
+  "settingsLeaveFamily": "Leave family",
+  "@settingsLeaveFamily": {
+    "description": "Privacy screen entry and confirm button to leave the current family."
+  },
+  "settingsLeaveFamilyDescription": "Stop being part of {family}. Your account stays.",
+  "@settingsLeaveFamilyDescription": {
+    "description": "Subtitle of the 'Leave family' entry.",
+    "placeholders": {
+      "family": {
+        "type": "String",
+        "example": "Sharma Family"
+      }
+    }
+  },
+  "settingsLeaveFamilyConfirmTitle": "Leave {family}?",
+  "@settingsLeaveFamilyConfirmTitle": {
+    "description": "Title of the leave-family confirmation dialog.",
+    "placeholders": {
+      "family": {
+        "type": "String",
+        "example": "Sharma Family"
+      }
+    }
+  },
+  "settingsLeaveFamilyConfirmMessage": "You will lose access to the family's tasks, money, notices and SOS alerts, and your profile is removed from the family. You can join again later with an invite code.",
+  "@settingsLeaveFamilyConfirmMessage": {
+    "description": "Message of the leave-family confirmation dialog."
+  },
+  "settingsLeaveFamilyOnlyMemberMessage": "You are the only member, so leaving deletes the family and all of its tasks, money records, notices, emergency cards and SOS history. This cannot be undone. Your account stays.",
+  "@settingsLeaveFamilyOnlyMemberMessage": {
+    "description": "Message of the leave-family confirmation dialog when the user is the only member (the family is then deleted)."
+  },
+  "settingsLeaveFamilyDone": "You left the family",
+  "@settingsLeaveFamilyDone": {
+    "description": "Snackbar after leaving the family."
+  },
+  "settingsLastAdminTitle": "You're the last admin",
+  "@settingsLastAdminTitle": {
+    "description": "Dialog title when the last admin tries to leave or delete their account (error LAST_ADMIN)."
+  },
+  "settingsLastAdminLeaveMessage": "A family always needs an admin. Make another member an admin first, then leave the family.",
+  "@settingsLastAdminLeaveMessage": {
+    "description": "Dialog message when the last admin tries to leave the family."
+  },
+  "settingsLastAdminDeleteMessage": "A family always needs an admin. Make another member an admin first, then delete your account.",
+  "@settingsLastAdminDeleteMessage": {
+    "description": "Dialog message when the last admin tries to delete their account."
+  },
+  "settingsLastAdminOpenMembers": "Go to members",
+  "@settingsLastAdminOpenMembers": {
+    "description": "Button in the last-admin dialog that opens the members list."
+  },
+  "settingsDeleteAccount": "Delete account",
+  "@settingsDeleteAccount": {
+    "description": "Privacy screen entry to permanently delete the account."
+  },
+  "settingsDeleteAccountDescription": "Permanently delete your account and personal data.",
+  "@settingsDeleteAccountDescription": {
+    "description": "Subtitle of the 'Delete account' entry."
+  },
+  "settingsDeleteAccountTitle": "Delete your account?",
+  "@settingsDeleteAccountTitle": {
+    "description": "Title of the delete-account dialog."
+  },
+  "settingsDeleteAccountMessage": "This permanently deletes your account, your family profile, your emergency card and your registered devices. Money entries you recorded stay in the family ledger. If you are the only member, the whole family is deleted. This cannot be undone.",
+  "@settingsDeleteAccountMessage": {
+    "description": "Explanation in the delete-account dialog of what will be deleted."
+  },
+  "settingsDeleteAccountPassword": "Your password",
+  "@settingsDeleteAccountPassword": {
+    "description": "Password field in the delete-account dialog (confirms the deletion)."
+  },
+  "settingsDeleteAccountConfirm": "Delete forever",
+  "@settingsDeleteAccountConfirm": {
+    "description": "Destructive confirm button in the delete-account dialog."
+  },
+  "settingsDeleteAccountWrongPassword": "That password is not correct.",
+  "@settingsDeleteAccountWrongPassword": {
+    "description": "Error under the password field when the password is wrong."
+  },
+  "settingsDeleteAccountDone": "Your account has been deleted.",
+  "@settingsDeleteAccountDone": {
+    "description": "Snackbar after the account was deleted."
+  },
+  "settingsPasswordCurrent": "Current password",
+  "@settingsPasswordCurrent": {
+    "description": "Change-password form field."
+  },
+  "settingsPasswordNew": "New password",
+  "@settingsPasswordNew": {
+    "description": "Change-password form field."
+  },
+  "settingsPasswordConfirm": "Confirm new password",
+  "@settingsPasswordConfirm": {
+    "description": "Change-password form field (repeat the new password)."
+  },
+  "settingsPasswordRules": "At least 8 characters, with at least one letter and one number.",
+  "@settingsPasswordRules": {
+    "description": "Password rules shown on the change-password screen."
+  },
+  "settingsPasswordSameAsCurrent": "Choose a password that is different from your current one.",
+  "@settingsPasswordSameAsCurrent": {
+    "description": "Validation error when the new password equals the current one."
+  },
+  "settingsPasswordWrongCurrent": "Your current password is not correct.",
+  "@settingsPasswordWrongCurrent": {
+    "description": "Error under the current password field (server said INVALID_CREDENTIALS)."
+  },
+  "settingsPasswordChanged": "Password changed",
+  "@settingsPasswordChanged": {
+    "description": "Snackbar after the password was changed."
+  },
+  "settingsAboutMission": "FamilyHub helps your family work together like a great team: clear roles, shared tasks, open money records and help when it matters.",
+  "@settingsAboutMission": {
+    "description": "Mission line on the About screen."
+  },
+  "settingsAboutSosTitle": "SOS alerts your family only",
+  "@settingsAboutSosTitle": {
+    "description": "About screen: title of the SOS disclaimer."
+  },
+  "settingsAboutSosDisclaimer": "SOS sends an alert to your family members. It does not contact the police, an ambulance or any emergency service. If you are in danger, call {number}.",
+  "@settingsAboutSosDisclaimer": {
+    "description": "About screen: SOS disclaimer with the country's emergency number.",
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "112"
+      }
+    }
+  },
+  "settingsAboutCallEmergency": "Call {number}",
+  "@settingsAboutCallEmergency": {
+    "description": "Button that calls the country's emergency number.",
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "112"
+      }
+    }
+  },
+  "settingsAboutMedicalTitle": "Not medical advice",
+  "@settingsAboutMedicalTitle": {
+    "description": "About screen: title of the medical disclaimer."
+  },
+  "settingsAboutMedicalDisclaimer": "FamilyHub is not a medical service and does not give medical advice. Emergency cards only show what your family has written down.",
+  "@settingsAboutMedicalDisclaimer": {
+    "description": "About screen: medical disclaimer for emergency cards."
+  },
+  "settingsAboutLedgerTitle": "Records money, never moves it",
+  "@settingsAboutLedgerTitle": {
+    "description": "About screen: title of the ledger-only note."
+  },
+  "settingsAboutLedgerNote": "The family ledger only records income, expenses and savings. FamilyHub never sends or receives money and never asks for bank, card or UPI details.",
+  "@settingsAboutLedgerNote": {
+    "description": "About screen: explains that the ledger is record-keeping only (no payments)."
+  },
+  "settingsAboutPrivacyContact": "Privacy questions",
+  "@settingsAboutPrivacyContact": {
+    "description": "About screen link that emails the privacy contact."
+  },
+  "settingsAboutLicenses": "Open-source licences",
+  "@settingsAboutLicenses": {
+    "description": "About screen link to the licences of the open-source libraries used."
+  },
+  "settingsEditProfile": "Edit profile",
+  "@settingsEditProfile": {
+    "description": "Small button in the profile header at the top of the More tab that opens the profile editor."
+  },
+  "settingsProfileSectionPersonal": "About you",
+  "@settingsProfileSectionPersonal": {
+    "description": "Section title on the profile screen above the name, phone, date of birth and gender fields."
+  },
+  "settingsPasswordSectionCurrent": "Confirm it's you",
+  "@settingsPasswordSectionCurrent": {
+    "description": "Section title on the change-password screen above the current password field."
+  },
+  "settingsPasswordSectionNew": "Choose a new password",
+  "@settingsPasswordSectionNew": {
+    "description": "Section title on the change-password screen above the new password fields."
+  },
+  "settingsAboutGoodToKnow": "Good to know",
+  "@settingsAboutGoodToKnow": {
+    "description": "Section title on the About screen above the SOS, medical and money disclaimers."
+  },
+  "settingsAboutLegal": "Legal & contact",
+  "@settingsAboutLegal": {
+    "description": "Section title on the About screen above the privacy policy, terms, privacy contact and licences links."
+  },
+  "roleAdmin": "Admin",
+  "@roleAdmin": {
+    "description": "Family role label: a member who can manage the family (like a manager in a company)."
+  },
+  "roleMember": "Member",
+  "@roleMember": {
+    "description": "Family role label: a regular family member without admin rights."
+  },
+  "roleAdminDescription": "Can manage members, tasks, money and family settings",
+  "@roleAdminDescription": {
+    "description": "One-line explanation shown under the Admin role option."
+  },
+  "roleMemberDescription": "Can view the family, do their tasks and post notices",
+  "@roleMemberDescription": {
+    "description": "One-line explanation shown under the Member role option."
+  },
+  "genderMale": "Male",
+  "@genderMale": {
+    "description": "Gender option."
+  },
+  "genderFemale": "Female",
+  "@genderFemale": {
+    "description": "Gender option."
+  },
+  "genderOther": "Other",
+  "@genderOther": {
+    "description": "Gender option for people who do not identify as male or female."
+  },
+  "genderUnspecified": "Prefer not to say",
+  "@genderUnspecified": {
+    "description": "Gender option / label when no gender is set."
+  },
+  "ageGroupChild": "Child",
+  "@ageGroupChild": {
+    "description": "Age group label for members younger than 13."
+  },
+  "ageGroupTeen": "Teen",
+  "@ageGroupTeen": {
+    "description": "Age group label for members aged 13 to 17."
+  },
+  "ageGroupAdult": "Adult",
+  "@ageGroupAdult": {
+    "description": "Age group label for members aged 18 to 59."
+  },
+  "ageGroupSenior": "Senior",
+  "@ageGroupSenior": {
+    "description": "Age group label for members aged 60 or older."
+  },
+  "ageYears": "{count, plural, =0{Under 1 year} =1{1 year} other{{count} years}}",
+  "@ageYears": {
+    "description": "A person's age in completed years, e.g. shown next to a family member's name.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "locationSharingNever": "Never share",
+  "@locationSharingNever": {
+    "description": "Location sharing mode: location is never shared."
+  },
+  "locationSharingSosOnly": "Only during SOS",
+  "@locationSharingSosOnly": {
+    "description": "Location sharing mode: live location is shared only while the member's SOS alert is active."
+  },
+  "locationSharingAlways": "Always share",
+  "@locationSharingAlways": {
+    "description": "Location sharing mode: the family can always see the member's last known location."
+  },
+  "locationSharingNeverDescription": "Your location is never shared, not even during an SOS.",
+  "@locationSharingNeverDescription": {
+    "description": "One-line explanation of the 'Never share' location mode."
+  },
+  "locationSharingSosOnlyDescription": "Your family sees your live location only while your SOS is active.",
+  "@locationSharingSosOnlyDescription": {
+    "description": "One-line explanation of the 'Only during SOS' location mode."
+  },
+  "locationSharingAlwaysDescription": "Your family can always see your last known location.",
+  "@locationSharingAlwaysDescription": {
+    "description": "One-line explanation of the 'Always share' location mode."
+  },
+  "sosTitle": "SOS",
+  "@sosTitle": {
+    "description": "App bar title of the SOS tab."
+  },
+  "sosHistoryTooltip": "SOS history",
+  "@sosHistoryTooltip": {
+    "description": "Tooltip of the history icon in the SOS tab app bar."
+  },
+  "sosButtonLabel": "SOS",
+  "@sosButtonLabel": {
+    "description": "Text inside the large round SOS button. Keep it very short; 'SOS' is understood in most languages."
+  },
+  "sosButtonSemantics": "Send an SOS alert to your family",
+  "@sosButtonSemantics": {
+    "description": "Screen-reader label of the large round SOS button."
+  },
+  "sosButtonHint": "Tap to alert your family. You can cancel within {seconds} seconds.",
+  "@sosButtonHint": {
+    "description": "Hint under the SOS button.",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "sosSendingIn": "{seconds, plural, =1{Sending in 1 second} other{Sending in {seconds} seconds}}",
+  "@sosSendingIn": {
+    "description": "Countdown text before the SOS is sent (can be cancelled).",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "sosCancelAlert": "Cancel SOS",
+  "@sosCancelAlert": {
+    "description": "Button shown during the countdown to cancel the SOS before it is sent."
+  },
+  "sosCancelled": "SOS cancelled. Nobody was alerted.",
+  "@sosCancelled": {
+    "description": "Snackbar after the countdown was cancelled."
+  },
+  "sosSending": "Alerting your family…",
+  "@sosSending": {
+    "description": "Shown while the SOS is being sent."
+  },
+  "sosSent": "Your family has been alerted.",
+  "@sosSent": {
+    "description": "Snackbar after the SOS was sent with location."
+  },
+  "sosSentWithoutLocation": "Your family has been alerted, without your location.",
+  "@sosSentWithoutLocation": {
+    "description": "Snackbar after the SOS was sent without location (sharing mode is Never)."
+  },
+  "sosSentPermissionMissing": "Your family has been alerted, but without your location: {reason}",
+  "@sosSentPermissionMissing": {
+    "description": "Snackbar after the SOS was sent without location because location permission / GPS is missing. {reason} is a full sentence explaining the problem.",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "sosSentSharingUpdateFailed": "Your family has been alerted, but location sharing could not be turned on.",
+  "@sosSentSharingUpdateFailed": {
+    "description": "Snackbar when the member chose to share the location but switching the sharing mode failed."
+  },
+  "sosSendFailedTitle": "The SOS was not sent",
+  "@sosSendFailedTitle": {
+    "description": "Title of the error card after sending the SOS failed."
+  },
+  "sosSendFailedMessage": "Check your internet connection and try again. If you are in danger, call {number} now.",
+  "@sosSendFailedMessage": {
+    "description": "Message of the error card after sending the SOS failed. {number} is the country emergency number.",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "sosTryAgain": "Send again",
+  "@sosTryAgain": {
+    "description": "Button that sends the SOS again right away (without countdown) after a failure."
+  },
+  "sosDisclaimerTitle": "Alerts your family only",
+  "@sosDisclaimerTitle": {
+    "description": "Title of the disclaimer card on the SOS screen."
+  },
+  "sosDisclaimer": "SOS notifies the members of your family in FamilyHub. It does not contact the police, an ambulance or any other emergency service.",
+  "@sosDisclaimer": {
+    "description": "Disclaimer on the SOS screen (legal requirement: the app never contacts emergency services)."
+  },
+  "sosCallEmergency": "Call emergency services {number}",
+  "@sosCallEmergency": {
+    "description": "Button that dials the country's emergency number.",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "sosCallFailed": "Couldn't open the phone app. Please dial {number} yourself.",
+  "@sosCallFailed": {
+    "description": "Error when the dialer could not be opened.",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "sosLocationModeTitle": "Your location during SOS",
+  "@sosLocationModeTitle": {
+    "description": "Title of the row that shows the member's location sharing mode and opens the location settings."
+  },
+  "sosActiveTitle": "Your SOS is active",
+  "@sosActiveTitle": {
+    "description": "Title of the panel while the member's own SOS is active."
+  },
+  "sosSharingLive": "Sharing your live location with family",
+  "@sosSharingLive": {
+    "description": "Indicator while the live location is being shared during the member's SOS."
+  },
+  "sosNotSharingLocation": "Your location is not being shared",
+  "@sosNotSharingLocation": {
+    "description": "Indicator while the member's SOS is active without location sharing."
+  },
+  "sosLocationOffHint": "Your location sharing is set to Never, so your family can't see where you are.",
+  "@sosLocationOffHint": {
+    "description": "Explanation under the indicator when the member's sharing mode is Never."
+  },
+  "sosChangeSharing": "Change location sharing",
+  "@sosChangeSharing": {
+    "description": "Button under 'Your location is not being shared' that opens the location sharing settings."
+  },
+  "sosViewAlert": "View alert details",
+  "@sosViewAlert": {
+    "description": "Button on the active SOS panel that opens the alert screen."
+  },
+  "sosTimeRemaining": "Ends in {time}",
+  "@sosTimeRemaining": {
+    "description": "Time left in the 15-minute live window, e.g. 'Ends in 14:05'.",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "14:05"
+      }
+    }
+  },
+  "sosLastSent": "Location sent {time}",
+  "@sosLastSent": {
+    "description": "When the location last reached the family, e.g. 'Location sent 5 seconds ago'.",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "5 seconds ago"
+      }
+    }
+  },
+  "sosWaitingForLocation": "Waiting for your location…",
+  "@sosWaitingForLocation": {
+    "description": "Shown until the first location of the member's SOS reached the server."
+  },
+  "sosSecondsAgo": "{seconds, plural, =0{just now} =1{1 second ago} other{{seconds} seconds ago}}",
+  "@sosSecondsAgo": {
+    "description": "Relative time under one minute, used for live location updates.",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "sosImOkay": "I am okay",
+  "@sosImOkay": {
+    "description": "Button that ends the member's own SOS as safe."
+  },
+  "sosFalseAlarm": "False alarm",
+  "@sosFalseAlarm": {
+    "description": "Button that ends the member's own SOS as a false alarm."
+  },
+  "sosResolvedSafe": "Glad you are okay. Your family has been told.",
+  "@sosResolvedSafe": {
+    "description": "Snackbar after the member ended their SOS with 'I am okay'."
+  },
+  "sosResolvedFalseAlarm": "SOS ended as a false alarm. Your family has been told.",
+  "@sosResolvedFalseAlarm": {
+    "description": "Snackbar after the member ended their SOS as a false alarm."
+  },
+  "sosOthersTitle": "Family alerts",
+  "@sosOthersTitle": {
+    "description": "Section title of other members' active alerts on the SOS screen."
+  },
+  "sosOthersEmpty": "No one in your family needs help right now.",
+  "@sosOthersEmpty": {
+    "description": "Shown when no other member has an active SOS."
+  },
+  "sosHistoryLink": "Past alerts",
+  "@sosHistoryLink": {
+    "description": "Row on the SOS screen that opens the SOS history."
+  },
+  "sosLocationDialogTitle": "Share your location?",
+  "@sosLocationDialogTitle": {
+    "description": "Title of the dialog shown when sending an SOS while location sharing is set to Never."
+  },
+  "sosLocationDialogMessage": "Your location sharing is set to Never. Your family can find you faster if they see your live location while this SOS is active.",
+  "@sosLocationDialogMessage": {
+    "description": "Message of the location question dialog."
+  },
+  "sosLocationDialogShare": "Share location for SOS only",
+  "@sosLocationDialogShare": {
+    "description": "Dialog button: switch sharing to 'only during SOS' and send the location."
+  },
+  "sosLocationDialogWithout": "Send without location",
+  "@sosLocationDialogWithout": {
+    "description": "Dialog button: send the SOS without location."
+  },
+  "sosLocationDialogAutoSend": "{seconds, plural, =1{If you don't choose, it is sent without your location in 1 second.} other{If you don't choose, it is sent without your location in {seconds} seconds.}}",
+  "@sosLocationDialogAutoSend": {
+    "description": "Countdown line in the 'share your location?' dialog: the SOS is sent without location automatically when nobody answers.",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "sosBannerSharing": "Your SOS is active – sharing live location",
+  "@sosBannerSharing": {
+    "description": "Global red banner while the member's own SOS is active and the location is shared."
+  },
+  "sosBannerActive": "Your SOS is active",
+  "@sosBannerActive": {
+    "description": "Global red banner while the member's own SOS is active without location."
+  },
+  "sosNeedsHelp": "{name} needs help",
+  "@sosNeedsHelp": {
+    "description": "Global banner / alert screen headline when another member raised an SOS.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosManyNeedHelp": "{count, plural, =1{1 family member needs help} other{{count} family members need help}}",
+  "@sosManyNeedHelp": {
+    "description": "Global banner when several members have an active SOS.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sosBannerOpen": "Open",
+  "@sosBannerOpen": {
+    "description": "Button on the global SOS banner that opens the alert."
+  },
+  "sosFormerMember": "Former member",
+  "@sosFormerMember": {
+    "description": "Name shown for an alert of a member who left the family."
+  },
+  "sosStatusActive": "Active",
+  "@sosStatusActive": {
+    "description": "Status chip: the SOS is active."
+  },
+  "sosStatusResolved": "Resolved",
+  "@sosStatusResolved": {
+    "description": "Status chip: the SOS was resolved."
+  },
+  "sosStatusExpired": "Ended",
+  "@sosStatusExpired": {
+    "description": "Status chip: the 15-minute SOS window passed without resolution."
+  },
+  "sosResolutionSafe": "Safe",
+  "@sosResolutionSafe": {
+    "description": "Resolution: the member said they are okay."
+  },
+  "sosResolutionFalseAlarm": "False alarm",
+  "@sosResolutionFalseAlarm": {
+    "description": "Resolution: the alert was an accident."
+  },
+  "sosResolutionHelped": "Helped",
+  "@sosResolutionHelped": {
+    "description": "Resolution: an admin marked the member as helped."
+  },
+  "sosStarted": "Started {time}",
+  "@sosStarted": {
+    "description": "When the alert started, e.g. 'Started 5 minutes ago'.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sosEnded": "Ended {time}",
+  "@sosEnded": {
+    "description": "When the alert ended, e.g. 'Ended 26 Sep, 10:15 AM'.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sosLiveLocation": "Live location",
+  "@sosLiveLocation": {
+    "description": "Tile hint: the alert shares a live location."
+  },
+  "sosNoLocation": "No location shared",
+  "@sosNoLocation": {
+    "description": "Tile hint: the alert does not share a location."
+  },
+  "sosAlertTitle": "SOS alert",
+  "@sosAlertTitle": {
+    "description": "App bar title of the alert detail screen."
+  },
+  "sosYourAlert": "Your SOS",
+  "@sosYourAlert": {
+    "description": "Headline of the alert detail screen when it is the viewer's own alert."
+  },
+  "sosMessageLabel": "Message",
+  "@sosMessageLabel": {
+    "description": "Label above the optional SOS message."
+  },
+  "sosLastLocationTitle": "Last location",
+  "@sosLastLocationTitle": {
+    "description": "Title of the location card on the alert screen."
+  },
+  "sosAccuracy": "Accurate to about {meters} m",
+  "@sosAccuracy": {
+    "description": "GPS accuracy radius in metres.",
+    "placeholders": {
+      "meters": {
+        "type": "String",
+        "example": "12"
+      }
+    }
+  },
+  "sosUpdated": "Updated {time}",
+  "@sosUpdated": {
+    "description": "When the location was recorded, e.g. 'Updated 5 seconds ago'.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sosCoordinates": "{lat}, {lng}",
+  "@sosCoordinates": {
+    "description": "Latitude and longitude, e.g. '28.613900, 77.209000'.",
+    "placeholders": {
+      "lat": {
+        "type": "String"
+      },
+      "lng": {
+        "type": "String"
+      }
+    }
+  },
+  "sosOpenInMaps": "Open in Maps",
+  "@sosOpenInMaps": {
+    "description": "Button that opens the location in the maps app."
+  },
+  "sosMapsFailed": "Couldn't open the maps app.",
+  "@sosMapsFailed": {
+    "description": "Error when no maps app / browser could open the location."
+  },
+  "sosNoLocationShared": "{name} is not sharing their location.",
+  "@sosNoLocationShared": {
+    "description": "Alert screen: the member's sharing mode is Never.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosWaitingForMemberLocation": "Waiting for the first location…",
+  "@sosWaitingForMemberLocation": {
+    "description": "Alert screen: location sharing is on but no location has arrived yet."
+  },
+  "sosTrailTitle": "Recent locations",
+  "@sosTrailTitle": {
+    "description": "Section title of the recent location points of an alert."
+  },
+  "sosCallMember": "Call {name}",
+  "@sosCallMember": {
+    "description": "Button that calls the member who raised the SOS.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosMarkHelped": "Mark as helped",
+  "@sosMarkHelped": {
+    "description": "Admin button that ends another member's SOS as helped."
+  },
+  "sosMarkHelpedConfirmTitle": "End this SOS?",
+  "@sosMarkHelpedConfirmTitle": {
+    "description": "Title of the confirmation before an admin marks an SOS as helped."
+  },
+  "sosMarkHelpedConfirmMessage": "{name}'s alert ends for everyone and live location sharing stops. Only do this when {name} is safe.",
+  "@sosMarkHelpedConfirmMessage": {
+    "description": "Confirmation message before an admin marks an SOS as helped.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosMarkedHelped": "The SOS was marked as helped.",
+  "@sosMarkedHelped": {
+    "description": "Snackbar after an admin marked an SOS as helped."
+  },
+  "sosResolvedBy": "{resolution} · by {name}",
+  "@sosResolvedBy": {
+    "description": "How and by whom an alert was resolved, e.g. 'Helped · by Amit'.",
+    "placeholders": {
+      "resolution": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosAlertGoneTitle": "Alert not available",
+  "@sosAlertGoneTitle": {
+    "description": "Title when an SOS alert does not exist (removed member, wrong family, bad link)."
+  },
+  "sosAlertGoneMessage": "This SOS alert no longer exists or belongs to another family.",
+  "@sosAlertGoneMessage": {
+    "description": "Message when an SOS alert does not exist."
+  },
+  "sosBackToSos": "Go to SOS",
+  "@sosBackToSos": {
+    "description": "Button on the 'alert not available' state that opens the SOS tab."
+  },
+  "sosEmergencyCardTitle": "Emergency card",
+  "@sosEmergencyCardTitle": {
+    "description": "Section title of the member's emergency card on the alert screen."
+  },
+  "sosHistoryTitle": "SOS history",
+  "@sosHistoryTitle": {
+    "description": "App bar title of the SOS history screen."
+  },
+  "sosHistoryEmptyTitle": "No past alerts",
+  "@sosHistoryEmptyTitle": {
+    "description": "Empty state title of the SOS history."
+  },
+  "sosHistoryEmptyMessage": "Alerts that were resolved or ended appear here.",
+  "@sosHistoryEmptyMessage": {
+    "description": "Empty state message of the SOS history."
+  },
+  "tasksTitle": "Tasks",
+  "@tasksTitle": {
+    "description": "App bar title of the Tasks tab."
+  },
+  "tasksNewTask": "New task",
+  "@tasksNewTask": {
+    "description": "Button that opens the form to create a task."
+  },
+  "tasksViewMine": "My tasks",
+  "@tasksViewMine": {
+    "description": "Segment of the Tasks tab: the signed-in member's pending tasks."
+  },
+  "tasksViewFamily": "Family",
+  "@tasksViewFamily": {
+    "description": "Segment of the Tasks tab: pending tasks of the whole family."
+  },
+  "tasksViewDone": "Done",
+  "@tasksViewDone": {
+    "description": "Segment of the Tasks tab: completed tasks."
+  },
+  "tasksDueOverdue": "Overdue",
+  "@tasksDueOverdue": {
+    "description": "Filter chip: tasks whose due date has passed."
+  },
+  "tasksDueToday": "Today",
+  "@tasksDueToday": {
+    "description": "Filter chip: tasks due today."
+  },
+  "tasksDueWeek": "This week",
+  "@tasksDueWeek": {
+    "description": "Filter chip: tasks due this week (Monday to Sunday)."
+  },
+  "tasksFilterDueLabel": "Filter by due date",
+  "@tasksFilterDueLabel": {
+    "description": "Screen-reader label of the due date filter chips."
+  },
+  "tasksFilterMemberLabel": "Filter by family member",
+  "@tasksFilterMemberLabel": {
+    "description": "Screen-reader label of the member filter chips."
+  },
+  "tasksFilterEveryone": "Everyone",
+  "@tasksFilterEveryone": {
+    "description": "Member filter chip: tasks of all family members."
+  },
+  "tasksSectionOverdue": "Overdue",
+  "@tasksSectionOverdue": {
+    "description": "Section header in the task list: due date has passed."
+  },
+  "tasksSectionToday": "Due today",
+  "@tasksSectionToday": {
+    "description": "Section header in the task list: due today."
+  },
+  "tasksSectionUpcoming": "Upcoming",
+  "@tasksSectionUpcoming": {
+    "description": "Section header in the task list: due later."
+  },
+  "tasksSectionNoDueDate": "No due date",
+  "@tasksSectionNoDueDate": {
+    "description": "Section header in the task list: tasks without a due date."
+  },
+  "tasksPendingCount": "{count, plural, =0{No pending tasks} =1{1 pending task} other{{count} pending tasks}}",
+  "@tasksPendingCount": {
+    "description": "Number of pending tasks (task list summary, dashboard member row).",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tasksDoneCount": "{count, plural, =0{No completed tasks} =1{1 completed task} other{{count} completed tasks}}",
+  "@tasksDoneCount": {
+    "description": "Number of completed tasks (summary above the Done list).",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tasksEmptyMineTitle": "You're all caught up!",
+  "@tasksEmptyMineTitle": {
+    "description": "Empty state: the signed-in member has no pending tasks."
+  },
+  "tasksEmptyMineMessage": "No pending tasks for you. Enjoy the free time or add something new.",
+  "@tasksEmptyMineMessage": {
+    "description": "Empty state message: the signed-in member has no pending tasks."
+  },
+  "tasksEmptyFamilyTitle": "No pending family tasks",
+  "@tasksEmptyFamilyTitle": {
+    "description": "Empty state: nobody in the family has pending tasks."
+  },
+  "tasksEmptyFamilyMessage": "Assign a task to get everyone moving.",
+  "@tasksEmptyFamilyMessage": {
+    "description": "Empty state message of the Family view."
+  },
+  "tasksEmptyMemberTitle": "{name} has no pending tasks",
+  "@tasksEmptyMemberTitle": {
+    "description": "Empty state of the Family view filtered to one member.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "tasksEmptyOverdueTitle": "Nothing overdue",
+  "@tasksEmptyOverdueTitle": {
+    "description": "Empty state of the Overdue filter."
+  },
+  "tasksEmptyOverdueMessage": "Great job staying on top of things.",
+  "@tasksEmptyOverdueMessage": {
+    "description": "Empty state message of the Overdue filter."
+  },
+  "tasksEmptyTodayTitle": "Nothing due today",
+  "@tasksEmptyTodayTitle": {
+    "description": "Empty state of the Today filter."
+  },
+  "tasksEmptyTodayMessage": "The day is clear. Plan ahead or take a break.",
+  "@tasksEmptyTodayMessage": {
+    "description": "Empty state message of the Today filter."
+  },
+  "tasksEmptyWeekTitle": "Nothing due this week",
+  "@tasksEmptyWeekTitle": {
+    "description": "Empty state of the This week filter."
+  },
+  "tasksEmptyWeekMessage": "Add a due date to tasks to see them here.",
+  "@tasksEmptyWeekMessage": {
+    "description": "Empty state message of the This week filter."
+  },
+  "tasksEmptyDoneTitle": "No completed tasks yet",
+  "@tasksEmptyDoneTitle": {
+    "description": "Empty state of the Done view."
+  },
+  "tasksEmptyDoneMemberTitle": "{name} hasn't completed any tasks yet",
+  "@tasksEmptyDoneMemberTitle": {
+    "description": "Empty state of the Done view filtered to one member.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Anaya"
+      }
+    }
+  },
+  "tasksEmptyDoneMessage": "Completed tasks will show up here.",
+  "@tasksEmptyDoneMessage": {
+    "description": "Empty state message of the Done view."
+  },
+  "tasksStatusPending": "Pending",
+  "@tasksStatusPending": {
+    "description": "Task status: not done yet."
+  },
+  "tasksStatusDone": "Done",
+  "@tasksStatusDone": {
+    "description": "Task status: completed."
+  },
+  "tasksStatusOverdue": "Overdue",
+  "@tasksStatusOverdue": {
+    "description": "Status chip of a pending task whose due date has passed."
+  },
+  "tasksCategoryStudy": "Study",
+  "@tasksCategoryStudy": {
+    "description": "Task category: homework, reading, learning."
+  },
+  "tasksCategoryChore": "Chore",
+  "@tasksCategoryChore": {
+    "description": "Task category: household chore."
+  },
+  "tasksCategorySkill": "Skill",
+  "@tasksCategorySkill": {
+    "description": "Task category: practising or learning a skill."
+  },
+  "tasksCategoryHealth": "Health",
+  "@tasksCategoryHealth": {
+    "description": "Task category: medicine, exercise, check-ups."
+  },
+  "tasksCategoryErrand": "Errand",
+  "@tasksCategoryErrand": {
+    "description": "Task category: bills, shopping, appointments."
+  },
+  "tasksCategoryOther": "Other",
+  "@tasksCategoryOther": {
+    "description": "Task category: anything else."
+  },
+  "tasksPriorityLow": "Low",
+  "@tasksPriorityLow": {
+    "description": "Task priority."
+  },
+  "tasksPriorityMedium": "Medium",
+  "@tasksPriorityMedium": {
+    "description": "Task priority."
+  },
+  "tasksPriorityHigh": "High",
+  "@tasksPriorityHigh": {
+    "description": "Task priority."
+  },
+  "tasksPrioritySemantics": "{priority} priority",
+  "@tasksPrioritySemantics": {
+    "description": "Priority chip / screen-reader label, e.g. 'High priority'.",
+    "placeholders": {
+      "priority": {
+        "type": "String",
+        "example": "High"
+      }
+    }
+  },
+  "tasksMarkDone": "Mark as done",
+  "@tasksMarkDone": {
+    "description": "Checkbox label / button that completes a task."
+  },
+  "tasksMarkNotDone": "Mark as not done",
+  "@tasksMarkNotDone": {
+    "description": "Screen-reader label of the checkbox of a completed task."
+  },
+  "tasksReopen": "Reopen task",
+  "@tasksReopen": {
+    "description": "Button that sets a completed task back to pending."
+  },
+  "tasksMarkedDone": "Nice work! Task completed.",
+  "@tasksMarkedDone": {
+    "description": "Snackbar after completing a task."
+  },
+  "tasksReopened": "Task reopened",
+  "@tasksReopened": {
+    "description": "Snackbar after reopening a task."
+  },
+  "tasksDueSemantics": "Due {date}",
+  "@tasksDueSemantics": {
+    "description": "Screen-reader label of a task's due date, e.g. 'Due Tomorrow'.",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "Tomorrow"
+      }
+    }
+  },
+  "tasksOverdueSemantics": "Overdue, was due {date}",
+  "@tasksOverdueSemantics": {
+    "description": "Screen-reader label of an overdue task's due date.",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "Yesterday"
+      }
+    }
+  },
+  "tasksDueInDays": "{count, plural, =1{in 1 day} other{in {count} days}}",
+  "@tasksDueInDays": {
+    "description": "Relative due date in the future, e.g. 'in 3 days'.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tasksAssignedToSemantics": "Assigned to {name}",
+  "@tasksAssignedToSemantics": {
+    "description": "Screen-reader label of a task's assignee.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "tasksDetailTitle": "Task",
+  "@tasksDetailTitle": {
+    "description": "App bar title of the task detail screen."
+  },
+  "tasksInfoAssignee": "Assigned to",
+  "@tasksInfoAssignee": {
+    "description": "Task detail row label."
+  },
+  "tasksInfoDue": "Due date",
+  "@tasksInfoDue": {
+    "description": "Task detail row label."
+  },
+  "tasksInfoNoDueDate": "No due date",
+  "@tasksInfoNoDueDate": {
+    "description": "Task detail value when the task has no due date."
+  },
+  "tasksInfoCreatedBy": "Created by",
+  "@tasksInfoCreatedBy": {
+    "description": "Task detail row label."
+  },
+  "tasksInfoCompletedBy": "Completed by",
+  "@tasksInfoCompletedBy": {
+    "description": "Task detail row label."
+  },
+  "tasksInfoUpdated": "Last updated",
+  "@tasksInfoUpdated": {
+    "description": "Task detail row label."
+  },
+  "tasksPersonAtTime": "{name} · {time}",
+  "@tasksPersonAtTime": {
+    "description": "Who did something and when, e.g. 'Priya · 2 hours ago'.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Priya"
+      },
+      "time": {
+        "type": "String",
+        "example": "2 hours ago"
+      }
+    }
+  },
+  "tasksAssigneeMe": "{name} (you)",
+  "@tasksAssigneeMe": {
+    "description": "The signed-in member in an assignee picker / detail.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Amit"
+      }
+    }
+  },
+  "tasksCompleteNotAllowed": "Only {name} or an admin can change the status of this task.",
+  "@tasksCompleteNotAllowed": {
+    "description": "Task detail note when the viewer may not complete / reopen the task.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "tasksDeleteTitle": "Delete this task?",
+  "@tasksDeleteTitle": {
+    "description": "Confirmation dialog title."
+  },
+  "tasksDeleteMessage": "\"{title}\" will be removed for the whole family. This can't be undone.",
+  "@tasksDeleteMessage": {
+    "description": "Confirmation dialog message before deleting a task.",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Tidy up your room"
+      }
+    }
+  },
+  "tasksDeleted": "Task deleted",
+  "@tasksDeleted": {
+    "description": "Snackbar / state after deleting a task."
+  },
+  "tasksFormNewTitle": "New task",
+  "@tasksFormNewTitle": {
+    "description": "App bar title of the create-task form."
+  },
+  "tasksFormEditTitle": "Edit task",
+  "@tasksFormEditTitle": {
+    "description": "App bar title of the edit-task form."
+  },
+  "tasksFieldAssignee": "Assign to",
+  "@tasksFieldAssignee": {
+    "description": "Form field: family member who should do the task."
+  },
+  "tasksFieldAssigneeRequired": "Choose who should do this task",
+  "@tasksFieldAssigneeRequired": {
+    "description": "Validation error: no assignee selected."
+  },
+  "tasksAssigneeSelfOnly": "Only admins can assign tasks to other family members.",
+  "@tasksAssigneeSelfOnly": {
+    "description": "Helper text under the locked assignee field for non-admins."
+  },
+  "tasksFieldTitle": "Title",
+  "@tasksFieldTitle": {
+    "description": "Form field: task title."
+  },
+  "tasksFieldTitleHint": "e.g. Finish maths homework",
+  "@tasksFieldTitleHint": {
+    "description": "Hint of the task title field."
+  },
+  "tasksFieldDescription": "Details (optional)",
+  "@tasksFieldDescription": {
+    "description": "Form field: task description."
+  },
+  "tasksFieldDescriptionHint": "Anything that helps to get it done",
+  "@tasksFieldDescriptionHint": {
+    "description": "Hint of the task description field."
+  },
+  "tasksFieldDueDate": "Due date (optional)",
+  "@tasksFieldDueDate": {
+    "description": "Form field: task due date."
+  },
+  "tasksFieldCategory": "Category",
+  "@tasksFieldCategory": {
+    "description": "Form section label: task category chips."
+  },
+  "tasksFieldPriority": "Priority",
+  "@tasksFieldPriority": {
+    "description": "Form section label: task priority chips."
+  },
+  "tasksCreate": "Create task",
+  "@tasksCreate": {
+    "description": "Submit button of the create-task form."
+  },
+  "tasksSaveChanges": "Save changes",
+  "@tasksSaveChanges": {
+    "description": "Submit button of the edit-task form."
+  },
+  "tasksCreated": "Task created",
+  "@tasksCreated": {
+    "description": "Snackbar after creating a task."
+  },
+  "tasksUpdated": "Task updated",
+  "@tasksUpdated": {
+    "description": "Snackbar after editing a task."
+  },
+  "tasksEditNotAllowedTitle": "You can't edit this task",
+  "@tasksEditNotAllowedTitle": {
+    "description": "Shown when the edit form is opened without permission."
+  },
+  "tasksEditNotAllowedMessage": "Only an admin or the person who created it can make changes.",
+  "@tasksEditNotAllowedMessage": {
+    "description": "Shown when the edit form is opened without permission."
+  },
+  "tasksTemplatesTitle": "Quick ideas",
+  "@tasksTemplatesTitle": {
+    "description": "Header of the task template chips."
+  },
+  "tasksTemplatesFor": "Quick ideas for {name}",
+  "@tasksTemplatesFor": {
+    "description": "Header of the age-appropriate task template chips for the chosen assignee.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Anaya"
+      }
+    }
+  },
+  "tasksTemplateHomeworkTitle": "Finish homework",
+  "@tasksTemplateHomeworkTitle": {
+    "description": "Task template for a child."
+  },
+  "tasksTemplateHomeworkDescription": "Complete today's homework and pack the school bag for tomorrow.",
+  "@tasksTemplateHomeworkDescription": {
+    "description": "Task template for a child."
+  },
+  "tasksTemplateTidyRoomTitle": "Tidy your room",
+  "@tasksTemplateTidyRoomTitle": {
+    "description": "Task template for a child."
+  },
+  "tasksTemplateTidyRoomDescription": "Put toys and clothes away and make the bed.",
+  "@tasksTemplateTidyRoomDescription": {
+    "description": "Task template for a child."
+  },
+  "tasksTemplateReadTitle": "Read for 20 minutes",
+  "@tasksTemplateReadTitle": {
+    "description": "Task template for a child."
+  },
+  "tasksTemplateReadDescription": "Pick a favourite book and read for 20 minutes.",
+  "@tasksTemplateReadDescription": {
+    "description": "Task template for a child."
+  },
+  "tasksTemplateLearnSkillTitle": "Learn a new skill",
+  "@tasksTemplateLearnSkillTitle": {
+    "description": "Task template for a teenager."
+  },
+  "tasksTemplateLearnSkillDescription": "Spend 30 minutes on something new: coding, music, a language or a craft.",
+  "@tasksTemplateLearnSkillDescription": {
+    "description": "Task template for a teenager."
+  },
+  "tasksTemplateHelpCookTitle": "Help cook a family meal",
+  "@tasksTemplateHelpCookTitle": {
+    "description": "Task template for a teenager."
+  },
+  "tasksTemplateHelpCookDescription": "Help plan, cook and clean up after one family meal.",
+  "@tasksTemplateHelpCookDescription": {
+    "description": "Task template for a teenager."
+  },
+  "tasksTemplateBudgetTitle": "Budget practice",
+  "@tasksTemplateBudgetTitle": {
+    "description": "Task template for a teenager (managing pocket money)."
+  },
+  "tasksTemplateBudgetDescription": "Plan this week's pocket money: what to save and what to spend.",
+  "@tasksTemplateBudgetDescription": {
+    "description": "Task template for a teenager."
+  },
+  "tasksTemplatePayBillsTitle": "Pay the bills",
+  "@tasksTemplatePayBillsTitle": {
+    "description": "Task template for an adult."
+  },
+  "tasksTemplatePayBillsDescription": "Check and pay this month's electricity, water, phone and internet bills.",
+  "@tasksTemplatePayBillsDescription": {
+    "description": "Task template for an adult."
+  },
+  "tasksTemplateCheckInTitle": "Family check-in",
+  "@tasksTemplateCheckInTitle": {
+    "description": "Task template for an adult: talk to a family member."
+  },
+  "tasksTemplateCheckInDescription": "Call or sit with a family member and ask how they are doing.",
+  "@tasksTemplateCheckInDescription": {
+    "description": "Task template for an adult."
+  },
+  "tasksTemplateMedicineTitle": "Take medicines on time",
+  "@tasksTemplateMedicineTitle": {
+    "description": "Task template for a senior (medicine reminder)."
+  },
+  "tasksTemplateMedicineDescription": "Take the prescribed medicines at the right time, with water.",
+  "@tasksTemplateMedicineDescription": {
+    "description": "Task template for a senior."
+  },
+  "tasksTemplateWalkTitle": "Take a gentle walk",
+  "@tasksTemplateWalkTitle": {
+    "description": "Task template for a senior."
+  },
+  "tasksTemplateWalkDescription": "Go for a 20-minute walk, ideally with someone from the family.",
+  "@tasksTemplateWalkDescription": {
+    "description": "Task template for a senior."
+  },
+  "tasksFormerMember": "Former member",
+  "@tasksFormerMember": {
+    "description": "Placeholder name for a person who is no longer in the family (e.g. the assignee of an old completed task)."
+  },
+  "tasksGoneTitle": "This task is no longer available",
+  "@tasksGoneTitle": {
+    "description": "Shown when opening a task (e.g. from a notification) that was deleted or is not in the user's family."
+  },
+  "tasksGoneMessage": "It may have been deleted by someone in your family.",
+  "@tasksGoneMessage": {
+    "description": "Message under tasksGoneTitle."
+  },
+  "tasksBackToTasks": "Back to tasks",
+  "@tasksBackToTasks": {
+    "description": "Button that leaves a missing task and opens the Tasks tab."
+  },
+  "tasksErrorGone": "This task was deleted by someone else.",
+  "@tasksErrorGone": {
+    "description": "Error when saving, completing or deleting a task that no longer exists."
+  },
+  "tasksErrorEditNotAllowed": "Only an admin or the person who created this task can change or delete it.",
+  "@tasksErrorEditNotAllowed": {
+    "description": "Error when the server refuses an edit/delete (e.g. the user's admin role was removed meanwhile)."
+  },
+  "tasksErrorCompleteNotAllowed": "Only the person the task is assigned to or an admin can complete or reopen it.",
+  "@tasksErrorCompleteNotAllowed": {
+    "description": "Error when the server refuses complete/reopen."
+  },
+  "tasksErrorAssignSelfOnly": "You can only assign tasks to yourself. Ask an admin to assign tasks to others.",
+  "@tasksErrorAssignSelfOnly": {
+    "description": "Error when a non-admin tries to create or move a task for someone else."
+  },
+  "tasksErrorAssigneeNotInFamily": "That person is no longer in your family. Please choose someone else.",
+  "@tasksErrorAssigneeNotInFamily": {
+    "description": "Error when the chosen assignee was removed from the family meanwhile."
+  },
+  "tasksErrorAssigneeRemoved": "The person this task was assigned to is no longer in your family. Assign it to someone else first.",
+  "@tasksErrorAssigneeRemoved": {
+    "description": "Error when reopening a completed task whose assignee left the family."
+  },
+  "tasksReopenAssigneeGone": "This task can't be reopened because the person it was assigned to is no longer in your family. An admin or the task's creator can assign it to someone else first.",
+  "@tasksReopenAssigneeGone": {
+    "description": "Shown instead of the Reopen button when the assignee left the family (the API no longer knows their name)."
+  },
+  "tasksAssigneeFormer": "The person this task was assigned to is no longer in your family. You can keep it as it is or choose someone else.",
+  "@tasksAssigneeFormer": {
+    "description": "Helper under the assignee field when editing a task whose assignee left the family."
+  },
+  "tasksCreateNotAllowedTitle": "You can't create tasks right now",
+  "@tasksCreateNotAllowedTitle": {
+    "description": "Shown on the new-task screen when the user is not a member of a family."
+  },
+  "tasksCreateNotAllowedMessage": "Only members of a family can create tasks.",
+  "@tasksCreateNotAllowedMessage": {
+    "description": "Message under tasksCreateNotAllowedTitle."
+  },
+  "tasksHeaderSubtitleMine": "Here's what's on your list",
+  "@tasksHeaderSubtitleMine": {
+    "description": "Subtitle in the gradient header of the Tasks tab in the 'My tasks' view."
+  },
+  "tasksHeaderSubtitleFamily": "Everything your family is working on",
+  "@tasksHeaderSubtitleFamily": {
+    "description": "Subtitle in the gradient header of the Tasks tab when showing the whole family's tasks."
+  },
+  "tasksHeaderSubtitleMember": "What {name} is working on",
+  "@tasksHeaderSubtitleMember": {
+    "description": "Subtitle in the gradient header of the Tasks tab when the list is filtered to one family member.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "tasksHeaderDoneThisWeek": "Done this week",
+  "@tasksHeaderDoneThisWeek": {
+    "description": "Label of the header counter: tasks completed since Monday."
+  },
+  "tasksHeaderProgress": "Weekly progress",
+  "@tasksHeaderProgress": {
+    "description": "Label of the progress bar in the Tasks header: tasks done this week compared to tasks done this week plus pending tasks."
+  },
+  "tasksHeaderCountAtLeast": "{count}+",
+  "@tasksHeaderCountAtLeast": {
+    "description": "Header counter when only part of the list is loaded and there are at least this many, e.g. '20+'.",
+    "placeholders": {
+      "count": {
+        "type": "String",
+        "example": "20"
+      }
+    }
+  },
+  "tasksFormSectionTask": "What needs doing",
+  "@tasksFormSectionTask": {
+    "description": "Section title of the task form that holds the title and details fields."
+  },
+  "validationRequired": "This field is required",
+  "@validationRequired": {
+    "description": "Form validation: empty required field."
+  },
+  "validationEmail": "Enter a valid email address",
+  "@validationEmail": {
+    "description": "Form validation: malformed email."
+  },
+  "validationPasswordLength": "Password must be at least 8 characters",
+  "@validationPasswordLength": {
+    "description": "Form validation: password shorter than 8 characters."
+  },
+  "validationPasswordComplexity": "Password must contain at least one letter and one number",
+  "@validationPasswordComplexity": {
+    "description": "Form validation: password needs a letter and a digit."
+  },
+  "validationPasswordMismatch": "Passwords don't match",
+  "@validationPasswordMismatch": {
+    "description": "Form validation: confirm password differs."
+  },
+  "validationMinLength": "{min, plural, =1{Enter at least 1 character} other{Enter at least {min} characters}}",
+  "@validationMinLength": {
+    "description": "Form validation: text shorter than min characters.",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "validationMaxLength": "{max, plural, =1{Use at most 1 character} other{Use at most {max} characters}}",
+  "@validationMaxLength": {
+    "description": "Form validation: text longer than max characters.",
+    "placeholders": {
+      "max": {
+        "type": "int",
+        "example": "120"
+      }
+    }
+  },
+  "validationAmount": "Enter an amount greater than zero",
+  "@validationAmount": {
+    "description": "Form validation: amount missing, not a number or not positive."
+  },
+  "validationAmountTooLarge": "This amount is too large",
+  "@validationAmountTooLarge": {
+    "description": "Form validation: amount above the 1,000,000,000,000 limit."
+  },
+  "validationAmountDecimals": "Use at most 2 decimal places",
+  "@validationAmountDecimals": {
+    "description": "Form validation: more than 2 decimals in an amount."
+  },
+  "validationPhone": "Enter a valid phone number (6 to 15 digits, optional +country code)",
+  "@validationPhone": {
+    "description": "Form validation: phone number format."
+  },
+  "validationOtp": "Enter the 6-digit code",
+  "@validationOtp": {
+    "description": "Form validation: OTP must be exactly 6 digits."
+  },
+  "validationInviteCode": "Invite codes have 8 letters and numbers",
+  "@validationInviteCode": {
+    "description": "Form validation: family invite code format (8 characters)."
+  },
+  "widgetPhotoPermissionDenied": "FamilyHub can't open your camera or photos. Please allow access in your phone's Settings and try again.",
+  "@widgetPhotoPermissionDenied": {
+    "description": "Shown by the photo picker when the user has denied camera / photo library permission."
+  },
+  "widgetPhotoSourceUnavailable": "This option isn't available on this device.",
+  "@widgetPhotoSourceUnavailable": {
+    "description": "Shown by the photo picker when the selected source (e.g. camera) is not supported on the device."
+  },
+  "widgetStaleDataNotice": "Couldn't refresh. Showing the last loaded information.",
+  "@widgetStaleDataNotice": {
+    "description": "Small inline notice above a list or screen when refreshing failed but older data is still displayed."
+  },
+  "widgetProgressLabel": "{percent} complete",
+  "@widgetProgressLabel": {
+    "description": "Screen-reader value of a progress bar, e.g. '45% complete'. {percent} is an already formatted percentage including the % sign.",
+    "placeholders": {
+      "percent": {
+        "type": "String",
+        "example": "45%"
+      }
+    }
+  },
+  "widgetPhotoLabel": "Photo",
+  "@widgetPhotoLabel": {
+    "description": "Screen-reader label of a photo picker field when no custom label is given."
+  },
+  "widgetClearDate": "Clear date",
+  "@widgetClearDate": {
+    "description": "Tooltip / screen-reader label of the clear button inside a date field."
+  }
+}

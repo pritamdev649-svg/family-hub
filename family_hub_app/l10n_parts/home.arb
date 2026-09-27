@@ -1,0 +1,32 @@
+{
+  "navHome": "Home",
+  "@navHome": { "description": "Bottom navigation tab: family dashboard." },
+  "navTasks": "Tasks",
+  "@navTasks": { "description": "Bottom navigation tab: task board." },
+  "navSos": "SOS",
+  "@navSos": { "description": "Bottom navigation tab: emergency alert. Keep it very short; 'SOS' is understood in most languages." },
+  "navSosTooltip": "SOS - alert your family",
+  "@navSosTooltip": { "description": "Tooltip / screen-reader label of the SOS tab." },
+  "navMoney": "Money",
+  "@navMoney": { "description": "Bottom navigation tab: family ledger and savings goals." },
+  "navMore": "More",
+  "@navMore": { "description": "Bottom navigation tab: family, notices, emergency cards and settings." },
+
+  "homeSplashLoading": "Getting your family ready…",
+  "@homeSplashLoading": { "description": "Shown on the splash screen while the saved session is restored." },
+
+  "homeRouteNotFoundTitle": "Page not found",
+  "@homeRouteNotFoundTitle": { "description": "Title of the screen shown for an unknown or outdated link." },
+  "homeRouteNotFoundMessage": "This link doesn't exist or is no longer available.",
+  "homeGoHome": "Go to home",
+  "@homeGoHome": { "description": "Button on the 'page not found' screen." },
+
+  "homePlaceholderTitle": "Coming soon",
+  "@homePlaceholderTitle": { "description": "Temporary: title on a screen whose feature is not built yet." },
+  "homePlaceholderMessage": "This part of FamilyHub is still being built.",
+  "@homePlaceholderMessage": { "description": "Temporary: message on a screen whose feature is not built yet." },
+  "homePlaceholderDemoSignIn": "Try the demo family",
+  "@homePlaceholderDemoSignIn": { "description": "Temporary (demo mode only): button that signs in with the built-in demo account." },
+  "homePlaceholderSignOut": "Sign out",
+  "@homePlaceholderSignOut": { "description": "Temporary: sign-out button on a screen whose feature is not built yet." }
+}

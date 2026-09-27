@@ -1,0 +1,40 @@
+# OS / IDE
+.DS_Store
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Node / Backend
+node_modules/
+.env
+.env.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-service-account.json
+
+# Flutter / App
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+app*.symbols
+app*.map.json
+*.tgz
+*.tar.gz
+
+# Android / iOS build artifacts
+family_hub_app/android/.gradle/
+family_hub_app/android/local.properties
+family_hub_app/ios/Pods/
+family_hub_app/ios/.symlinks/
+family_hub_app/ios/Flutter/Flutter.framework
+family_hub_app/ios/Flutter/Flutter.podspec
+family_hub_app/ios/Flutter/Generated.xcconfig
+family_hub_app/ios/Flutter/app.flx
+family_hub_app/ios/Flutter/app.zip

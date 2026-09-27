@@ -1,0 +1,234 @@
+{
+  "dashboardGreeting": "{period, select, morning{Good morning, {name}} afternoon{Good afternoon, {name}} evening{Good evening, {name}} other{Hello, {name}}}",
+  "@dashboardGreeting": {
+    "description": "Dashboard greeting with the member's first name. 'period' is the time of day: morning (5-12 h), afternoon (12-17 h), evening (17-22 h) or night (other). At night we greet with a neutral 'Hello' (in many languages 'Good night' means goodbye).",
+    "placeholders": {
+      "period": {
+        "type": "String",
+        "example": "morning"
+      },
+      "name": {
+        "type": "String",
+        "example": "Amit"
+      }
+    }
+  },
+  "dashboardGreetingNoName": "{period, select, morning{Good morning} afternoon{Good afternoon} evening{Good evening} other{Hello}}",
+  "@dashboardGreetingNoName": {
+    "description": "Dashboard greeting when the member's name is unknown. 'period' as in dashboardGreeting.",
+    "placeholders": {
+      "period": {
+        "type": "String",
+        "example": "evening"
+      }
+    }
+  },
+  "dashboardFamilyAndTitle": "{family} · {title}",
+  "@dashboardFamilyAndTitle": {
+    "description": "Line under the greeting: the family name and the member's designation (company-style title, e.g. 'Head of Family') or role.",
+    "placeholders": {
+      "family": {
+        "type": "String",
+        "example": "Sharma Family"
+      },
+      "title": {
+        "type": "String",
+        "example": "Head of Family"
+      }
+    }
+  },
+  "dashboardLoading": "Loading your family dashboard…",
+  "@dashboardLoading": {
+    "description": "Screen-reader label of the dashboard's loading placeholder."
+  },
+  "dashboardOfflineTitle": "Showing saved data",
+  "@dashboardOfflineTitle": {
+    "description": "Title of the notice shown when the dashboard is the copy saved on the phone (the server could not be reached)."
+  },
+  "dashboardOfflineUpdated": "Last updated {time}. Pull down to refresh.",
+  "@dashboardOfflineUpdated": {
+    "description": "Second line of the saved-data notice. 'time' is a relative time such as '5 minutes ago' or a date.",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "5 minutes ago"
+      }
+    }
+  },
+  "dashboardSosTitle": "Needs help now",
+  "@dashboardSosTitle": {
+    "description": "Section title above the active SOS alerts of the family (shown only while there are any)."
+  },
+  "dashboardQuickActionsTitle": "Quick actions",
+  "@dashboardQuickActionsTitle": {
+    "description": "Section title (screen readers) of the row of shortcut buttons."
+  },
+  "dashboardActionAddTask": "Add task",
+  "@dashboardActionAddTask": {
+    "description": "Quick action button: create a task."
+  },
+  "dashboardActionAddExpense": "Add expense",
+  "@dashboardActionAddExpense": {
+    "description": "Quick action button: record an expense in the family ledger."
+  },
+  "dashboardActionPostNotice": "Post notice",
+  "@dashboardActionPostNotice": {
+    "description": "Quick action button: post a notice on the family notice board."
+  },
+  "dashboardActionEmergencyCards": "Emergency cards",
+  "@dashboardActionEmergencyCards": {
+    "description": "Quick action button: open the family's emergency (medical) cards."
+  },
+  "dashboardGettingStartedTitle": "Get your family started",
+  "@dashboardGettingStartedTitle": {
+    "description": "Title of the checklist card shown to new families."
+  },
+  "dashboardGettingStartedMessage": "A few steps and everyone knows who does what.",
+  "@dashboardGettingStartedMessage": {
+    "description": "Subtitle of the getting-started checklist."
+  },
+  "dashboardStepAddMembers": "Add your family members",
+  "@dashboardStepAddMembers": {
+    "description": "Getting-started step: add family members (admins only)."
+  },
+  "dashboardStepFirstTask": "Create the first task",
+  "@dashboardStepFirstTask": {
+    "description": "Getting-started step: create a task."
+  },
+  "dashboardStepFirstGoal": "Set a savings goal",
+  "@dashboardStepFirstGoal": {
+    "description": "Getting-started step: create a savings goal (admins only)."
+  },
+  "dashboardStepFirstNotice": "Post the first notice",
+  "@dashboardStepFirstNotice": {
+    "description": "Getting-started step: post a notice on the notice board."
+  },
+  "dashboardStepDone": "{step} (done)",
+  "@dashboardStepDone": {
+    "description": "Screen-reader label of a completed getting-started step.",
+    "placeholders": {
+      "step": {
+        "type": "String",
+        "example": "Add your family members"
+      }
+    }
+  },
+  "dashboardMyTasksTitle": "My tasks",
+  "@dashboardMyTasksTitle": {
+    "description": "Section title: the signed-in member's pending tasks."
+  },
+  "dashboardMyTasksEmptyTitle": "You're all caught up",
+  "@dashboardMyTasksEmptyTitle": {
+    "description": "Shown when the member has no pending tasks."
+  },
+  "dashboardMyTasksEmptyMessage": "Nothing pending for you right now.",
+  "@dashboardMyTasksEmptyMessage": {
+    "description": "Second line when the member has no pending tasks."
+  },
+  "dashboardMyTasksMore": "{count, plural, =1{1 more pending task} other{{count} more pending tasks}}",
+  "@dashboardMyTasksMore": {
+    "description": "Link under the task preview when the member has more pending tasks than shown; opens the Tasks tab.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardFamilyBoardTitle": "Family board",
+  "@dashboardFamilyBoardTitle": {
+    "description": "Section title: every member with their task progress (like a team board)."
+  },
+  "dashboardMemberYou": "You",
+  "@dashboardMemberYou": {
+    "description": "Badge on the signed-in member's own card on the family board."
+  },
+  "dashboardMemberAllClear": "All clear",
+  "@dashboardMemberAllClear": {
+    "description": "Chip on a member's card when they have no pending tasks."
+  },
+  "dashboardMemberPending": "{count, plural, =1{1 pending} other{{count} pending}}",
+  "@dashboardMemberPending": {
+    "description": "Chip on a member's card: number of their pending tasks.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardMemberOverdue": "{count, plural, =1{1 overdue} other{{count} overdue}}",
+  "@dashboardMemberOverdue": {
+    "description": "Chip on a member's card: number of their overdue tasks.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardMemberDoneThisWeek": "{count, plural, =1{1 done this week} other{{count} done this week}}",
+  "@dashboardMemberDoneThisWeek": {
+    "description": "Chip on a member's card: tasks they completed since Monday.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardGoalsTitle": "Savings goals",
+  "@dashboardGoalsTitle": {
+    "description": "Section title: active family savings goals."
+  },
+  "dashboardGoalsEmptyTitle": "No active goals",
+  "@dashboardGoalsEmptyTitle": {
+    "description": "Shown when the family has no active savings goal."
+  },
+  "dashboardGoalsEmptyAdmin": "Save together for a holiday, a new phone or a rainy day.",
+  "@dashboardGoalsEmptyAdmin": {
+    "description": "Empty goals hint for admins (who can create goals)."
+  },
+  "dashboardGoalsEmptyMember": "When a family admin sets a savings goal, it shows up here.",
+  "@dashboardGoalsEmptyMember": {
+    "description": "Empty goals hint for members (who cannot create goals)."
+  },
+  "dashboardNewGoal": "New goal",
+  "@dashboardNewGoal": {
+    "description": "Button: create a savings goal."
+  },
+  "dashboardMonthTitle": "This month",
+  "@dashboardMonthTitle": {
+    "description": "Section title: income, expenses and balance of the current month."
+  },
+  "dashboardNoticesTitle": "Latest notices",
+  "@dashboardNoticesTitle": {
+    "description": "Section title: newest notices of the family notice board."
+  },
+  "dashboardNoticesEmptyTitle": "No notices yet",
+  "@dashboardNoticesEmptyTitle": {
+    "description": "Shown when the notice board is empty."
+  },
+  "dashboardNoticesEmptyMessage": "Share plans, news and reminders with everyone.",
+  "@dashboardNoticesEmptyMessage": {
+    "description": "Second line when the notice board is empty."
+  },
+  "dashboardHeroMyTasks": "Pending",
+  "@dashboardHeroMyTasks": {
+    "description": "Label under the number of the signed-in member's pending tasks in the colourful header card (short)."
+  },
+  "dashboardHeroMembers": "Members",
+  "@dashboardHeroMembers": {
+    "description": "Label under the number of family members in the colourful header card."
+  },
+  "dashboardHeroGoals": "Goals",
+  "@dashboardHeroGoals": {
+    "description": "Label under the number of active savings goals in the colourful header card."
+  },
+  "dashboardHeroAtLeast": "{count}+",
+  "@dashboardHeroAtLeast": {
+    "description": "Header stat value meaning 'this many or more' (the dashboard only receives the first few active goals). 'count' is an already formatted number.",
+    "placeholders": {
+      "count": {
+        "type": "String",
+        "example": "3"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "@@locale": "en",
+
+  "servicesPushChannelSosName": "SOS alerts",
+  "@servicesPushChannelSosName": { "description": "Android notification channel name (Settings > Apps > FamilyHub > Notifications) for emergency alerts from family members." },
+
+  "servicesPushChannelSosDescription": "Emergency alerts from your family. These are loud and appear on the lock screen.",
+  "@servicesPushChannelSosDescription": { "description": "Android notification channel description for SOS alerts." },
+
+  "servicesPushChannelGeneralName": "Family updates",
+  "@servicesPushChannelGeneralName": { "description": "Android notification channel name for everything that is not an SOS." },
+
+  "servicesPushChannelGeneralDescription": "Tasks, notices, savings goals and new family members.",
+  "@servicesPushChannelGeneralDescription": { "description": "Android notification channel description for general family updates." },
+
+  "servicesLocationChannelName": "Live location sharing",
+  "@servicesLocationChannelName": { "description": "Android notification channel name for the ongoing notification shown while live location is shared (SOS)." },
+
+  "servicesLocationSharingTitle": "Sharing your live location",
+  "@servicesLocationSharingTitle": { "description": "Title of the ongoing notification while the app shares live location with the family." },
+
+  "servicesLocationSharingText": "Your family can see where you are until you stop sharing.",
+  "@servicesLocationSharingText": { "description": "Text of the ongoing notification while the app shares live location with the family." },
+
+  "servicesLocationDenied": "FamilyHub needs location permission to share where you are.",
+  "@servicesLocationDenied": { "description": "Shown when location permission was not granted (the app can ask again)." },
+
+  "servicesLocationDeniedForever": "Location permission is turned off for FamilyHub. Allow it in Settings to share where you are.",
+  "@servicesLocationDeniedForever": { "description": "Shown when location permission was permanently denied; only the system settings can change it." },
+
+  "servicesLocationServiceDisabled": "Location services are turned off on this device. Turn them on to share where you are.",
+  "@servicesLocationServiceDisabled": { "description": "Shown when the device-wide location switch (GPS) is off." },
+
+  "servicesLocationAllow": "Allow location",
+  "@servicesLocationAllow": { "description": "Button that shows the system location permission prompt again." },
+
+  "servicesOpenSettings": "Open settings",
+  "@servicesOpenSettings": { "description": "Button that opens the system settings (app permissions or location services)." },
+
+  "servicesErrorUploadFailed": "The image couldn't be uploaded. Please try again.",
+  "@servicesErrorUploadFailed": { "description": "Error code UPLOAD_FAILED: Cloudinary rejected the upload or returned an unusable response." },
+
+  "servicesErrorFileTooLarge": "This image is too large. Please choose a smaller one.",
+  "@servicesErrorFileTooLarge": { "description": "Error code FILE_TOO_LARGE: the picked image exceeds the upload size limit." },
+
+  "servicesErrorUploadCancelled": "The upload was cancelled.",
+  "@servicesErrorUploadCancelled": { "description": "Error code UPLOAD_CANCELLED: the image upload was cancelled." }
+}

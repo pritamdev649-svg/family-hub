@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Monochrome status-bar icon for FamilyHub notifications (FCM default icon,
+     local notifications and the live-location foreground service).
+     Android renders only the alpha channel, so it must stay white on
+     transparent. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#FFFFFF">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,3L2,12h3v8h5v-6h4v6h5v-8h3L12,3z" />
+</vector>

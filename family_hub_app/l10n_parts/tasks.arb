@@ -1,0 +1,607 @@
+{
+  "tasksTitle": "Tasks",
+  "@tasksTitle": {
+    "description": "App bar title of the Tasks tab."
+  },
+  "tasksNewTask": "New task",
+  "@tasksNewTask": {
+    "description": "Button that opens the form to create a task."
+  },
+  "tasksViewMine": "My tasks",
+  "@tasksViewMine": {
+    "description": "Segment of the Tasks tab: the signed-in member's pending tasks."
+  },
+  "tasksViewFamily": "Family",
+  "@tasksViewFamily": {
+    "description": "Segment of the Tasks tab: pending tasks of the whole family."
+  },
+  "tasksViewDone": "Done",
+  "@tasksViewDone": {
+    "description": "Segment of the Tasks tab: completed tasks."
+  },
+  "tasksDueOverdue": "Overdue",
+  "@tasksDueOverdue": {
+    "description": "Filter chip: tasks whose due date has passed."
+  },
+  "tasksDueToday": "Today",
+  "@tasksDueToday": {
+    "description": "Filter chip: tasks due today."
+  },
+  "tasksDueWeek": "This week",
+  "@tasksDueWeek": {
+    "description": "Filter chip: tasks due this week (Monday to Sunday)."
+  },
+  "tasksFilterDueLabel": "Filter by due date",
+  "@tasksFilterDueLabel": {
+    "description": "Screen-reader label of the due date filter chips."
+  },
+  "tasksFilterMemberLabel": "Filter by family member",
+  "@tasksFilterMemberLabel": {
+    "description": "Screen-reader label of the member filter chips."
+  },
+  "tasksFilterEveryone": "Everyone",
+  "@tasksFilterEveryone": {
+    "description": "Member filter chip: tasks of all family members."
+  },
+  "tasksSectionOverdue": "Overdue",
+  "@tasksSectionOverdue": {
+    "description": "Section header in the task list: due date has passed."
+  },
+  "tasksSectionToday": "Due today",
+  "@tasksSectionToday": {
+    "description": "Section header in the task list: due today."
+  },
+  "tasksSectionUpcoming": "Upcoming",
+  "@tasksSectionUpcoming": {
+    "description": "Section header in the task list: due later."
+  },
+  "tasksSectionNoDueDate": "No due date",
+  "@tasksSectionNoDueDate": {
+    "description": "Section header in the task list: tasks without a due date."
+  },
+  "tasksPendingCount": "{count, plural, =0{No pending tasks} =1{1 pending task} other{{count} pending tasks}}",
+  "@tasksPendingCount": {
+    "description": "Number of pending tasks (task list summary, dashboard member row).",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tasksDoneCount": "{count, plural, =0{No completed tasks} =1{1 completed task} other{{count} completed tasks}}",
+  "@tasksDoneCount": {
+    "description": "Number of completed tasks (summary above the Done list).",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tasksEmptyMineTitle": "You're all caught up!",
+  "@tasksEmptyMineTitle": {
+    "description": "Empty state: the signed-in member has no pending tasks."
+  },
+  "tasksEmptyMineMessage": "No pending tasks for you. Enjoy the free time or add something new.",
+  "@tasksEmptyMineMessage": {
+    "description": "Empty state message: the signed-in member has no pending tasks."
+  },
+  "tasksEmptyFamilyTitle": "No pending family tasks",
+  "@tasksEmptyFamilyTitle": {
+    "description": "Empty state: nobody in the family has pending tasks."
+  },
+  "tasksEmptyFamilyMessage": "Assign a task to get everyone moving.",
+  "@tasksEmptyFamilyMessage": {
+    "description": "Empty state message of the Family view."
+  },
+  "tasksEmptyMemberTitle": "{name} has no pending tasks",
+  "@tasksEmptyMemberTitle": {
+    "description": "Empty state of the Family view filtered to one member.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "tasksEmptyOverdueTitle": "Nothing overdue",
+  "@tasksEmptyOverdueTitle": {
+    "description": "Empty state of the Overdue filter."
+  },
+  "tasksEmptyOverdueMessage": "Great job staying on top of things.",
+  "@tasksEmptyOverdueMessage": {
+    "description": "Empty state message of the Overdue filter."
+  },
+  "tasksEmptyTodayTitle": "Nothing due today",
+  "@tasksEmptyTodayTitle": {
+    "description": "Empty state of the Today filter."
+  },
+  "tasksEmptyTodayMessage": "The day is clear. Plan ahead or take a break.",
+  "@tasksEmptyTodayMessage": {
+    "description": "Empty state message of the Today filter."
+  },
+  "tasksEmptyWeekTitle": "Nothing due this week",
+  "@tasksEmptyWeekTitle": {
+    "description": "Empty state of the This week filter."
+  },
+  "tasksEmptyWeekMessage": "Add a due date to tasks to see them here.",
+  "@tasksEmptyWeekMessage": {
+    "description": "Empty state message of the This week filter."
+  },
+  "tasksEmptyDoneTitle": "No completed tasks yet",
+  "@tasksEmptyDoneTitle": {
+    "description": "Empty state of the Done view."
+  },
+  "tasksEmptyDoneMemberTitle": "{name} hasn't completed any tasks yet",
+  "@tasksEmptyDoneMemberTitle": {
+    "description": "Empty state of the Done view filtered to one member.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Anaya"
+      }
+    }
+  },
+  "tasksEmptyDoneMessage": "Completed tasks will show up here.",
+  "@tasksEmptyDoneMessage": {
+    "description": "Empty state message of the Done view."
+  },
+  "tasksStatusPending": "Pending",
+  "@tasksStatusPending": {
+    "description": "Task status: not done yet."
+  },
+  "tasksStatusDone": "Done",
+  "@tasksStatusDone": {
+    "description": "Task status: completed."
+  },
+  "tasksStatusOverdue": "Overdue",
+  "@tasksStatusOverdue": {
+    "description": "Status chip of a pending task whose due date has passed."
+  },
+  "tasksCategoryStudy": "Study",
+  "@tasksCategoryStudy": {
+    "description": "Task category: homework, reading, learning."
+  },
+  "tasksCategoryChore": "Chore",
+  "@tasksCategoryChore": {
+    "description": "Task category: household chore."
+  },
+  "tasksCategorySkill": "Skill",
+  "@tasksCategorySkill": {
+    "description": "Task category: practising or learning a skill."
+  },
+  "tasksCategoryHealth": "Health",
+  "@tasksCategoryHealth": {
+    "description": "Task category: medicine, exercise, check-ups."
+  },
+  "tasksCategoryErrand": "Errand",
+  "@tasksCategoryErrand": {
+    "description": "Task category: bills, shopping, appointments."
+  },
+  "tasksCategoryOther": "Other",
+  "@tasksCategoryOther": {
+    "description": "Task category: anything else."
+  },
+  "tasksPriorityLow": "Low",
+  "@tasksPriorityLow": {
+    "description": "Task priority."
+  },
+  "tasksPriorityMedium": "Medium",
+  "@tasksPriorityMedium": {
+    "description": "Task priority."
+  },
+  "tasksPriorityHigh": "High",
+  "@tasksPriorityHigh": {
+    "description": "Task priority."
+  },
+  "tasksPrioritySemantics": "{priority} priority",
+  "@tasksPrioritySemantics": {
+    "description": "Priority chip / screen-reader label, e.g. 'High priority'.",
+    "placeholders": {
+      "priority": {
+        "type": "String",
+        "example": "High"
+      }
+    }
+  },
+  "tasksMarkDone": "Mark as done",
+  "@tasksMarkDone": {
+    "description": "Checkbox label / button that completes a task."
+  },
+  "tasksMarkNotDone": "Mark as not done",
+  "@tasksMarkNotDone": {
+    "description": "Screen-reader label of the checkbox of a completed task."
+  },
+  "tasksReopen": "Reopen task",
+  "@tasksReopen": {
+    "description": "Button that sets a completed task back to pending."
+  },
+  "tasksMarkedDone": "Nice work! Task completed.",
+  "@tasksMarkedDone": {
+    "description": "Snackbar after completing a task."
+  },
+  "tasksReopened": "Task reopened",
+  "@tasksReopened": {
+    "description": "Snackbar after reopening a task."
+  },
+  "tasksDueSemantics": "Due {date}",
+  "@tasksDueSemantics": {
+    "description": "Screen-reader label of a task's due date, e.g. 'Due Tomorrow'.",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "Tomorrow"
+      }
+    }
+  },
+  "tasksOverdueSemantics": "Overdue, was due {date}",
+  "@tasksOverdueSemantics": {
+    "description": "Screen-reader label of an overdue task's due date.",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "Yesterday"
+      }
+    }
+  },
+  "tasksDueInDays": "{count, plural, =1{in 1 day} other{in {count} days}}",
+  "@tasksDueInDays": {
+    "description": "Relative due date in the future, e.g. 'in 3 days'.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tasksAssignedToSemantics": "Assigned to {name}",
+  "@tasksAssignedToSemantics": {
+    "description": "Screen-reader label of a task's assignee.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "tasksDetailTitle": "Task",
+  "@tasksDetailTitle": {
+    "description": "App bar title of the task detail screen."
+  },
+  "tasksInfoAssignee": "Assigned to",
+  "@tasksInfoAssignee": {
+    "description": "Task detail row label."
+  },
+  "tasksInfoDue": "Due date",
+  "@tasksInfoDue": {
+    "description": "Task detail row label."
+  },
+  "tasksInfoNoDueDate": "No due date",
+  "@tasksInfoNoDueDate": {
+    "description": "Task detail value when the task has no due date."
+  },
+  "tasksInfoCreatedBy": "Created by",
+  "@tasksInfoCreatedBy": {
+    "description": "Task detail row label."
+  },
+  "tasksInfoCompletedBy": "Completed by",
+  "@tasksInfoCompletedBy": {
+    "description": "Task detail row label."
+  },
+  "tasksInfoUpdated": "Last updated",
+  "@tasksInfoUpdated": {
+    "description": "Task detail row label."
+  },
+  "tasksPersonAtTime": "{name} · {time}",
+  "@tasksPersonAtTime": {
+    "description": "Who did something and when, e.g. 'Priya · 2 hours ago'.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Priya"
+      },
+      "time": {
+        "type": "String",
+        "example": "2 hours ago"
+      }
+    }
+  },
+  "tasksAssigneeMe": "{name} (you)",
+  "@tasksAssigneeMe": {
+    "description": "The signed-in member in an assignee picker / detail.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Amit"
+      }
+    }
+  },
+  "tasksCompleteNotAllowed": "Only {name} or an admin can change the status of this task.",
+  "@tasksCompleteNotAllowed": {
+    "description": "Task detail note when the viewer may not complete / reopen the task.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "tasksDeleteTitle": "Delete this task?",
+  "@tasksDeleteTitle": {
+    "description": "Confirmation dialog title."
+  },
+  "tasksDeleteMessage": "\"{title}\" will be removed for the whole family. This can't be undone.",
+  "@tasksDeleteMessage": {
+    "description": "Confirmation dialog message before deleting a task.",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Tidy up your room"
+      }
+    }
+  },
+  "tasksDeleted": "Task deleted",
+  "@tasksDeleted": {
+    "description": "Snackbar / state after deleting a task."
+  },
+  "tasksFormNewTitle": "New task",
+  "@tasksFormNewTitle": {
+    "description": "App bar title of the create-task form."
+  },
+  "tasksFormEditTitle": "Edit task",
+  "@tasksFormEditTitle": {
+    "description": "App bar title of the edit-task form."
+  },
+  "tasksFieldAssignee": "Assign to",
+  "@tasksFieldAssignee": {
+    "description": "Form field: family member who should do the task."
+  },
+  "tasksFieldAssigneeRequired": "Choose who should do this task",
+  "@tasksFieldAssigneeRequired": {
+    "description": "Validation error: no assignee selected."
+  },
+  "tasksAssigneeSelfOnly": "Only admins can assign tasks to other family members.",
+  "@tasksAssigneeSelfOnly": {
+    "description": "Helper text under the locked assignee field for non-admins."
+  },
+  "tasksFieldTitle": "Title",
+  "@tasksFieldTitle": {
+    "description": "Form field: task title."
+  },
+  "tasksFieldTitleHint": "e.g. Finish maths homework",
+  "@tasksFieldTitleHint": {
+    "description": "Hint of the task title field."
+  },
+  "tasksFieldDescription": "Details (optional)",
+  "@tasksFieldDescription": {
+    "description": "Form field: task description."
+  },
+  "tasksFieldDescriptionHint": "Anything that helps to get it done",
+  "@tasksFieldDescriptionHint": {
+    "description": "Hint of the task description field."
+  },
+  "tasksFieldDueDate": "Due date (optional)",
+  "@tasksFieldDueDate": {
+    "description": "Form field: task due date."
+  },
+  "tasksFieldCategory": "Category",
+  "@tasksFieldCategory": {
+    "description": "Form section label: task category chips."
+  },
+  "tasksFieldPriority": "Priority",
+  "@tasksFieldPriority": {
+    "description": "Form section label: task priority chips."
+  },
+  "tasksCreate": "Create task",
+  "@tasksCreate": {
+    "description": "Submit button of the create-task form."
+  },
+  "tasksSaveChanges": "Save changes",
+  "@tasksSaveChanges": {
+    "description": "Submit button of the edit-task form."
+  },
+  "tasksCreated": "Task created",
+  "@tasksCreated": {
+    "description": "Snackbar after creating a task."
+  },
+  "tasksUpdated": "Task updated",
+  "@tasksUpdated": {
+    "description": "Snackbar after editing a task."
+  },
+  "tasksEditNotAllowedTitle": "You can't edit this task",
+  "@tasksEditNotAllowedTitle": {
+    "description": "Shown when the edit form is opened without permission."
+  },
+  "tasksEditNotAllowedMessage": "Only an admin or the person who created it can make changes.",
+  "@tasksEditNotAllowedMessage": {
+    "description": "Shown when the edit form is opened without permission."
+  },
+  "tasksTemplatesTitle": "Quick ideas",
+  "@tasksTemplatesTitle": {
+    "description": "Header of the task template chips."
+  },
+  "tasksTemplatesFor": "Quick ideas for {name}",
+  "@tasksTemplatesFor": {
+    "description": "Header of the age-appropriate task template chips for the chosen assignee.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Anaya"
+      }
+    }
+  },
+  "tasksTemplateHomeworkTitle": "Finish homework",
+  "@tasksTemplateHomeworkTitle": {
+    "description": "Task template for a child."
+  },
+  "tasksTemplateHomeworkDescription": "Complete today's homework and pack the school bag for tomorrow.",
+  "@tasksTemplateHomeworkDescription": {
+    "description": "Task template for a child."
+  },
+  "tasksTemplateTidyRoomTitle": "Tidy your room",
+  "@tasksTemplateTidyRoomTitle": {
+    "description": "Task template for a child."
+  },
+  "tasksTemplateTidyRoomDescription": "Put toys and clothes away and make the bed.",
+  "@tasksTemplateTidyRoomDescription": {
+    "description": "Task template for a child."
+  },
+  "tasksTemplateReadTitle": "Read for 20 minutes",
+  "@tasksTemplateReadTitle": {
+    "description": "Task template for a child."
+  },
+  "tasksTemplateReadDescription": "Pick a favourite book and read for 20 minutes.",
+  "@tasksTemplateReadDescription": {
+    "description": "Task template for a child."
+  },
+  "tasksTemplateLearnSkillTitle": "Learn a new skill",
+  "@tasksTemplateLearnSkillTitle": {
+    "description": "Task template for a teenager."
+  },
+  "tasksTemplateLearnSkillDescription": "Spend 30 minutes on something new: coding, music, a language or a craft.",
+  "@tasksTemplateLearnSkillDescription": {
+    "description": "Task template for a teenager."
+  },
+  "tasksTemplateHelpCookTitle": "Help cook a family meal",
+  "@tasksTemplateHelpCookTitle": {
+    "description": "Task template for a teenager."
+  },
+  "tasksTemplateHelpCookDescription": "Help plan, cook and clean up after one family meal.",
+  "@tasksTemplateHelpCookDescription": {
+    "description": "Task template for a teenager."
+  },
+  "tasksTemplateBudgetTitle": "Budget practice",
+  "@tasksTemplateBudgetTitle": {
+    "description": "Task template for a teenager (managing pocket money)."
+  },
+  "tasksTemplateBudgetDescription": "Plan this week's pocket money: what to save and what to spend.",
+  "@tasksTemplateBudgetDescription": {
+    "description": "Task template for a teenager."
+  },
+  "tasksTemplatePayBillsTitle": "Pay the bills",
+  "@tasksTemplatePayBillsTitle": {
+    "description": "Task template for an adult."
+  },
+  "tasksTemplatePayBillsDescription": "Check and pay this month's electricity, water, phone and internet bills.",
+  "@tasksTemplatePayBillsDescription": {
+    "description": "Task template for an adult."
+  },
+  "tasksTemplateCheckInTitle": "Family check-in",
+  "@tasksTemplateCheckInTitle": {
+    "description": "Task template for an adult: talk to a family member."
+  },
+  "tasksTemplateCheckInDescription": "Call or sit with a family member and ask how they are doing.",
+  "@tasksTemplateCheckInDescription": {
+    "description": "Task template for an adult."
+  },
+  "tasksTemplateMedicineTitle": "Take medicines on time",
+  "@tasksTemplateMedicineTitle": {
+    "description": "Task template for a senior (medicine reminder)."
+  },
+  "tasksTemplateMedicineDescription": "Take the prescribed medicines at the right time, with water.",
+  "@tasksTemplateMedicineDescription": {
+    "description": "Task template for a senior."
+  },
+  "tasksTemplateWalkTitle": "Take a gentle walk",
+  "@tasksTemplateWalkTitle": {
+    "description": "Task template for a senior."
+  },
+  "tasksTemplateWalkDescription": "Go for a 20-minute walk, ideally with someone from the family.",
+  "@tasksTemplateWalkDescription": {
+    "description": "Task template for a senior."
+  },
+  "tasksFormerMember": "Former member",
+  "@tasksFormerMember": {
+    "description": "Placeholder name for a person who is no longer in the family (e.g. the assignee of an old completed task)."
+  },
+  "tasksGoneTitle": "This task is no longer available",
+  "@tasksGoneTitle": {
+    "description": "Shown when opening a task (e.g. from a notification) that was deleted or is not in the user's family."
+  },
+  "tasksGoneMessage": "It may have been deleted by someone in your family.",
+  "@tasksGoneMessage": {
+    "description": "Message under tasksGoneTitle."
+  },
+  "tasksBackToTasks": "Back to tasks",
+  "@tasksBackToTasks": {
+    "description": "Button that leaves a missing task and opens the Tasks tab."
+  },
+  "tasksErrorGone": "This task was deleted by someone else.",
+  "@tasksErrorGone": {
+    "description": "Error when saving, completing or deleting a task that no longer exists."
+  },
+  "tasksErrorEditNotAllowed": "Only an admin or the person who created this task can change or delete it.",
+  "@tasksErrorEditNotAllowed": {
+    "description": "Error when the server refuses an edit/delete (e.g. the user's admin role was removed meanwhile)."
+  },
+  "tasksErrorCompleteNotAllowed": "Only the person the task is assigned to or an admin can complete or reopen it.",
+  "@tasksErrorCompleteNotAllowed": {
+    "description": "Error when the server refuses complete/reopen."
+  },
+  "tasksErrorAssignSelfOnly": "You can only assign tasks to yourself. Ask an admin to assign tasks to others.",
+  "@tasksErrorAssignSelfOnly": {
+    "description": "Error when a non-admin tries to create or move a task for someone else."
+  },
+  "tasksErrorAssigneeNotInFamily": "That person is no longer in your family. Please choose someone else.",
+  "@tasksErrorAssigneeNotInFamily": {
+    "description": "Error when the chosen assignee was removed from the family meanwhile."
+  },
+  "tasksErrorAssigneeRemoved": "The person this task was assigned to is no longer in your family. Assign it to someone else first.",
+  "@tasksErrorAssigneeRemoved": {
+    "description": "Error when reopening a completed task whose assignee left the family."
+  },
+  "tasksReopenAssigneeGone": "This task can't be reopened because the person it was assigned to is no longer in your family. An admin or the task's creator can assign it to someone else first.",
+  "@tasksReopenAssigneeGone": {
+    "description": "Shown instead of the Reopen button when the assignee left the family (the API no longer knows their name)."
+  },
+  "tasksAssigneeFormer": "The person this task was assigned to is no longer in your family. You can keep it as it is or choose someone else.",
+  "@tasksAssigneeFormer": {
+    "description": "Helper under the assignee field when editing a task whose assignee left the family."
+  },
+  "tasksCreateNotAllowedTitle": "You can't create tasks right now",
+  "@tasksCreateNotAllowedTitle": {
+    "description": "Shown on the new-task screen when the user is not a member of a family."
+  },
+  "tasksCreateNotAllowedMessage": "Only members of a family can create tasks.",
+  "@tasksCreateNotAllowedMessage": {
+    "description": "Message under tasksCreateNotAllowedTitle."
+  },
+  "tasksHeaderSubtitleMine": "Here's what's on your list",
+  "@tasksHeaderSubtitleMine": {
+    "description": "Subtitle in the gradient header of the Tasks tab in the 'My tasks' view."
+  },
+  "tasksHeaderSubtitleFamily": "Everything your family is working on",
+  "@tasksHeaderSubtitleFamily": {
+    "description": "Subtitle in the gradient header of the Tasks tab when showing the whole family's tasks."
+  },
+  "tasksHeaderSubtitleMember": "What {name} is working on",
+  "@tasksHeaderSubtitleMember": {
+    "description": "Subtitle in the gradient header of the Tasks tab when the list is filtered to one family member.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "tasksHeaderDoneThisWeek": "Done this week",
+  "@tasksHeaderDoneThisWeek": {
+    "description": "Label of the header counter: tasks completed since Monday."
+  },
+  "tasksHeaderProgress": "Weekly progress",
+  "@tasksHeaderProgress": {
+    "description": "Label of the progress bar in the Tasks header: tasks done this week compared to tasks done this week plus pending tasks."
+  },
+  "tasksHeaderCountAtLeast": "{count}+",
+  "@tasksHeaderCountAtLeast": {
+    "description": "Header counter when only part of the list is loaded and there are at least this many, e.g. '20+'.",
+    "placeholders": {
+      "count": {
+        "type": "String",
+        "example": "20"
+      }
+    }
+  },
+  "tasksFormSectionTask": "What needs doing",
+  "@tasksFormSectionTask": {
+    "description": "Section title of the task form that holds the title and details fields."
+  }
+}

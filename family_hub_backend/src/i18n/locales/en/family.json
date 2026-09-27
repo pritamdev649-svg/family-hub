@@ -1,0 +1,16 @@
+{
+  "email": {
+    "invite": {
+      "subject": "{inviterName} invited you to {familyName} on {appName}",
+      "text": "{inviterName} added you to {familyName} on {appName}, the app your family uses for tasks, shared expenses, notices and SOS alerts.\n\nYour family invite code is: {inviteCode}\n\nTo join:\n1. Install the {appName} app.\n2. Create an account with this email address ({email}), or sign in if you already have one.\n3. Choose \"Join a family\" and enter the invite code.\n\nUsing this email address links you to the profile {inviterName} created for you.\n\nKeep this code within your family: anyone who has it can ask to join. If you were not expecting this invitation, you can ignore this email."
+    }
+  },
+  "errors": {
+    "guardianConsentRequired": "This member is younger than {age}. A parent or guardian must confirm consent before the profile can be saved.",
+    "countryConsentRequired": "Some members are younger than {age}, the consent age in the new country. Confirm guardian consent for them first, then change the country.",
+    "selfEditLimited": "You can only change your own name, phone number, photo, gender and date of birth. Ask a family admin for anything else.",
+    "accountEmailLocked": "This member signs in with this email address, so it cannot be changed here.",
+    "memberLimitReached": "A family can have at most {limit} members. Remove a profile you no longer need to add someone new.",
+    "verifyEmailToLink": "Verify your email address first. Your family already created a profile for this address, and it can only be linked to a verified account."
+  }
+}

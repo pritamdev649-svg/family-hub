@@ -1,0 +1,33 @@
+{
+  "errors": {
+    "BAD_REQUEST": "The request could not be understood. Please check it and try again.",
+    "INVALID_OTP": "That code is not correct. Please check it and try again.",
+    "OTP_EXPIRED": "This code has expired or was tried too many times. Please request a new one.",
+    "INVALID_INVITE_CODE": "This invite code is not valid. Please check it with your family admin.",
+    "UNAUTHORIZED": "Please sign in to continue.",
+    "TOKEN_EXPIRED": "Your session has expired. Please sign in again.",
+    "INVALID_CREDENTIALS": "The email or password is incorrect.",
+    "INVALID_REFRESH_TOKEN": "Your session is no longer valid. Please sign in again.",
+    "FORBIDDEN": "You do not have permission to do this.",
+    "NO_FAMILY": "You are not part of a family yet. Create a family or join one with an invite code.",
+    "LOCATION_SHARING_DISABLED": "Location sharing is turned off for this member.",
+    "NOT_FOUND": "We could not find what you were looking for.",
+    "EMAIL_TAKEN": "An account with this email already exists.",
+    "ALREADY_IN_FAMILY": "You are already part of a family.",
+    "MEMBER_EMAIL_EXISTS": "A family member with this email already exists.",
+    "LAST_ADMIN": "The family needs at least one admin. Make someone else an admin first.",
+    "SOS_NOT_ACTIVE": "This SOS alert is no longer active.",
+    "CONFLICT": "This conflicts with existing data. Please refresh and try again.",
+    "PAYLOAD_TOO_LARGE": "The request is too large.",
+    "VALIDATION_ERROR": "Some of the information is missing or invalid.",
+    "GUARDIAN_CONSENT_REQUIRED": "A parent or guardian must give consent to add a member of this age.",
+    "TOO_MANY_REQUESTS": "Too many attempts. Please try again in {seconds} seconds.",
+    "INTERNAL_ERROR": "Something went wrong on our side. Please try again.",
+    "SERVICE_UNAVAILABLE": "This service is temporarily unavailable. Please try again later."
+  },
+  "email": {
+    "greeting": "Hello {name},",
+    "signature": "— The {appName} team",
+    "footer": "You received this email because of your {appName} account. If this wasn't you, you can safely ignore it."
+  }
+}

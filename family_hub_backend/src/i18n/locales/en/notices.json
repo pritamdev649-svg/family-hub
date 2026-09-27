@@ -1,0 +1,13 @@
+{
+  "push": {
+    "new": {
+      "title": "New notice from {name}",
+      "titlePinned": "Important notice from {name}",
+      "body": "{title}"
+    }
+  },
+  "errors": {
+    "editNotAllowed": "Only an admin or the person who posted this notice can change or delete it.",
+    "pinAdminOnly": "Only an admin can pin or unpin notices."
+  }
+}

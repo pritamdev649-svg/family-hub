@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent of the small notification icon; matches AppColors.seed. -->
+    <color name="notification_color">#FF3949AB</color>
+</resources>

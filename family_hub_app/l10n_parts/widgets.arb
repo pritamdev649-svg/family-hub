@@ -1,0 +1,29 @@
+{
+  "widgetPhotoPermissionDenied": "FamilyHub can't open your camera or photos. Please allow access in your phone's Settings and try again.",
+  "@widgetPhotoPermissionDenied": {
+    "description": "Shown by the photo picker when the user has denied camera / photo library permission."
+  },
+  "widgetPhotoSourceUnavailable": "This option isn't available on this device.",
+  "@widgetPhotoSourceUnavailable": {
+    "description": "Shown by the photo picker when the selected source (e.g. camera) is not supported on the device."
+  },
+  "widgetStaleDataNotice": "Couldn't refresh. Showing the last loaded information.",
+  "@widgetStaleDataNotice": {
+    "description": "Small inline notice above a list or screen when refreshing failed but older data is still displayed."
+  },
+  "widgetProgressLabel": "{percent} complete",
+  "@widgetProgressLabel": {
+    "description": "Screen-reader value of a progress bar, e.g. '45% complete'. {percent} is an already formatted percentage including the % sign.",
+    "placeholders": {
+      "percent": { "type": "String", "example": "45%" }
+    }
+  },
+  "widgetPhotoLabel": "Photo",
+  "@widgetPhotoLabel": {
+    "description": "Screen-reader label of a photo picker field when no custom label is given."
+  },
+  "widgetClearDate": "Clear date",
+  "@widgetClearDate": {
+    "description": "Tooltip / screen-reader label of the clear button inside a date field."
+  }
+}

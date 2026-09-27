@@ -1,0 +1,560 @@
+{
+  "familyMembersTitle": "Family members",
+  "@familyMembersTitle": {
+    "description": "Title of the screen that lists everyone in the family."
+  },
+  "familyMembersCount": "{count, plural, =0{No members} =1{1 member} other{{count} members}}",
+  "@familyMembersCount": {
+    "description": "Number of people in the family, e.g. above the member list or in family settings.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "familyAddMember": "Add member",
+  "@familyAddMember": {
+    "description": "Button / screen title to add a person to the family (verb)."
+  },
+  "familyMembersEmptyTitle": "No members yet",
+  "@familyMembersEmptyTitle": {
+    "description": "Empty state title of the member list."
+  },
+  "familyMembersEmptyMessage": "Add the people in your family, including children and elders who don't use a phone.",
+  "@familyMembersEmptyMessage": {
+    "description": "Empty state message of the member list."
+  },
+  "familyYouBadge": "You",
+  "@familyYouBadge": {
+    "description": "Small badge next to the signed-in person in member lists."
+  },
+  "familyNoAccountBadge": "No account",
+  "@familyNoAccountBadge": {
+    "description": "Badge for a member who has no app account (managed by an admin)."
+  },
+  "familyInvitedBadge": "Invited",
+  "@familyInvitedBadge": {
+    "description": "Badge for a member who was invited by email but has not joined yet."
+  },
+  "familyAgeGroupWithAge": "{group} · {age}",
+  "@familyAgeGroupWithAge": {
+    "description": "Age badge: age group label and age, e.g. 'Child · 10 years'.",
+    "placeholders": {
+      "group": {
+        "type": "String",
+        "example": "Child"
+      },
+      "age": {
+        "type": "String",
+        "example": "10 years"
+      }
+    }
+  },
+  "familySettingsTooltip": "Family settings",
+  "@familySettingsTooltip": {
+    "description": "Tooltip of the icon button that opens the family settings."
+  },
+  "familyOpenMemberHint": "Open details",
+  "@familyOpenMemberHint": {
+    "description": "Screen-reader hint on a member row that opens the member's details."
+  },
+  "familyEmailAction": "Email",
+  "@familyEmailAction": {
+    "description": "Button that opens the email app to write to the member (verb)."
+  },
+  "familyCannotOpenPhone": "Couldn't open the phone app.",
+  "@familyCannotOpenPhone": {
+    "description": "Error when the dialer can't be opened."
+  },
+  "familyCannotOpenEmail": "Couldn't open an email app.",
+  "@familyCannotOpenEmail": {
+    "description": "Error when no email app can be opened."
+  },
+  "familyCannotOpenMap": "Couldn't open the map.",
+  "@familyCannotOpenMap": {
+    "description": "Error when no maps app / browser can be opened."
+  },
+  "familyDetailsSection": "Details",
+  "@familyDetailsSection": {
+    "description": "Section title for the member's information rows."
+  },
+  "familyActionsSection": "Actions",
+  "@familyActionsSection": {
+    "description": "Section title for the buttons at the end of the member screen."
+  },
+  "familyInfoAge": "Age",
+  "@familyInfoAge": {
+    "description": "Label of the age row."
+  },
+  "familyInfoDateOfBirth": "Date of birth",
+  "@familyInfoDateOfBirth": {
+    "description": "Label of the date-of-birth row / field."
+  },
+  "familyInfoGender": "Gender",
+  "@familyInfoGender": {
+    "description": "Label of the gender row / field."
+  },
+  "familyInfoRole": "Role",
+  "@familyInfoRole": {
+    "description": "Label of the role (admin / member) row / field."
+  },
+  "familyInfoDesignation": "Designation",
+  "@familyInfoDesignation": {
+    "description": "Label of the member's family title, like a job title in a company (e.g. 'Finance Head')."
+  },
+  "familyInfoPhone": "Phone",
+  "@familyInfoPhone": {
+    "description": "Label of the phone number row."
+  },
+  "familyInfoEmail": "Email",
+  "@familyInfoEmail": {
+    "description": "Label of the email address row."
+  },
+  "familyInfoLocationSharing": "Location sharing",
+  "@familyInfoLocationSharing": {
+    "description": "Label of the row showing the member's location sharing mode."
+  },
+  "familyInfoAccount": "Account",
+  "@familyInfoAccount": {
+    "description": "Label of the row showing whether the member has an app account."
+  },
+  "familyInfoGuardianConsent": "Guardian consent",
+  "@familyInfoGuardianConsent": {
+    "description": "Label of the row showing whether a parent / guardian consented for a minor."
+  },
+  "familyInfoLastLocation": "Last known location",
+  "@familyInfoLastLocation": {
+    "description": "Label of the row with the member's last shared location."
+  },
+  "familyLastLocationUpdated": "Updated {time}",
+  "@familyLastLocationUpdated": {
+    "description": "When the last location was recorded, e.g. 'Updated 12 minutes ago'.",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "12 minutes ago"
+      }
+    }
+  },
+  "familyAccountActive": "Has their own account",
+  "@familyAccountActive": {
+    "description": "Account status: the member can sign in to the app."
+  },
+  "familyAccountInvited": "Invited by email, hasn't joined yet",
+  "@familyAccountInvited": {
+    "description": "Account status: invited but no account yet."
+  },
+  "familyAccountManaged": "Managed profile, no account",
+  "@familyAccountManaged": {
+    "description": "Account status: profile managed by admins (e.g. a young child) without an app account."
+  },
+  "familyGuardianConsentGiven": "Given",
+  "@familyGuardianConsentGiven": {
+    "description": "Guardian consent status: consent was recorded."
+  },
+  "familyGuardianConsentMissing": "Not recorded",
+  "@familyGuardianConsentMissing": {
+    "description": "Guardian consent status: no consent recorded yet."
+  },
+  "familyOpenMap": "Open map",
+  "@familyOpenMap": {
+    "description": "Button that opens the member's last location in a maps app (verb)."
+  },
+  "familyChangeAction": "Change",
+  "@familyChangeAction": {
+    "description": "Button that opens the screen to change a setting (verb)."
+  },
+  "familyEmergencyCard": "Emergency card",
+  "@familyEmergencyCard": {
+    "description": "Button that opens the member's medical emergency card."
+  },
+  "familyAssignTask": "Assign a task",
+  "@familyAssignTask": {
+    "description": "Button that creates a task for this member (verb)."
+  },
+  "familyEditDetails": "Edit details",
+  "@familyEditDetails": {
+    "description": "Button that opens the edit form of a member (verb)."
+  },
+  "familyRemoveMember": "Remove from family",
+  "@familyRemoveMember": {
+    "description": "Destructive button that removes a member from the family (verb)."
+  },
+  "familyRemoveConfirmTitle": "Remove {name}?",
+  "@familyRemoveConfirmTitle": {
+    "description": "Title of the confirmation dialog before removing a member.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "familyRemoveConfirmMessage": "{name} will lose access to the family. Their open tasks and emergency card will be deleted and any active SOS alert will be closed. Money entries stay in the ledger.",
+  "@familyRemoveConfirmMessage": {
+    "description": "Body of the confirmation dialog before removing a member.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "familyMemberRemoved": "{name} was removed from the family",
+  "@familyMemberRemoved": {
+    "description": "Snackbar after removing a member.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "familyEditMemberTitle": "Edit member",
+  "@familyEditMemberTitle": {
+    "description": "Title of the form that edits another member."
+  },
+  "familyEditMyDetailsTitle": "Edit my details",
+  "@familyEditMyDetailsTitle": {
+    "description": "Title of the form when a member edits their own details."
+  },
+  "familyPhotoLabel": "Photo",
+  "@familyPhotoLabel": {
+    "description": "Label of the profile photo picker."
+  },
+  "familyNameLabel": "Name",
+  "@familyNameLabel": {
+    "description": "Label of the member name field."
+  },
+  "familyEmailLabel": "Email (optional)",
+  "@familyEmailLabel": {
+    "description": "Label of the optional member email field."
+  },
+  "familyEmailInviteHint": "We'll email them an invitation with your family code so they can join with their own account.",
+  "@familyEmailInviteHint": {
+    "description": "Helper text under the email field when adding a member."
+  },
+  "familyEmailManagedHint": "Add an email so they can join with their own account.",
+  "@familyEmailManagedHint": {
+    "description": "Helper text under the email field when editing a member without an account."
+  },
+  "familyEmailLinkedHint": "This is the email of their account.",
+  "@familyEmailLinkedHint": {
+    "description": "Helper text under the read-only email field of a member who has an account."
+  },
+  "familyEmailLinkedSelfHint": "This is the email of your account.",
+  "@familyEmailLinkedSelfHint": {
+    "description": "Helper text under the read-only email field when an admin edits their own details."
+  },
+  "familyNoEmailHint": "Leave empty for children or elders who won't use the app.",
+  "@familyNoEmailHint": {
+    "description": "Second helper line under the optional email field."
+  },
+  "familyPhoneLabel": "Phone (optional)",
+  "@familyPhoneLabel": {
+    "description": "Label of the optional phone number field."
+  },
+  "familyPhoneHint": "Include the country code, e.g. {dialCode}",
+  "@familyPhoneHint": {
+    "description": "Helper text under the phone field.",
+    "placeholders": {
+      "dialCode": {
+        "type": "String",
+        "example": "+91"
+      }
+    }
+  },
+  "familyDesignationHint": "Their title in the family, e.g. Finance Head",
+  "@familyDesignationHint": {
+    "description": "Helper text of the designation field."
+  },
+  "familyDesignationSuggestions": "Suggestions",
+  "@familyDesignationSuggestions": {
+    "description": "Label above the suggested designation chips."
+  },
+  "familyRoleChangeSelfNote": "You can't change your own role. Ask another admin.",
+  "@familyRoleChangeSelfNote": {
+    "description": "Shown instead of the role picker when an admin edits themselves."
+  },
+  "familyGuardianConsentTitle": "Guardian consent",
+  "@familyGuardianConsentTitle": {
+    "description": "Title of the consent section shown for minors."
+  },
+  "familyGuardianConsentLaw": "Under {law}, a parent or guardian must agree before we store details of anyone under {age}.",
+  "@familyGuardianConsentLaw": {
+    "description": "Explains why consent is needed. law = name of the country's privacy law (not translated), age = consent age.",
+    "placeholders": {
+      "law": {
+        "type": "String",
+        "example": "Digital Personal Data Protection Act, 2023"
+      },
+      "age": {
+        "type": "int",
+        "example": "18"
+      }
+    }
+  },
+  "familyGuardianConsentCheckbox": "I am this member's parent or legal guardian and I agree that FamilyHub may store and use their details for our family.",
+  "@familyGuardianConsentCheckbox": {
+    "description": "Label of the mandatory guardian-consent checkbox."
+  },
+  "familyGuardianConsentRequired": "Please confirm guardian consent to continue.",
+  "@familyGuardianConsentRequired": {
+    "description": "Validation error when the consent checkbox is not ticked."
+  },
+  "familyMemberAdded": "{name} was added to the family",
+  "@familyMemberAdded": {
+    "description": "Snackbar after adding a member without email.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Anaya"
+      }
+    }
+  },
+  "familyMemberAddedInvited": "{name} was added. We sent an invitation to {email}.",
+  "@familyMemberAddedInvited": {
+    "description": "Snackbar after adding a member with an email address.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      },
+      "email": {
+        "type": "String",
+        "example": "aarav@example.com"
+      }
+    }
+  },
+  "familyPhotoNotSaved": "{name} was added, but the photo couldn't be saved. You can add it by editing their details.",
+  "@familyPhotoNotSaved": {
+    "description": "Info after adding a member when uploading the photo failed.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Anaya"
+      }
+    }
+  },
+  "familyCannotEditTitle": "You can't edit this member",
+  "@familyCannotEditTitle": {
+    "description": "Shown when a member opens the edit form of someone else."
+  },
+  "familyCannotEditMessage": "Only family admins can change other members' details.",
+  "@familyCannotEditMessage": {
+    "description": "Explanation under familyCannotEditTitle."
+  },
+  "familyDesignationHeadOfFamily": "Head of Family",
+  "@familyDesignationHeadOfFamily": {
+    "description": "Suggested family title, like a company CEO."
+  },
+  "familyDesignationFinanceHead": "Finance Head (CFO)",
+  "@familyDesignationFinanceHead": {
+    "description": "Suggested family title for the person managing money."
+  },
+  "familyDesignationOperationsHead": "Operations Head (COO)",
+  "@familyDesignationOperationsHead": {
+    "description": "Suggested family title for the person running the household."
+  },
+  "familyDesignationHealthOfficer": "Chief Health Officer",
+  "@familyDesignationHealthOfficer": {
+    "description": "Suggested family title for the person looking after health and medicines."
+  },
+  "familyDesignationTechHead": "Tech Head (CTO)",
+  "@familyDesignationTechHead": {
+    "description": "Suggested family title for the person handling phones, internet and gadgets."
+  },
+  "familyDesignationChiefStudyOfficer": "Chief Study Officer",
+  "@familyDesignationChiefStudyOfficer": {
+    "description": "Playful family title for a school or college student."
+  },
+  "familyDesignationSkillBuilder": "Skill Builder",
+  "@familyDesignationSkillBuilder": {
+    "description": "Playful family title for a child or teen learning new skills."
+  },
+  "familyDesignationChiefFunOfficer": "Chief Fun Officer",
+  "@familyDesignationChiefFunOfficer": {
+    "description": "Playful family title for a young child."
+  },
+  "familyDesignationJuniorExplorer": "Junior Explorer",
+  "@familyDesignationJuniorExplorer": {
+    "description": "Playful family title for a young child."
+  },
+  "familyDesignationFamilyAdvisor": "Family Advisor",
+  "@familyDesignationFamilyAdvisor": {
+    "description": "Respectful family title for an elder (grandparent)."
+  },
+  "familyDesignationChiefMentor": "Chief Mentor",
+  "@familyDesignationChiefMentor": {
+    "description": "Respectful family title for an elder who guides the family."
+  },
+  "familySettingsTitle": "Family settings",
+  "@familySettingsTitle": {
+    "description": "Title of the family settings screen."
+  },
+  "familyNameFieldLabel": "Family name",
+  "@familyNameFieldLabel": {
+    "description": "Label of the family name field, e.g. 'Sharma Family'."
+  },
+  "familyCountryLabel": "Country",
+  "@familyCountryLabel": {
+    "description": "Label of the country picker."
+  },
+  "familyCountryDetails": "Emergency number {number} · Guardian consent under {age}",
+  "@familyCountryDetails": {
+    "description": "Helper under the country field: what the country changes.",
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "112"
+      },
+      "age": {
+        "type": "int",
+        "example": "18"
+      }
+    }
+  },
+  "familyCurrencyLabel": "Currency",
+  "@familyCurrencyLabel": {
+    "description": "Label of the family currency picker."
+  },
+  "familyTimezoneLabel": "Time zone",
+  "@familyTimezoneLabel": {
+    "description": "Label of the family time zone picker."
+  },
+  "familyTimezoneHint": "Used for due dates, \"today\" and monthly money summaries.",
+  "@familyTimezoneHint": {
+    "description": "Helper text under the time zone picker."
+  },
+  "familySettingsSaved": "Family settings saved",
+  "@familySettingsSaved": {
+    "description": "Snackbar after saving the family settings."
+  },
+  "familySettingsReadOnly": "Only family admins can change these settings.",
+  "@familySettingsReadOnly": {
+    "description": "Note shown to members who can only view the family settings."
+  },
+  "familyNotFoundTitle": "No family yet",
+  "@familyNotFoundTitle": {
+    "description": "Shown on family screens when the user is not in a family."
+  },
+  "familyInviteCodeTitle": "Invite code",
+  "@familyInviteCodeTitle": {
+    "description": "Title of the card with the code people use to join the family."
+  },
+  "familyInviteCodeMessage": "Share this code with your family. They enter it in the app to join.",
+  "@familyInviteCodeMessage": {
+    "description": "Explanation on the invite code card."
+  },
+  "familyInviteCodeSemantics": "Invite code: {code}",
+  "@familyInviteCodeSemantics": {
+    "description": "Screen-reader label of the invite code; code is spelled out character by character.",
+    "placeholders": {
+      "code": {
+        "type": "String",
+        "example": "K 7 Q 2 M 9 X D"
+      }
+    }
+  },
+  "familyCopyInviteCode": "Copy code",
+  "@familyCopyInviteCode": {
+    "description": "Button that copies the invite code (verb)."
+  },
+  "familyInviteCodeCopied": "Invite code copied",
+  "@familyInviteCodeCopied": {
+    "description": "Snackbar after copying the invite code."
+  },
+  "familyNewInviteCode": "New code",
+  "@familyNewInviteCode": {
+    "description": "Button that replaces the invite code with a new one (verb)."
+  },
+  "familyNewInviteCodeConfirmTitle": "Create a new invite code?",
+  "@familyNewInviteCodeConfirmTitle": {
+    "description": "Title of the dialog before regenerating the invite code."
+  },
+  "familyNewInviteCodeConfirmMessage": "The current code stops working right away. Anyone who hasn't joined yet will need the new code.",
+  "@familyNewInviteCodeConfirmMessage": {
+    "description": "Body of the dialog before regenerating the invite code."
+  },
+  "familyNewInviteCodeConfirm": "Create new code",
+  "@familyNewInviteCodeConfirm": {
+    "description": "Confirm button of the regenerate dialog."
+  },
+  "familyNewInviteCodeCreated": "New invite code created",
+  "@familyNewInviteCodeCreated": {
+    "description": "Snackbar after regenerating the invite code."
+  },
+  "familyInviteCodeAdminOnly": "Ask a family admin for the invite code.",
+  "@familyInviteCodeAdminOnly": {
+    "description": "Shown to members instead of the invite code (only admins can see it)."
+  },
+  "familyViewMembers": "View members",
+  "@familyViewMembers": {
+    "description": "Button that opens the member list (verb)."
+  },
+  "familyMemberGoneTitle": "This person is no longer in the family",
+  "@familyMemberGoneTitle": {
+    "description": "Title shown instead of a member's details when the member was removed from the family (or the link is wrong), e.g. after opening an old notification."
+  },
+  "familyMemberGoneMessage": "A family admin may have removed them.",
+  "@familyMemberGoneMessage": {
+    "description": "Explanation under familyMemberGoneTitle."
+  },
+  "familyMemberAlreadyRemoved": "{name} had already been removed from the family",
+  "@familyMemberAlreadyRemoved": {
+    "description": "Snackbar when an admin removes a member that another admin removed a moment earlier.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "familyDuplicateNameTitle": "{name} is already in the family",
+  "@familyDuplicateNameTitle": {
+    "description": "Title of the dialog asking before adding a second member with exactly the same name.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Aarav"
+      }
+    }
+  },
+  "familyDuplicateNameMessage": "Add another member with the same name? If an earlier try looked like it failed, check the member list first.",
+  "@familyDuplicateNameMessage": {
+    "description": "Message of the duplicate-name dialog. The earlier try may have succeeded even though the connection dropped."
+  },
+  "familyDuplicateNameConfirm": "Add anyway",
+  "@familyDuplicateNameConfirm": {
+    "description": "Confirm button of the duplicate-name dialog."
+  },
+  "familyStatAdmins": "Admins",
+  "@familyStatAdmins": {
+    "description": "Label of the header statistic with the number of family admins (short, shown under a number)."
+  },
+  "familyStatAppUsers": "On the app",
+  "@familyStatAppUsers": {
+    "description": "Label of the header statistic with the number of members who have their own account (short, shown under a number)."
+  },
+  "familyStatKids": "Kids & teens",
+  "@familyStatKids": {
+    "description": "Label of the header statistic with the number of members under 18 (short, shown under a number)."
+  },
+  "familyContactSection": "Contact",
+  "@familyContactSection": {
+    "description": "Section title above a member's phone number and email."
+  },
+  "familyLocationSection": "Location",
+  "@familyLocationSection": {
+    "description": "Section title above a member's location sharing setting and last known location."
+  },
+  "familyRoleSection": "Role in the family",
+  "@familyRoleSection": {
+    "description": "Section title of the member form above the designation and the admin/member role."
+  },
+  "familyProfileSection": "Family profile",
+  "@familyProfileSection": {
+    "description": "Section title of the family settings above the family name, country, currency and time zone."
+  }
+}

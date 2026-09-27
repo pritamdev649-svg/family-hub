@@ -1,0 +1,318 @@
+{
+  "@@locale": "en",
+
+  "sosTitle": "SOS",
+  "@sosTitle": { "description": "App bar title of the SOS tab." },
+
+  "sosHistoryTooltip": "SOS history",
+  "@sosHistoryTooltip": { "description": "Tooltip of the history icon in the SOS tab app bar." },
+
+  "sosButtonLabel": "SOS",
+  "@sosButtonLabel": { "description": "Text inside the large round SOS button. Keep it very short; 'SOS' is understood in most languages." },
+
+  "sosButtonSemantics": "Send an SOS alert to your family",
+  "@sosButtonSemantics": { "description": "Screen-reader label of the large round SOS button." },
+
+  "sosButtonHint": "Tap to alert your family. You can cancel within {seconds} seconds.",
+  "@sosButtonHint": {
+    "description": "Hint under the SOS button.",
+    "placeholders": { "seconds": { "type": "int" } }
+  },
+
+  "sosSendingIn": "{seconds, plural, =1{Sending in 1 second} other{Sending in {seconds} seconds}}",
+  "@sosSendingIn": {
+    "description": "Countdown text before the SOS is sent (can be cancelled).",
+    "placeholders": { "seconds": { "type": "int" } }
+  },
+
+  "sosCancelAlert": "Cancel SOS",
+  "@sosCancelAlert": { "description": "Button shown during the countdown to cancel the SOS before it is sent." },
+
+  "sosCancelled": "SOS cancelled. Nobody was alerted.",
+  "@sosCancelled": { "description": "Snackbar after the countdown was cancelled." },
+
+  "sosSending": "Alerting your family…",
+  "@sosSending": { "description": "Shown while the SOS is being sent." },
+
+  "sosSent": "Your family has been alerted.",
+  "@sosSent": { "description": "Snackbar after the SOS was sent with location." },
+
+  "sosSentWithoutLocation": "Your family has been alerted, without your location.",
+  "@sosSentWithoutLocation": { "description": "Snackbar after the SOS was sent without location (sharing mode is Never)." },
+
+  "sosSentPermissionMissing": "Your family has been alerted, but without your location: {reason}",
+  "@sosSentPermissionMissing": {
+    "description": "Snackbar after the SOS was sent without location because location permission / GPS is missing. {reason} is a full sentence explaining the problem.",
+    "placeholders": { "reason": { "type": "String" } }
+  },
+
+  "sosSentSharingUpdateFailed": "Your family has been alerted, but location sharing could not be turned on.",
+  "@sosSentSharingUpdateFailed": { "description": "Snackbar when the member chose to share the location but switching the sharing mode failed." },
+
+  "sosSendFailedTitle": "The SOS was not sent",
+  "@sosSendFailedTitle": { "description": "Title of the error card after sending the SOS failed." },
+
+  "sosSendFailedMessage": "Check your internet connection and try again. If you are in danger, call {number} now.",
+  "@sosSendFailedMessage": {
+    "description": "Message of the error card after sending the SOS failed. {number} is the country emergency number.",
+    "placeholders": { "number": { "type": "String" } }
+  },
+
+  "sosTryAgain": "Send again",
+  "@sosTryAgain": { "description": "Button that sends the SOS again right away (without countdown) after a failure." },
+
+  "sosDisclaimerTitle": "Alerts your family only",
+  "@sosDisclaimerTitle": { "description": "Title of the disclaimer card on the SOS screen." },
+
+  "sosDisclaimer": "SOS notifies the members of your family in FamilyHub. It does not contact the police, an ambulance or any other emergency service.",
+  "@sosDisclaimer": { "description": "Disclaimer on the SOS screen (legal requirement: the app never contacts emergency services)." },
+
+  "sosCallEmergency": "Call emergency services {number}",
+  "@sosCallEmergency": {
+    "description": "Button that dials the country's emergency number.",
+    "placeholders": { "number": { "type": "String" } }
+  },
+
+  "sosCallFailed": "Couldn't open the phone app. Please dial {number} yourself.",
+  "@sosCallFailed": {
+    "description": "Error when the dialer could not be opened.",
+    "placeholders": { "number": { "type": "String" } }
+  },
+
+  "sosLocationModeTitle": "Your location during SOS",
+  "@sosLocationModeTitle": { "description": "Title of the row that shows the member's location sharing mode and opens the location settings." },
+
+  "sosActiveTitle": "Your SOS is active",
+  "@sosActiveTitle": { "description": "Title of the panel while the member's own SOS is active." },
+
+  "sosSharingLive": "Sharing your live location with family",
+  "@sosSharingLive": { "description": "Indicator while the live location is being shared during the member's SOS." },
+
+  "sosNotSharingLocation": "Your location is not being shared",
+  "@sosNotSharingLocation": { "description": "Indicator while the member's SOS is active without location sharing." },
+
+  "sosLocationOffHint": "Your location sharing is set to Never, so your family can't see where you are.",
+  "@sosLocationOffHint": { "description": "Explanation under the indicator when the member's sharing mode is Never." },
+
+  "sosChangeSharing": "Change location sharing",
+  "@sosChangeSharing": { "description": "Button under 'Your location is not being shared' that opens the location sharing settings." },
+
+  "sosViewAlert": "View alert details",
+  "@sosViewAlert": { "description": "Button on the active SOS panel that opens the alert screen." },
+
+  "sosTimeRemaining": "Ends in {time}",
+  "@sosTimeRemaining": {
+    "description": "Time left in the 15-minute live window, e.g. 'Ends in 14:05'.",
+    "placeholders": { "time": { "type": "String", "example": "14:05" } }
+  },
+
+  "sosLastSent": "Location sent {time}",
+  "@sosLastSent": {
+    "description": "When the location last reached the family, e.g. 'Location sent 5 seconds ago'.",
+    "placeholders": { "time": { "type": "String", "example": "5 seconds ago" } }
+  },
+
+  "sosWaitingForLocation": "Waiting for your location…",
+  "@sosWaitingForLocation": { "description": "Shown until the first location of the member's SOS reached the server." },
+
+  "sosSecondsAgo": "{seconds, plural, =0{just now} =1{1 second ago} other{{seconds} seconds ago}}",
+  "@sosSecondsAgo": {
+    "description": "Relative time under one minute, used for live location updates.",
+    "placeholders": { "seconds": { "type": "int" } }
+  },
+
+  "sosImOkay": "I am okay",
+  "@sosImOkay": { "description": "Button that ends the member's own SOS as safe." },
+
+  "sosFalseAlarm": "False alarm",
+  "@sosFalseAlarm": { "description": "Button that ends the member's own SOS as a false alarm." },
+
+  "sosResolvedSafe": "Glad you are okay. Your family has been told.",
+  "@sosResolvedSafe": { "description": "Snackbar after the member ended their SOS with 'I am okay'." },
+
+  "sosResolvedFalseAlarm": "SOS ended as a false alarm. Your family has been told.",
+  "@sosResolvedFalseAlarm": { "description": "Snackbar after the member ended their SOS as a false alarm." },
+
+  "sosOthersTitle": "Family alerts",
+  "@sosOthersTitle": { "description": "Section title of other members' active alerts on the SOS screen." },
+
+  "sosOthersEmpty": "No one in your family needs help right now.",
+  "@sosOthersEmpty": { "description": "Shown when no other member has an active SOS." },
+
+  "sosHistoryLink": "Past alerts",
+  "@sosHistoryLink": { "description": "Row on the SOS screen that opens the SOS history." },
+
+  "sosLocationDialogTitle": "Share your location?",
+  "@sosLocationDialogTitle": { "description": "Title of the dialog shown when sending an SOS while location sharing is set to Never." },
+
+  "sosLocationDialogMessage": "Your location sharing is set to Never. Your family can find you faster if they see your live location while this SOS is active.",
+  "@sosLocationDialogMessage": { "description": "Message of the location question dialog." },
+
+  "sosLocationDialogShare": "Share location for SOS only",
+  "@sosLocationDialogShare": { "description": "Dialog button: switch sharing to 'only during SOS' and send the location." },
+
+  "sosLocationDialogWithout": "Send without location",
+  "@sosLocationDialogWithout": { "description": "Dialog button: send the SOS without location." },
+
+  "sosLocationDialogAutoSend": "{seconds, plural, =1{If you don't choose, it is sent without your location in 1 second.} other{If you don't choose, it is sent without your location in {seconds} seconds.}}",
+  "@sosLocationDialogAutoSend": {
+    "description": "Countdown line in the 'share your location?' dialog: the SOS is sent without location automatically when nobody answers.",
+    "placeholders": { "seconds": { "type": "int" } }
+  },
+
+  "sosBannerSharing": "Your SOS is active – sharing live location",
+  "@sosBannerSharing": { "description": "Global red banner while the member's own SOS is active and the location is shared." },
+
+  "sosBannerActive": "Your SOS is active",
+  "@sosBannerActive": { "description": "Global red banner while the member's own SOS is active without location." },
+
+  "sosNeedsHelp": "{name} needs help",
+  "@sosNeedsHelp": {
+    "description": "Global banner / alert screen headline when another member raised an SOS.",
+    "placeholders": { "name": { "type": "String" } }
+  },
+
+  "sosManyNeedHelp": "{count, plural, =1{1 family member needs help} other{{count} family members need help}}",
+  "@sosManyNeedHelp": {
+    "description": "Global banner when several members have an active SOS.",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "sosBannerOpen": "Open",
+  "@sosBannerOpen": { "description": "Button on the global SOS banner that opens the alert." },
+
+  "sosFormerMember": "Former member",
+  "@sosFormerMember": { "description": "Name shown for an alert of a member who left the family." },
+
+  "sosStatusActive": "Active",
+  "@sosStatusActive": { "description": "Status chip: the SOS is active." },
+
+  "sosStatusResolved": "Resolved",
+  "@sosStatusResolved": { "description": "Status chip: the SOS was resolved." },
+
+  "sosStatusExpired": "Ended",
+  "@sosStatusExpired": { "description": "Status chip: the 15-minute SOS window passed without resolution." },
+
+  "sosResolutionSafe": "Safe",
+  "@sosResolutionSafe": { "description": "Resolution: the member said they are okay." },
+
+  "sosResolutionFalseAlarm": "False alarm",
+  "@sosResolutionFalseAlarm": { "description": "Resolution: the alert was an accident." },
+
+  "sosResolutionHelped": "Helped",
+  "@sosResolutionHelped": { "description": "Resolution: an admin marked the member as helped." },
+
+  "sosStarted": "Started {time}",
+  "@sosStarted": {
+    "description": "When the alert started, e.g. 'Started 5 minutes ago'.",
+    "placeholders": { "time": { "type": "String" } }
+  },
+
+  "sosEnded": "Ended {time}",
+  "@sosEnded": {
+    "description": "When the alert ended, e.g. 'Ended 26 Sep, 10:15 AM'.",
+    "placeholders": { "time": { "type": "String" } }
+  },
+
+  "sosLiveLocation": "Live location",
+  "@sosLiveLocation": { "description": "Tile hint: the alert shares a live location." },
+
+  "sosNoLocation": "No location shared",
+  "@sosNoLocation": { "description": "Tile hint: the alert does not share a location." },
+
+  "sosAlertTitle": "SOS alert",
+  "@sosAlertTitle": { "description": "App bar title of the alert detail screen." },
+
+  "sosYourAlert": "Your SOS",
+  "@sosYourAlert": { "description": "Headline of the alert detail screen when it is the viewer's own alert." },
+
+  "sosMessageLabel": "Message",
+  "@sosMessageLabel": { "description": "Label above the optional SOS message." },
+
+  "sosLastLocationTitle": "Last location",
+  "@sosLastLocationTitle": { "description": "Title of the location card on the alert screen." },
+
+  "sosAccuracy": "Accurate to about {meters} m",
+  "@sosAccuracy": {
+    "description": "GPS accuracy radius in metres.",
+    "placeholders": { "meters": { "type": "String", "example": "12" } }
+  },
+
+  "sosUpdated": "Updated {time}",
+  "@sosUpdated": {
+    "description": "When the location was recorded, e.g. 'Updated 5 seconds ago'.",
+    "placeholders": { "time": { "type": "String" } }
+  },
+
+  "sosCoordinates": "{lat}, {lng}",
+  "@sosCoordinates": {
+    "description": "Latitude and longitude, e.g. '28.613900, 77.209000'.",
+    "placeholders": { "lat": { "type": "String" }, "lng": { "type": "String" } }
+  },
+
+  "sosOpenInMaps": "Open in Maps",
+  "@sosOpenInMaps": { "description": "Button that opens the location in the maps app." },
+
+  "sosMapsFailed": "Couldn't open the maps app.",
+  "@sosMapsFailed": { "description": "Error when no maps app / browser could open the location." },
+
+  "sosNoLocationShared": "{name} is not sharing their location.",
+  "@sosNoLocationShared": {
+    "description": "Alert screen: the member's sharing mode is Never.",
+    "placeholders": { "name": { "type": "String" } }
+  },
+
+  "sosWaitingForMemberLocation": "Waiting for the first location…",
+  "@sosWaitingForMemberLocation": { "description": "Alert screen: location sharing is on but no location has arrived yet." },
+
+  "sosTrailTitle": "Recent locations",
+  "@sosTrailTitle": { "description": "Section title of the recent location points of an alert." },
+
+  "sosCallMember": "Call {name}",
+  "@sosCallMember": {
+    "description": "Button that calls the member who raised the SOS.",
+    "placeholders": { "name": { "type": "String" } }
+  },
+
+  "sosMarkHelped": "Mark as helped",
+  "@sosMarkHelped": { "description": "Admin button that ends another member's SOS as helped." },
+
+  "sosMarkHelpedConfirmTitle": "End this SOS?",
+  "@sosMarkHelpedConfirmTitle": { "description": "Title of the confirmation before an admin marks an SOS as helped." },
+
+  "sosMarkHelpedConfirmMessage": "{name}'s alert ends for everyone and live location sharing stops. Only do this when {name} is safe.",
+  "@sosMarkHelpedConfirmMessage": {
+    "description": "Confirmation message before an admin marks an SOS as helped.",
+    "placeholders": { "name": { "type": "String" } }
+  },
+
+  "sosMarkedHelped": "The SOS was marked as helped.",
+  "@sosMarkedHelped": { "description": "Snackbar after an admin marked an SOS as helped." },
+
+  "sosResolvedBy": "{resolution} · by {name}",
+  "@sosResolvedBy": {
+    "description": "How and by whom an alert was resolved, e.g. 'Helped · by Amit'.",
+    "placeholders": { "resolution": { "type": "String" }, "name": { "type": "String" } }
+  },
+
+  "sosAlertGoneTitle": "Alert not available",
+  "@sosAlertGoneTitle": { "description": "Title when an SOS alert does not exist (removed member, wrong family, bad link)." },
+
+  "sosAlertGoneMessage": "This SOS alert no longer exists or belongs to another family.",
+  "@sosAlertGoneMessage": { "description": "Message when an SOS alert does not exist." },
+
+  "sosBackToSos": "Go to SOS",
+  "@sosBackToSos": { "description": "Button on the 'alert not available' state that opens the SOS tab." },
+
+  "sosEmergencyCardTitle": "Emergency card",
+  "@sosEmergencyCardTitle": { "description": "Section title of the member's emergency card on the alert screen." },
+
+  "sosHistoryTitle": "SOS history",
+  "@sosHistoryTitle": { "description": "App bar title of the SOS history screen." },
+
+  "sosHistoryEmptyTitle": "No past alerts",
+  "@sosHistoryEmptyTitle": { "description": "Empty state title of the SOS history." },
+
+  "sosHistoryEmptyMessage": "Alerts that were resolved or ended appear here.",
+  "@sosHistoryEmptyMessage": { "description": "Empty state message of the SOS history." }
+}

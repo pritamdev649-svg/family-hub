@@ -1,0 +1,217 @@
+{
+  "emergencyCardListTitle": "Emergency cards",
+  "@emergencyCardListTitle": { "description": "Title of the screen that lists every family member's emergency card." },
+  "emergencyCardListIntro": "Health details and contacts for each family member. Open a card to show it to a doctor or first responder.",
+  "@emergencyCardListIntro": { "description": "Short explanation at the top of the emergency cards list." },
+  "emergencyCardCallEmergencyNumber": "In danger? Call {number}",
+  "@emergencyCardCallEmergencyNumber": {
+    "description": "Button on the emergency cards list that dials the country's emergency number (e.g. 112). FamilyHub itself never contacts emergency services.",
+    "placeholders": { "number": { "type": "String", "example": "112" } }
+  },
+  "emergencyCardTitle": "Emergency card",
+  "@emergencyCardTitle": { "description": "Title of one member's emergency card screen." },
+  "emergencyCardEditTitle": "Edit emergency card",
+  "@emergencyCardEditTitle": { "description": "Title of the emergency card edit form." },
+  "emergencyCardEditAction": "Edit card",
+  "@emergencyCardEditAction": { "description": "Button / tooltip that opens the emergency card edit form." },
+  "emergencyCardFillIn": "Fill in card",
+  "@emergencyCardFillIn": { "description": "Button on an empty emergency card that opens the edit form." },
+
+  "emergencyCardBloodGroup": "Blood group",
+  "@emergencyCardBloodGroup": { "description": "Label of the blood group (e.g. A+, O-)." },
+  "emergencyCardBloodGroupUnknown": "Unknown",
+  "@emergencyCardBloodGroupUnknown": { "description": "Blood group option / label when the blood group is not known." },
+  "emergencyCardBloodGroupSemantics": "Blood group {group}",
+  "@emergencyCardBloodGroupSemantics": {
+    "description": "Screen-reader label of the blood group badge.",
+    "placeholders": { "group": { "type": "String", "example": "B+" } }
+  },
+  "emergencyCardAllergies": "Allergies",
+  "@emergencyCardAllergies": { "description": "Section title: things the member is allergic to." },
+  "emergencyCardMedications": "Medications",
+  "@emergencyCardMedications": { "description": "Section title: medicines the member takes regularly." },
+  "emergencyCardConditions": "Medical conditions",
+  "@emergencyCardConditions": { "description": "Section title: long-term illnesses or conditions (e.g. asthma, diabetes)." },
+  "emergencyCardAllergySemantics": "Allergy: {item}",
+  "@emergencyCardAllergySemantics": {
+    "description": "Screen-reader label of an allergy warning chip.",
+    "placeholders": { "item": { "type": "String", "example": "Peanuts" } }
+  },
+  "emergencyCardDoctor": "Doctor",
+  "@emergencyCardDoctor": { "description": "Section title: the member's regular doctor." },
+  "emergencyCardDoctorName": "Doctor's name",
+  "@emergencyCardDoctorName": { "description": "Form field label." },
+  "emergencyCardDoctorPhone": "Doctor's phone",
+  "@emergencyCardDoctorPhone": { "description": "Form field label." },
+  "emergencyCardInsurance": "Health insurance",
+  "@emergencyCardInsurance": { "description": "Section title: health insurance details." },
+  "emergencyCardInsuranceProvider": "Insurance provider",
+  "@emergencyCardInsuranceProvider": { "description": "Form field label: name of the health insurance company." },
+  "emergencyCardPolicyNumber": "Policy number",
+  "@emergencyCardPolicyNumber": { "description": "Form field label: health insurance policy number." },
+  "emergencyCardCopyPolicyNumber": "Copy policy number",
+  "@emergencyCardCopyPolicyNumber": { "description": "Tooltip of the button that copies the insurance policy number." },
+  "emergencyCardPolicyNumberCopied": "Policy number copied",
+  "@emergencyCardPolicyNumberCopied": { "description": "Snackbar after copying the policy number." },
+  "emergencyCardContacts": "Emergency contacts",
+  "@emergencyCardContacts": { "description": "Section title: people to call in an emergency." },
+  "emergencyCardContactName": "Name",
+  "@emergencyCardContactName": { "description": "Form field label: emergency contact's name." },
+  "emergencyCardContactPhone": "Phone",
+  "@emergencyCardContactPhone": { "description": "Form field label: emergency contact's phone number." },
+  "emergencyCardContactRelation": "Relation",
+  "@emergencyCardContactRelation": { "description": "Form field label: how the contact is related (e.g. uncle, neighbour)." },
+  "emergencyCardContactRelationHint": "e.g. Uncle, Neighbour",
+  "@emergencyCardContactRelationHint": { "description": "Hint of the relation field." },
+  "emergencyCardContactNumber": "Contact {number}",
+  "@emergencyCardContactNumber": {
+    "description": "Heading of one emergency contact in the edit form.",
+    "placeholders": { "number": { "type": "int" } }
+  },
+  "emergencyCardAddContact": "Add contact",
+  "@emergencyCardAddContact": { "description": "Button that adds another emergency contact to the form." },
+  "emergencyCardRemoveContact": "Remove contact {number}",
+  "@emergencyCardRemoveContact": {
+    "description": "Tooltip / screen-reader label of the button that removes one emergency contact from the form.",
+    "placeholders": { "number": { "type": "int" } }
+  },
+  "emergencyCardContactsLimit": "You can add up to {max} contacts.",
+  "@emergencyCardContactsLimit": {
+    "description": "Shown when the maximum number of emergency contacts is reached.",
+    "placeholders": { "max": { "type": "int" } }
+  },
+  "emergencyCardContactsNotice": "Let the people you add know that they are your emergency contacts.",
+  "@emergencyCardContactsNotice": { "description": "Hint in the contacts section of the edit form (privacy: contacts are third parties)." },
+  "emergencyCardNoPhone": "No phone number",
+  "@emergencyCardNoPhone": { "description": "Shown for an emergency contact that has no phone number." },
+  "emergencyCardCallPerson": "Call {name}",
+  "@emergencyCardCallPerson": {
+    "description": "Screen-reader label / tooltip of a call button.",
+    "placeholders": { "name": { "type": "String", "example": "Dr. Rao" } }
+  },
+  "emergencyCardCallFailed": "Couldn't start a call on this device. The number is {phone}.",
+  "@emergencyCardCallFailed": {
+    "description": "Snackbar when the phone app cannot be opened; shows the number so it can be dialled manually.",
+    "placeholders": { "phone": { "type": "String", "example": "+919876543210" } }
+  },
+  "emergencyCardNotes": "Notes",
+  "@emergencyCardNotes": { "description": "Section title / form field: free-text notes for responders." },
+  "emergencyCardNotesHint": "Anything else a responder should know",
+  "@emergencyCardNotesHint": { "description": "Hint of the notes field." },
+  "emergencyCardNotRecorded": "Not recorded",
+  "@emergencyCardNotRecorded": { "description": "Shown for a card section that has no entries (it may be unknown, not necessarily 'none')." },
+  "emergencyCardLastUpdated": "Last updated {date}",
+  "@emergencyCardLastUpdated": {
+    "description": "When the card was last saved.",
+    "placeholders": { "date": { "type": "String", "example": "12 Sep 2026, 10:15" } }
+  },
+  "emergencyCardEmptyTitle": "No emergency details yet",
+  "@emergencyCardEmptyTitle": { "description": "Shown on a card that was never filled in." },
+  "emergencyCardEmptyMessage": "Add the blood group, allergies and emergency contacts so your family can help quickly.",
+  "@emergencyCardEmptyMessage": { "description": "Shown on an empty card for someone who can edit it." },
+  "emergencyCardEmptyReadOnly": "Only this member or a family admin can fill in this card.",
+  "@emergencyCardEmptyReadOnly": { "description": "Shown on an empty card for someone who cannot edit it." },
+  "emergencyCardNoEditPermission": "Only this member or a family admin can edit this card.",
+  "@emergencyCardNoEditPermission": { "description": "Shown when opening the edit form without permission." },
+
+  "emergencyCardShowToResponder": "Show to responder",
+  "@emergencyCardShowToResponder": { "description": "Button that opens a full-screen, large-text version of the card to hand the phone to a doctor or paramedic." },
+  "emergencyCardResponderHint": "Emergency medical information",
+  "@emergencyCardResponderHint": { "description": "Heading of the full-screen responder view." },
+  "emergencyCardResponderClose": "Close responder view",
+  "@emergencyCardResponderClose": { "description": "Tooltip of the close button of the full-screen responder view." },
+
+  "emergencyCardOfflineCopy": "Offline copy from {time}. It may be out of date.",
+  "@emergencyCardOfflineCopy": {
+    "description": "Hint when the card is shown from the copy saved on this phone because there is no connection.",
+    "placeholders": { "time": { "type": "String", "example": "2 hours ago" } }
+  },
+  "emergencyCardOfflineCopyShort": "Offline copy",
+  "@emergencyCardOfflineCopyShort": { "description": "Short badge for a card shown from the copy saved on this phone." },
+  "emergencyCardOfflineEditWarning": "You're editing an offline copy. Saving needs an internet connection.",
+  "@emergencyCardOfflineEditWarning": { "description": "Warning at the top of the edit form when the card was loaded from the offline copy." },
+
+  "emergencyCardCompleteness": "{filled} of {total} key details",
+  "@emergencyCardCompleteness": {
+    "description": "Completeness of a card in the list (key details: blood group, contact, doctor, insurance).",
+    "placeholders": { "filled": { "type": "int" }, "total": { "type": "int" } }
+  },
+  "emergencyCardComplete": "All key details added",
+  "@emergencyCardComplete": { "description": "Completeness label of a fully filled-in card." },
+  "emergencyCardNotStarted": "Not filled in yet",
+  "@emergencyCardNotStarted": { "description": "Completeness label of a card that was never saved." },
+  "emergencyCardMissing": "Missing: {sections}",
+  "@emergencyCardMissing": {
+    "description": "Lists the key details that are still missing, e.g. 'Missing: Doctor, Health insurance'.",
+    "placeholders": { "sections": { "type": "String", "example": "Doctor, Health insurance" } }
+  },
+  "emergencyCardLoadFailed": "Couldn't load this card",
+  "@emergencyCardLoadFailed": { "description": "Shown in the list when one member's card could not be loaded." },
+  "emergencyCardSectionContacts": "Emergency contact",
+  "@emergencyCardSectionContacts": { "description": "Name of the 'emergency contact' key detail in the 'Missing: …' list." },
+
+  "emergencyCardDisclaimer": "This card is for emergencies and is not medical advice. Keep it up to date and confirm details with a doctor.",
+  "@emergencyCardDisclaimer": { "description": "Health-data disclaimer shown on the edit form and the card." },
+  "emergencyCardPrivacyNote": "Everyone in your family can see this card. Health details are stored encrypted.",
+  "@emergencyCardPrivacyNote": { "description": "Privacy note on the edit form." },
+  "emergencyCardFixErrors": "Please check the highlighted fields.",
+  "@emergencyCardFixErrors": { "description": "Snackbar when the edit form has invalid fields." },
+  "emergencyCardSaved": "Emergency card saved",
+  "@emergencyCardSaved": { "description": "Snackbar after saving the card." },
+
+  "emergencyCardAllergyLabel": "Add an allergy",
+  "@emergencyCardAllergyLabel": { "description": "Label of the input that adds an allergy." },
+  "emergencyCardAllergyHint": "e.g. Peanuts, Penicillin",
+  "@emergencyCardAllergyHint": { "description": "Hint of the allergy input." },
+  "emergencyCardMedicationLabel": "Add a medication",
+  "@emergencyCardMedicationLabel": { "description": "Label of the input that adds a medication." },
+  "emergencyCardMedicationHint": "e.g. Metformin 500 mg twice a day",
+  "@emergencyCardMedicationHint": { "description": "Hint of the medication input." },
+  "emergencyCardConditionLabel": "Add a condition",
+  "@emergencyCardConditionLabel": { "description": "Label of the input that adds a medical condition." },
+  "emergencyCardConditionHint": "e.g. Asthma, Type 2 diabetes",
+  "@emergencyCardConditionHint": { "description": "Hint of the medical condition input." },
+  "emergencyCardAddItem": "Add {item}",
+  "@emergencyCardAddItem": {
+    "description": "Tooltip / screen-reader label of the button next to a list input that adds the typed entry.",
+    "placeholders": { "item": { "type": "String", "example": "Peanuts" } }
+  },
+  "emergencyCardRemoveItem": "Remove {item}",
+  "@emergencyCardRemoveItem": {
+    "description": "Tooltip / screen-reader label of the delete button on a list entry chip.",
+    "placeholders": { "item": { "type": "String", "example": "Peanuts" } }
+  },
+  "emergencyCardItemCount": "{count} of {max}",
+  "@emergencyCardItemCount": {
+    "description": "Counter under a list input, e.g. '3 of 20'.",
+    "placeholders": { "count": { "type": "int" }, "max": { "type": "int" } }
+  },
+  "emergencyCardListFull": "You can add up to {max} entries.",
+  "@emergencyCardListFull": {
+    "description": "Shown when a list (allergies, medications, conditions) is full.",
+    "placeholders": { "max": { "type": "int" } }
+  },
+  "emergencyCardDuplicateItem": "Already in the list",
+  "@emergencyCardDuplicateItem": { "description": "Shown when the typed entry is already in the list." },
+
+  "emergencyCardNotFoundTitle": "This card is not available",
+  "@emergencyCardNotFoundTitle": { "description": "Title shown instead of an emergency card when the member no longer exists (removed from the family) or the link is wrong." },
+  "emergencyCardNotFoundMessage": "The member may have been removed from your family, or the link is out of date.",
+  "@emergencyCardNotFoundMessage": { "description": "Explanation below emergencyCardNotFoundTitle." },
+  "emergencyCardBackToList": "All emergency cards",
+  "@emergencyCardBackToList": { "description": "Button that opens the list of every family member's emergency card." },
+  "emergencyCardChangedWhileEditing": "This card was updated while you were editing. Saving replaces that version with yours.",
+  "@emergencyCardChangedWhileEditing": { "description": "Warning in the edit form when someone else saved the same card after the form was opened." },
+  "emergencyCardListSeparator": ", ",
+  "@emergencyCardListSeparator": { "description": "Separator placed between the items of a short inline list, e.g. 'Missing: Doctor, Health insurance'. Use the language's list separator (Arabic: '، '). Keep any trailing space." },
+  "emergencyCardPersonWithRelation": "{name} · {relation}",
+  "@emergencyCardPersonWithRelation": {
+    "description": "An emergency contact with their relation in the responder view, e.g. 'Ravi · Uncle'.",
+    "placeholders": { "name": { "type": "String", "example": "Ravi" }, "relation": { "type": "String", "example": "Uncle" } }
+  },
+
+  "emergencyCardStatMembers": "Family members",
+  "@emergencyCardStatMembers": { "description": "Label under a count in the emergency cards header, e.g. '4 Family members'." },
+  "emergencyCardStatComplete": "Cards complete",
+  "@emergencyCardStatComplete": { "description": "Label under a count in the emergency cards header: how many cards have every key detail, e.g. '2 Cards complete'." }
+}

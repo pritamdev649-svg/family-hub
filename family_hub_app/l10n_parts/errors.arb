@@ -1,0 +1,77 @@
+{
+  "@@locale": "en",
+
+  "errorNetwork": "No internet connection. Check your connection and try again.",
+  "@errorNetwork": { "description": "Request failed because the device is offline or the server is unreachable." },
+
+  "errorTimeout": "The server is taking too long to respond. Please try again.",
+  "@errorTimeout": { "description": "Request timed out." },
+
+  "errorUnknown": "Something went wrong. Please try again.",
+  "@errorUnknown": { "description": "Fallback for any unexpected error." },
+
+  "errorServer": "Our server ran into a problem. Please try again in a moment.",
+  "@errorServer": { "description": "HTTP 5xx / INTERNAL_ERROR." },
+
+  "errorUnauthorized": "Please sign in to continue.",
+  "@errorUnauthorized": { "description": "UNAUTHORIZED: missing or invalid access token." },
+
+  "errorSessionExpired": "Your session has expired. Please sign in again.",
+  "@errorSessionExpired": { "description": "Token refresh failed; the user was signed out." },
+
+  "errorForbidden": "You don't have permission to do that.",
+  "@errorForbidden": { "description": "FORBIDDEN: e.g. a non-admin tried an admin-only action." },
+
+  "errorNotFound": "We couldn't find that. It may have been deleted.",
+  "@errorNotFound": { "description": "NOT_FOUND: resource missing or belongs to another family." },
+
+  "errorValidation": "Some details are missing or invalid. Please check and try again.",
+  "@errorValidation": { "description": "VALIDATION_ERROR returned by the server." },
+
+  "errorInvalidCredentials": "Incorrect email or password.",
+  "@errorInvalidCredentials": { "description": "INVALID_CREDENTIALS on login / password confirmation. Never say which one is wrong." },
+
+  "errorEmailTaken": "An account with this email already exists. Try signing in instead.",
+  "@errorEmailTaken": { "description": "EMAIL_TAKEN on registration." },
+
+  "errorInvalidOtp": "That code is incorrect. Please check and try again.",
+  "@errorInvalidOtp": { "description": "INVALID_OTP: wrong 6-digit verification code." },
+
+  "errorOtpExpired": "This code has expired or was tried too many times. Request a new one.",
+  "@errorOtpExpired": { "description": "OTP_EXPIRED: code expired or too many attempts." },
+
+  "errorInvalidInviteCode": "This invite code isn't valid. Ask your family admin for the current code.",
+  "@errorInvalidInviteCode": { "description": "INVALID_INVITE_CODE when joining a family." },
+
+  "errorAlreadyInFamily": "You're already a member of a family.",
+  "@errorAlreadyInFamily": { "description": "ALREADY_IN_FAMILY when creating or joining a family." },
+
+  "errorNoFamily": "You're not part of a family yet. Create one or join with an invite code.",
+  "@errorNoFamily": { "description": "NO_FAMILY: the user has no family (removed or never joined)." },
+
+  "errorMemberEmailExists": "A family member with this email already exists.",
+  "@errorMemberEmailExists": { "description": "MEMBER_EMAIL_EXISTS when adding a member." },
+
+  "errorLastAdmin": "Your family needs at least one admin. Make someone else an admin first.",
+  "@errorLastAdmin": { "description": "LAST_ADMIN: action would leave the family without an admin." },
+
+  "errorSosNotActive": "This SOS alert has already ended.",
+  "@errorSosNotActive": { "description": "SOS_NOT_ACTIVE: the alert is resolved or expired." },
+
+  "errorGuardianConsentRequired": "A parent or guardian must give consent to add a member of this age.",
+  "@errorGuardianConsentRequired": { "description": "GUARDIAN_CONSENT_REQUIRED when adding a minor without consent." },
+
+  "errorTooManyRequests": "{seconds, plural, =0{Too many attempts. Please wait a moment and try again.} =1{Too many attempts. Please try again in 1 second.} other{Too many attempts. Please try again in {seconds} seconds.}}",
+  "@errorTooManyRequests": {
+    "description": "TOO_MANY_REQUESTS (rate limit, login lockout, OTP resend cooldown). seconds = details.retryAfterSeconds, 0 when unknown.",
+    "placeholders": {
+      "seconds": { "type": "int", "example": "60" }
+    }
+  },
+
+  "errorLocationSharingDisabled": "Location sharing is turned off. Change it in Settings > Location to share your location.",
+  "@errorLocationSharingDisabled": { "description": "LOCATION_SHARING_DISABLED: the member's sharing mode forbids this update." },
+
+  "errorBadRequest": "The request couldn't be processed. Please try again.",
+  "@errorBadRequest": { "description": "BAD_REQUEST: malformed request or invalid id." }
+}

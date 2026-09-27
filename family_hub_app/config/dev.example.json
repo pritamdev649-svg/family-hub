@@ -1,0 +1,9 @@
+{
+  "API_BASE_URL": "",
+  "USE_MOCK_API": true,
+  "APP_ENV": "dev",
+  "CLOUDINARY_CLOUD_NAME": "",
+  "CLOUDINARY_UPLOAD_PRESET": "",
+  "PRIVACY_POLICY_URL": "https://familyhub.app/privacy",
+  "TERMS_URL": "https://familyhub.app/terms"
+}
