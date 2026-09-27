@@ -1,7 +1,7 @@
 name: family_hub
 description: "FamilyHub - run your family like a well-organised company: roles, tasks, shared ledger, notices, SOS and emergency cards."
 publish_to: 'none'
-version: 1.0.0+2
+version: 1.0.0+4
 
 environment:
   sdk: ^3.10.7

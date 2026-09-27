@@ -1,4 +1,4 @@
-package com.familyhub.family_hub
+package com.difmo.fmr
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -610,7 +610,6 @@ class SosController extends Notifier<SosState> {
         ref.read(sosSessionResyncProvider)();
       case SosUploadStop.sharingDisabled:
         state = state.copyWith(sharing: SosSharing.off);
-        // The mode was changed elsewhere: show the real one.
         ref.read(sosSessionResyncProvider)();
       case SosUploadStop.streamEnded:
         state = state.copyWith(
@@ -620,10 +619,6 @@ class SosController extends Notifier<SosState> {
     }
   }
 
-  /// "Allow location" while the alert is active but location is
-  /// unavailable: asks for permission (system prompt) and restarts
-  /// tracking. Returns the permission state (open the system settings when
-  /// it [LocationPermissionStateX.needsSettings]).
   Future<LocationPermissionState?> retryLocation() async {
     final alert = state.alert;
     if (!state.isActive || alert == null) return null;

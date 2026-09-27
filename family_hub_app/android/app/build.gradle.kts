@@ -24,7 +24,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.familyhub.family_hub"
+    namespace = "com.difmo.fmr"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -40,7 +40,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.familyhub.family_hub"
+        applicationId = "com.difmo.fmr"
         // flutter_local_notifications 22 needs API 24; Firebase Messaging and
         // geolocator need at least 23.
         minSdk = maxOf(flutter.minSdkVersion, 24)
